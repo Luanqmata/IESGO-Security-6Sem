@@ -67,3 +67,31 @@ Nada encontrado, à não ser o link : 37.59.174.233 que te entrega um endereço 
 ---
 
 Aqui encontramos a mensagem que esta funcionando , Está a espera de ser preenchido com alguma pagina WEB ( Apache ou Nginx )
+
+## Quarto link : http://mail.businesscorp.com.br
+
+<img width="957" height="536" alt="image" src="https://github.com/user-attachments/assets/1a4a0b47-870a-4361-958d-8740d97ce1ea" />
+
+Aqui nos deparamos com uma pagina de autenticação:
+    Possue um FORMS ( Formulario de preenchimento )
+    Recebe metodo POST
+    Fraqueza : Possivel abuso de brute force ( Hydra )    
+
+OBS : E aqui Podemos testar o nome da (  CAMILA E ROGERIO  )
+
+## Quinto link : http://rh.businesscorp.com.br
+
+---
+
+<img width="332" height="121" alt="image" src="https://github.com/user-attachments/assets/951bbcd9-6e75-485c-8bf6-b5f915ced284" />
+
+--- 
+Esse está um pouco mais encondido porém não passa despercebido:
+
+<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/52e1d9b0-c78b-4e48-8944-fbd725a736cb" />
+
+Fazendo a analise da pagina nela não a nada demais mas quando clicamos em '' Submeta seu Curriculo '' 
+<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2a2fe2e-d97e-4b0f-8c47-469532a1ce30" />
+
+Ela abre esse formulario mais completo , onde vc pode upar arquivos PDF , podendo upar um arquivo malicioso.
+Mostrando que existe um diretorio que armazena Esses arquivos q é upado pelos usuarios.
