@@ -116,10 +116,10 @@
 ---
 
 ✅ **Resumo Final**:
-- 37.59.174.233
 - Rogerio , camila , ti
-- Erros revelando informações sensíveis do servidor.
-- Formulário vulnerável a brute force.
+- Apache/2.2.22 - linux debian
+- 37.59.174.233
+- Formulário possivelmente vulnerável a brute force.
 - Upload de arquivos sem aparente validação.  
 
 🚨 **Pontos críticos a investigar futuramente!**
