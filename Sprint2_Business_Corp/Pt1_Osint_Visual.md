@@ -48,7 +48,7 @@
 
 - ⚠️ mostra que **forçar erros pode revelar informações privilegiadas**.
 
-- Encontrado também o link:
+- Encontrado também o link (no f12):
   ```
   http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL2J1c2luZXNzY29ycC5jb20uYnIvY2FkYXN0cm8ucGhw
   ```
