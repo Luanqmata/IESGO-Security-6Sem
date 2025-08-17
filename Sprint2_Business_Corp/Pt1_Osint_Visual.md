@@ -18,7 +18,9 @@ aqui temos 2 nomes de possiveis logins
 
 Temos a data uma data antiga , e o nome de um possivel desinger/programador :
 ---
+
 <img width="266" height="64" alt="image" src="https://github.com/user-attachments/assets/da0c9f84-5562-4f96-8661-e5a9b21383a5" />
+
 ---
 
 # Os 4 links clicaveis ( Testando 1 por 1 ):
