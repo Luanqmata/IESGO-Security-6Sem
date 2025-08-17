@@ -366,3 +366,4 @@ function Busca-Por-DNS {
             }
         }
 	}
+}
