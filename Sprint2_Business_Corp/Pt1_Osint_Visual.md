@@ -88,10 +88,10 @@ OBS : E aqui Podemos testar o nome da (  CAMILA E ROGERIO  )
 --- 
 Esse está um pouco mais encondido porém não passa despercebido:
 
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/52e1d9b0-c78b-4e48-8944-fbd725a736cb" />
+<img width="1877" height="1008" alt="image" src="https://github.com/user-attachments/assets/f0c9fe5b-13f7-490a-9200-a45dd00e1f01" />
 
 Fazendo a analise da pagina nela não a nada demais mas quando clicamos em '' Submeta seu Curriculo '' 
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2a2fe2e-d97e-4b0f-8c47-469532a1ce30" />
+<img width="1876" height="1007" alt="image" src="https://github.com/user-attachments/assets/65b4cb67-666f-47e7-8f41-778a409f2c75" />
 
 Ela abre esse formulario mais completo , onde vc pode upar arquivos PDF , podendo upar um arquivo malicioso.
 Mostrando que existe um diretorio que armazena Esses arquivos q é upado pelos usuarios.
