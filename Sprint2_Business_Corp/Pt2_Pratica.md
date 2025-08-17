@@ -3,7 +3,7 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Osint Superficial
+- 🔍 **Tipo:** Osint-Aprofundado
 ---
 
 <p align="center">
