@@ -1,3 +1,11 @@
+# ☢️ Exploração do Site — Penetratium - Team 📡
+
+## 🔗 Materia Segurança Ofensiva 🌐
+
+- 💻 **Professor:** JPGress
+- 🔍 **Tipo:** Osint Superficial
+
+---
 # 🔎 Análise do site http://businesscorp.com.br/#intro
 
 <p align="center">
