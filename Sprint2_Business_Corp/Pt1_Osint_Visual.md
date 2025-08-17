@@ -36,7 +36,7 @@ Inspecionei o codigo HTML em busca de algo , e nada encontrado !
 
 ---
 
-# Após clicar no primeiro link , Tive o retorno que a pagina não existe error 404 por outro lado ela me cospiu algma informações importantes
+## Após clicar no primeiro link , Tive o retorno que a pagina não existe error 404 por outro lado ela me cospiu algma informações importantes
     
   info 1 = Debian == Já sabemos que possivelmente é uma Distro Linux
   info 2 = Versão do apache == Apache/2.2.22 
@@ -48,4 +48,22 @@ Olhando o f12 Encontrei esse link : http://gc.kis.v2.scr.kaspersky-labs.com/E3E8
 Este é um possivel laboratorio da Kaspersky Quebrando a 4° parede .
 
 
+## Segundo link ( Clicando clientes ): http://37.59.174.233:8080
 
+---
+
+<img width="475" height="615" alt="image" src="https://github.com/user-attachments/assets/446b2241-ad5d-4c56-9d05-eb0f41dca275" />
+
+---
+
+Nada encontrado, à não ser o link : 37.59.174.233 que te entrega um endereço de IP .
+
+## Terceiro link : http://intranet.businesscorp.com.br
+
+---
+
+<img width="549" height="159" alt="image" src="https://github.com/user-attachments/assets/32b0d881-9089-46de-8b31-029e7f3cb0f2" />
+
+---
+
+Aqui encontramos a mensagem que esta funcionando , Está a espera de ser preenchido com alguma pagina WEB ( Apache ou Nginx )
