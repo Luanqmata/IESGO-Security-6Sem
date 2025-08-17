@@ -1,8 +1,8 @@
-# ☢️ Exploração do Site — Penetratium - Team 📡
+# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
 
-## 🔗 Materia Segurança Ofensiva 🌐
+## 🔗 Materia Segurança Ofensiva 📕
 
-- 💻 **Professor:** JPGress
+- 👨‍🏫 **Professor:** JPGress
 - 🔍 **Tipo:** Osint Superficial
 
 ---
