@@ -116,7 +116,8 @@
 ---
 
 ✅ **Resumo Final**:
-- Diversos subdomínios ativos
+- 37.59.174.233
+- Rogerio , camila
 - Erros revelando informações sensíveis do servidor.
 - Formulário vulnerável a brute force.
 - Upload de arquivos sem aparente validação.  
