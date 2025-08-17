@@ -30,7 +30,7 @@
   - 🖥️ Sistema operacional: **Debian**
   - ⚙️ Servidor web: **Apache/2.2.22**
 
-- ⚠️ Isso mostra que **forçar erros pode revelar informações privilegiadas**.
+- ⚠️ mostra que **forçar erros pode revelar informações privilegiadas**.
 
 - Encontrado também o link:
   ```
