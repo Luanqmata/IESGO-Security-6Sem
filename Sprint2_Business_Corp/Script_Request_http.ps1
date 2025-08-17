@@ -365,5 +365,6 @@ function Busca-Por-DNS {
                 $null = Read-Host
             }
         }
-	}
+    }
 }
+Busca-Por-DNS
