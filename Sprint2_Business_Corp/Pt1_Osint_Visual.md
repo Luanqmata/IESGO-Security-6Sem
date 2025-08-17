@@ -101,13 +101,14 @@
   <img src="https://github.com/user-attachments/assets/65b4cb67-666f-47e7-8f41-778a409f2c75" alt="Upload" />
 </p>
 
-- ⚠️ Nele é possível **enviar arquivos PDF**, o que pode permitir upload de arquivos maliciosos.  
+- ⚠️ Nele é possível **Anexar arquivos PDF**, o que pode permitir upload de arquivos maliciosos.
+  
 - Isso indica a existência de um **diretório que armazena os arquivos enviados pelos usuários**.
 
 ---
 
 ✅ **Resumo Final**:
-- Diversos subdomínios ativos.
+- Diversos subdomínios ativos
 - Erros revelando informações sensíveis do servidor.
 - Formulário vulnerável a brute force.
 - Upload de arquivos sem aparente validação.  
