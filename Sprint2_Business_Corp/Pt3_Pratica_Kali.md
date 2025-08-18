@@ -5,28 +5,25 @@
 - 👨‍🏫 **Professor:** JPGress  
 - 🧭 **Categoria:** Fuzzing
 
----
+<img width="984" height="512" alt="image" src="https://github.com/user-attachments/assets/04c4300e-bbf8-4408-b0ff-3835dd3b282f" />
+
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54f026bc-4c9c-484f-a325-af9bf8a16bd5" />
-
----
-
-<img width="889" height="643" alt="image" src="https://github.com/user-attachments/assets/1dbf1a5c-2978-40af-b2f8-3830aa37c808" />
 
 ## Ultilizando gobuster:
 
 - diretorios encontrados:
-- http://businesscorp.com.br/demo
+- http://businesscorp.com.br/demo 
 - http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ 
-- http://businesscorp.com.br/info
-- http://businesscorp.com.br/config
-- http://businesscorp.com.br/pass
-- http://businesscorp.com.br/js/ => VARIOS DIRETORIOS
+- http://businesscorp.com.br/info -> KEY 
+- http://businesscorp.com.br/config -> KEY + CRED
+- http://businesscorp.com.br/pass -> CRED + CRIPTO MD5
+- http://businesscorp.com.br/js/ 
 - http://businesscorp.com.br/images/
-- https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d
-- http://businesscorp.com.br/app/
-- businesscorp.com.br/db/update -> KEY
+- http://businesscorp.com.br/app/ -> Tela de logon
+- businesscorp.com.br/db/update -> DOWLOAD + KEY 
 
+- https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d -> easter egg
 
 --- 
 
