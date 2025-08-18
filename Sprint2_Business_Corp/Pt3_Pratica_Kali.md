@@ -23,3 +23,4 @@
 - http://businesscorp.com.br/info
 - http://businesscorp.com.br/config
 - http://businesscorp.com.br/pass
+- http://businesscorp.com.br/js/ => VARIOS DIRETORIOS
