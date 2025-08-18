@@ -13,6 +13,8 @@
 
 ---
 
+<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e12bf16-915c-4299-9982-43bb78c4649b" />
+
 ## Ultilizando gobuster:
 
 - diretorios encontrados:
