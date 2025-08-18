@@ -14,7 +14,7 @@
 
 - diretorios encontrados:
 - http://businesscorp.com.br/demo 
-- http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ 
+- http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ -> KEY NO F12
 - http://businesscorp.com.br/info -> KEY 
 - http://businesscorp.com.br/config -> KEY + CRED
 - http://businesscorp.com.br/pass -> CRED + CRIPTO MD5
