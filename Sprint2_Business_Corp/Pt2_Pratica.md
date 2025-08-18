@@ -25,9 +25,12 @@
 
 ---
 
-<img width="606" height="999" alt="image" src="https://github.com/user-attachments/assets/ca133be6-cf89-4c49-a1b4-a8eff0ba9796" />
-  
-<img width="545" height="660" alt="image" src="https://github.com/user-attachments/assets/e36c3d09-636e-4841-8733-4c4feac67586" />
+<img width="424" height="578" alt="image" src="https://github.com/user-attachments/assets/9d0da0ce-bb58-41d5-abfe-3b014db74469" />
+
+<img width="559" height="1036" alt="image" src="https://github.com/user-attachments/assets/3a8cf36a-ac99-450d-af29-97f7bb1127dd" />
+
+<img width="516" height="668" alt="image" src="https://github.com/user-attachments/assets/c3884ca7-edb1-4dec-8b9d-d6ce0b3bda30" />
 
 
-
+- Rodando o programa nos deparamos com algumas descobertas; links e possiveis diretorios escondidos ( ativados e desativados ).
+   
