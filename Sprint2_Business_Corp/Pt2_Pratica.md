@@ -12,7 +12,7 @@
   <img width="866" height="768" alt="image" src="https://github.com/user-attachments/assets/f5cf66f3-14cd-4783-8b73-b20c6ac2adfc" />
   <img width="865" height="744" alt="image" src="https://github.com/user-attachments/assets/e7d5055d-18ad-4a49-9d9b-943bd3e1e869" />
   
-  Pesquisando: <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/d0d404fb-f9b0-42ab-9989-c20184f7ee83" />
+  <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/d0d404fb-f9b0-42ab-9989-c20184f7ee83" />
   https://www.linkedin.com/in/ricardolongatto/?originalSubdomain=br
 </p>
 
