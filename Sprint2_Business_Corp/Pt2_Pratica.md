@@ -7,13 +7,13 @@
 
 ---
 
-## Usando o Whois:
+## 🌐 Usando o Whois:
 <p align="center">
   <img width="866" height="768" alt="image" src="https://github.com/user-attachments/assets/f5cf66f3-14cd-4783-8b73-b20c6ac2adfc" />
   <img width="865" height="744" alt="image" src="https://github.com/user-attachments/assets/e7d5055d-18ad-4a49-9d9b-943bd3e1e869" />
 </p>
 
-## Usando um script ps1 de DNS request:
+## 📡 Usando um script ps1 de DNS request:
 
 ---
 <p align="center">
@@ -35,5 +35,40 @@
 
 
 - Rodando o programa nos deparamos com algumas descobertas; links e possiveis diretorios escondidos ( ativados e desativados ).
+   Fazendo uma bela filtrangem do que realmente importa , o script achou:
    
+  ```txt
+    === 8. Verifica o arquivo robots.txt ===
+  
+     Procurando robots.txt...
+    
+     Conteudo do robots.txt:
+    User-agent: *
+    Disallow: /_restrito
+    Disallow: /_docs
+    Disallow: /admin
+    Disallow: /bkp
+    Allow: /configuracoes/comunicacao/projeto.txt
+    
+    
+    === 9. Verifica se o site possui um Sitemap ===
+    
+     Verificando sitemap.xml...
+    
+     Sitemap encontrado:
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    
+    <url>
+      <loc>http://businesscorp.com.br/</loc>
+      <lastmod>2019-09-25T17:05:45+00:00</lastmod>
+    </url>
+    <url>
+  ```
+
 ---
