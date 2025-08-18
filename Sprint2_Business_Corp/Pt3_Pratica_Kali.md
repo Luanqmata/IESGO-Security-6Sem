@@ -13,11 +13,11 @@
 
 ---
 
-Ultilizando gobuster:
+## Ultilizando gobuster:
 
-diretorios encontrados:
-http://businesscorp.com.br/demo
-http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ 
-http://businesscorp.com.br/info
-http://businesscorp.com.br/config
-http://businesscorp.com.br/pass
+- diretorios encontrados:
+- http://businesscorp.com.br/demo
+- http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ 
+- http://businesscorp.com.br/info
+- http://businesscorp.com.br/config
+- http://businesscorp.com.br/pass
