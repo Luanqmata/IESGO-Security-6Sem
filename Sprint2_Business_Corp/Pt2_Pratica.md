@@ -25,13 +25,11 @@
   </a>
 </p>
 
----
-<p align="center">
 
   <img width="559" height="1036" alt="image" src="https://github.com/user-attachments/assets/3a8cf36a-ac99-450d-af29-97f7bb1127dd" />
   
   <img width="516" height="668" alt="image" src="https://github.com/user-attachments/assets/c3884ca7-edb1-4dec-8b9d-d6ce0b3bda30" />
-</p>
+
 
 - Rodando o programa nos deparamos com algumas descobertas; links e possiveis diretorios escondidos ( ativados e desativados ).
    
