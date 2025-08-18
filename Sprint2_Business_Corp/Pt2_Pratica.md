@@ -113,7 +113,4 @@ cp /var/www/db/update.sql /var/bkp/
 - Diretórios sensíveis foram localizados via `robots.txt`.  
 - Credenciais iniciais foram descobertas em `/docs`.  
 - Arquivo de backup em `/bkp` representa risco de escalonamento de privilégios.  
-- Potencial de exploração futura com **engenharia social** + **modificação de scripts automatizados**.  
-
-🛡️ **Recomendação:** Restringir acesso público a diretórios internos e proteger arquivos de configuração/backup.
-
+- Potencial de exploração futura com **engenharia social** + **modificação de scripts automatizados**. 
