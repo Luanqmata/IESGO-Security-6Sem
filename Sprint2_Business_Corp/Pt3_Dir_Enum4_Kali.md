@@ -115,4 +115,6 @@ conteudo do .doc
   vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firma uma parceria...
 ```
 
+## senha do usuario moikano:$apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
 
+<img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" />
