@@ -13,7 +13,7 @@
 
 ---
 
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e12bf16-915c-4299-9982-43bb78c4649b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54f026bc-4c9c-484f-a325-af9bf8a16bd5" />
 
 ## Ultilizando gobuster:
 
