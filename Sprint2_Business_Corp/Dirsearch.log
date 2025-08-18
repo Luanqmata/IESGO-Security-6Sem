@@ -1,0 +1,45 @@
+    301   248B   http://businesscorp.com.br/admin    -> REDIRECTS TO: http://businesscorp.com.br/admin/
+    301   247B   http://businesscorp.com.br/js    -> REDIRECTS TO: http://businesscorp.com.br/js/
+    301   247B   http://businesscorp.com.br/css    -> REDIRECTS TO: http://businesscorp.com.br/css/
+    301   250B   http://businesscorp.com.br/images    -> REDIRECTS TO: http://businesscorp.com.br/images/
+    200   119B   http://businesscorp.com.br/config
+    301   247B   http://businesscorp.com.br/app    -> REDIRECTS TO: http://businesscorp.com.br/app/
+    301   246B   http://businesscorp.com.br/db    -> REDIRECTS TO: http://businesscorp.com.br/db/
+    301   247B   http://businesscorp.com.br/site    -> REDIRECTS TO: http://businesscorp.com.br/site/
+    200    80B   http://businesscorp.com.br/info
+    200     5KB  http://businesscorp.com.br/demo
+    200   624B   http://businesscorp.com.br/sitemap
+    301   249B   http://businesscorp.com.br/intranet    -> REDIRECTS TO: http://businesscorp.com.br/intranet/
+    401   343B   http://businesscorp.com.br/teste
+    200   109B   http://businesscorp.com.br/robots
+    200    46B   http://businesscorp.com.br/pass
+    301   249B   http://businesscorp.com.br/_docs    -> REDIRECTS TO: http://businesscorp.com.br/_docs/
+    301   248B   http://businesscorp.com.br/bkp    -> REDIRECTS TO: http://businesscorp.com.br/bkp/
+    200     1KB  http://businesscorp.com.br/favicon
+    403   241B   http://businesscorp.com.br/server-status
+    301   246B   http://businesscorp.com.br/ri    -> REDIRECTS TO: http://businesscorp.com.br/ri/
+    200     2KB  http://businesscorp.com.br/js/init
+    200    11KB  http://businesscorp.com.br/js/gmaps
+    301   250B   http://businesscorp.com.br/css/fonts    -> REDIRECTS TO: http://businesscorp.com.br/css/fonts/
+    200     3KB  http://businesscorp.com.br/css/layout
+    200     5KB  http://businesscorp.com.br/css/default
+    200     3KB  http://businesscorp.com.br/images/logo
+    200    31KB  http://businesscorp.com.br/images/preloader
+    200   118B   http://businesscorp.com.br/db/update
+    301   249B   http://businesscorp.com.br/site/css    -> REDIRECTS TO: http://businesscorp.com.br/site/css/
+    301   249B   http://businesscorp.com.br/site/js    -> REDIRECTS TO: http://businesscorp.com.br/site/js/
+    301   252B   http://businesscorp.com.br/site/images    -> REDIRECTS TO: http://businesscorp.com.br/site/images/
+    200     5KB  http://businesscorp.com.br/site/demo
+    301   250B   http://businesscorp.com.br/site/bkp    -> REDIRECTS TO: http://businesscorp.com.br/site/bkp/
+    200     1KB  http://businesscorp.com.br/site/favicon
+    200    64B   http://businesscorp.com.br/bkp/script
+    200    32KB  http://businesscorp.com.br/ri/RI
+    301   256B   http://businesscorp.com.br/css/fonts/montserrat    -> REDIRECTS TO: http://businesscorp.com.br/css/fonts/montserrat/
+    301   254B   http://businesscorp.com.br/site/css/fonts    -> REDIRECTS TO: http://businesscorp.com.br/site/css/fonts/
+    200     3KB  http://businesscorp.com.br/site/css/layout
+    200     5KB  http://businesscorp.com.br/site/css/default
+    200     2KB  http://businesscorp.com.br/site/js/init
+    200    11KB  http://businesscorp.com.br/site/js/gmaps
+    200     3KB  http://businesscorp.com.br/site/images/logo
+    200    31KB  http://businesscorp.com.br/site/images/preloader
+    301   260B   http://businesscorp.com.br/site/css/fonts/montserrat    -> REDIRECTS TO: http://businesscorp.com.br/site/css/fonts/montserrat/
