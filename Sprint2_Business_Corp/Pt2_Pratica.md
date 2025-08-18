@@ -19,7 +19,7 @@
 <p align="center">
 
   <img width="424" height="578" alt="image" src="https://github.com/user-attachments/assets/9d0da0ce-bb58-41d5-abfe-3b014db74469" />
-  
+  <br>
   <a href="https://github.com/Luanqmata/-Windows-Is-Life-/blob/main/dns_scan_melh_basic.ps1">
     <img src="https://img.shields.io/badge/Link-Programa-39ff14?style=for-the-badge&logo=cloudflare&logoColor=white" />
   </a>
