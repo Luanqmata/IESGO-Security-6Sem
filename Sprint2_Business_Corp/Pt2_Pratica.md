@@ -49,7 +49,7 @@ Allow: /configuracoes/comunicacao/projeto.txt
 
 ---
 
-# 🌐 Testando os 4 Diretórios
+# 🌐 Testando os 4 Diretórios Encontrados
 
 ## 1️⃣ http://businesscorp.com.br/_restrito/
 <p align="center">
@@ -65,6 +65,8 @@ Allow: /configuracoes/comunicacao/projeto.txt
 <p align="center">
   <img width="360" height="177" alt="image" src="https://github.com/user-attachments/assets/c886e152-34ad-43be-91ea-fef18834e745" />
 </p>
+
+- 📂 Encontrado um **senhas** (`.txt`):
 
 - 🎯 **Bingo!** Encontrado um arquivo contendo **credenciais**:
 
