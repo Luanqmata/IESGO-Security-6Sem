@@ -50,25 +50,19 @@
     Disallow: /bkp
     Allow: /configuracoes/comunicacao/projeto.txt
     
-    
-    === 9. Verifica se o site possui um Sitemap ===
-    
-     Verificando sitemap.xml...
-    
-     Sitemap encontrado:
-    <?xml version="1.0" encoding="UTF-8"?>
-    <urlset
-          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-    
-    <url>
-      <loc>http://businesscorp.com.br/</loc>
-      <lastmod>2019-09-25T17:05:45+00:00</lastmod>
-    </url>
-    <url>
   ```
+
+  Achamos esses 4 diretorios que estão sem proteção agora vamos copiar e cola-los apos uma / no DNS do site
+  
+# 🌐 Teste dos 4 links clicáveis
+
+## 1️⃣ Primeiro link: http://businesscorp.com.br/_restrito/
+
+<p align="center">
+  <img width="689" height="155" alt="image" src="https://github.com/user-attachments/assets/30e4c53d-802e-4342-a7f6-5ce91045c802" />
+</p>
+
+- Aparentemente nada demais ,estamos no caminho achei um anonymous resolvir anexa-lo junto
+  
 
 ---
