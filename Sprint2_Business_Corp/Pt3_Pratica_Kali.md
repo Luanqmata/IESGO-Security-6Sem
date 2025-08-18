@@ -22,6 +22,7 @@
 <img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
 
 </p>
+
   ## diretorios encontrados:
   - http://businesscorp.com.br/demo 
   - http://businesscorp.com.br/js/ 
