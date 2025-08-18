@@ -11,15 +11,17 @@
 
 <img width="984" height="512" alt="image" src="https://github.com/user-attachments/assets/04c4300e-bbf8-4408-b0ff-3835dd3b282f" />
 
-<img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
-
 </p>
 
 ---
 
 
 # Ultilizando gobuster:
+<p align="center">
 
+<img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
+
+</p>
   ## diretorios encontrados:
   - http://businesscorp.com.br/demo 
   - http://businesscorp.com.br/js/ 
