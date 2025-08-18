@@ -7,13 +7,11 @@
 
 ---
 
-<img width="984" height="512" alt="image" src="https://github.com/user-attachments/assets/04c4300e-bbf8-4408-b0ff-3835dd3b282f" />
-
-- Imagem apenas ilustatriva
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54f026bc-4c9c-484f-a325-af9bf8a16bd5" />
 
 ---
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54f026bc-4c9c-484f-a325-af9bf8a16bd5" />
+<img width="889" height="643" alt="image" src="https://github.com/user-attachments/assets/1dbf1a5c-2978-40af-b2f8-3830aa37c808" />
 
 ## Ultilizando gobuster:
 
