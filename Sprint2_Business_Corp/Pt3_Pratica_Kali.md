@@ -21,7 +21,7 @@
 - http://businesscorp.com.br/config -> KEY + CRED
 - http://businesscorp.com.br/pass -> CRED + CRIPTO MD5
 - http://businesscorp.com.br/app/ -> Tela de logon
-- businesscorp.com.br/db/update -> DOWLOAD + KEY 
+- http://businesscorp.com.br/db/update -> DOWLOAD + KEY 
 
 - https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d -> easter egg
 
