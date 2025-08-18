@@ -16,6 +16,7 @@
 - http://businesscorp.com.br/demo 
 - http://businesscorp.com.br/js/ 
 - http://businesscorp.com.br/images/
+- http://businesscorp.com.br/ri/ - .doc
 - http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ -> KEY NO CDG FONTE
 - http://businesscorp.com.br/info -> KEY 
 - http://businesscorp.com.br/config -> KEY + CRED
