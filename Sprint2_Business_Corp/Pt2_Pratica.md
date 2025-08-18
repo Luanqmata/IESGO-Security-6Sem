@@ -76,5 +76,37 @@
           admin:123
       dev:desenvolvimento
 ```
+Depois iremos tirar a prova, das senhas.
 
+---
+
+## 3️⃣ Terceiro link: http://businesscorp.com.br/admin/
+
+<p align="center">
+  <img width="338" height="154" alt="image" src="https://github.com/user-attachments/assets/9f1e64c6-0341-44fd-b606-ba9ad7df19ff" />
+</p>
+
+-- Nada demais
+
+--- 
+
+## 4️⃣ Quarto link: http://businesscorp.com.br/bkp/
+
+<p align="center">
+  <img width="339" height="179" alt="image" src="https://github.com/user-attachments/assets/c37897d2-bf3b-463c-a342-e9b9bc73af90" />
+</p> 
+
+- Aqui encontramos outro arquivo aparentemente um executavel .sh
+
+-- Conteudo do arquivo
+
+```sh
+  #!/bin/bash
+  #Backup diario
+  
+  cp /var/www/db/update.sql /var/bkp/
+```
+
+-- Ó , Achamos um backup ou um arquivo que é executado todo final de dia.
+-- Conteudo pode ser mudado para executar um shell reverse 
 
