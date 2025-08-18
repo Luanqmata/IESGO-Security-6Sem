@@ -28,11 +28,9 @@
 </p>
 
 ---
-
-  <img width="559" height="1036" alt="image" src="https://github.com/user-attachments/assets/3a8cf36a-ac99-450d-af29-97f7bb1127dd" />
-  
+<p align="center">
   <img width="516" height="668" alt="image" src="https://github.com/user-attachments/assets/c3884ca7-edb1-4dec-8b9d-d6ce0b3bda30" />
-
+</p>
 
 - Rodando o programa nos deparamos com algumas descobertas; links e possiveis diretorios escondidos ( ativados e desativados ).
    Fazendo uma bela filtrangem do que realmente importa , o script achou:
@@ -64,5 +62,19 @@
 
 - Aparentemente nada demais ,estamos no caminho achei um anonymous resolvir anexa-lo junto
   
-
 ---
+
+## 2️⃣ Segundo link: http://businesscorp.com.br/_docs/
+
+<p align="center">
+  <img width="360" height="177" alt="image" src="https://github.com/user-attachments/assets/c886e152-34ad-43be-91ea-fef18834e745" />
+</p>
+  
+ - Bingo!! Aparentemente achamos um arquivo que possue senhas:
+    Credenciais encontradas:
+```txt
+          admin:123
+      dev:desenvolvimento
+```
+
+
