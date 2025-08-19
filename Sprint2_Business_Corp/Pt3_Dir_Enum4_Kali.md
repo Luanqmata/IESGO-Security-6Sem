@@ -96,9 +96,9 @@ níveis:
     - endDate = "2025-12-31")
 
 -   modernizr.js
-    Detecta recursos do navegador.
-    🔸 Risco: Quase nulo, exceto se modificado para coletar dados
-    sensíveis.
+    - Detecta recursos do navegador.
+    - 🔸 Risco: Quase nulo, exceto se modificado para coletar dados
+    - sensíveis.
 
 ------------------------------------------------------------------------
 
