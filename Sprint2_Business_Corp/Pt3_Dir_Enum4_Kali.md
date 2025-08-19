@@ -83,18 +83,18 @@ níveis:
     -   Coordenadas sensíveis (-23.5505,-46.6333 [São Paulo])
 
 -   init.js
-    Script de inicialização do site.
-    🔸 Risco: Pode conter configurações de ambiente (ex.:
-    baseURL = "http://interno.site.com")
+    - Script de inicialização do site.
+    - 🔸 Risco: Pode conter configurações de ambiente (ex.:
+    - baseURL = "http://interno.site.com")
 
 -   jquery-1.10.2.min.js e jquery-migrate-1.2.1.min.js
-    Versões antigas (2013).
-    🔸 Risco: Vulnerabilidades conhecidas (XSS, CVE-2020-11022).
+    - Versões antigas (2013).
+    - 🔸 Risco: Vulnerabilidades conhecidas (XSS, CVE-2020-11022).
 
 -   jquery.countdown.js
-    Biblioteca para contadores regressivos.
-    🔸 Risco: Baixo, mas pode expor prazos internos (ex.:
-    endDate = "2025-12-31")
+    - Biblioteca para contadores regressivos.
+    - 🔸 Risco: Baixo, mas pode expor prazos internos (ex.:
+    - endDate = "2025-12-31")
 
 -   modernizr.js
     Detecta recursos do navegador.
