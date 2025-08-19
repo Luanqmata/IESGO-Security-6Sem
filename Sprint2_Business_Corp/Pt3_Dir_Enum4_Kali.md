@@ -43,12 +43,28 @@
   dirsearch -u http://businesscorp.com.br -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -r -t 50 -e * -o resultado.txt
 ```
 <p align="center">
-
-<img width="450" height="500" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
-
+  <img width="450" height="877" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
 </p>
 
 ---
+
+## Analizando arquivos js encontrados
+
+<p align="center">
+  <img width="500" height="473" alt="image" src="https://github.com/user-attachments/assets/42e93ecb-844b-487a-8d51-ca61468ae280" />
+</p>
+
+- Neste diretorios temos arquivos executaveis .js, um falha lastimavel , contendo arquivos de baixo a alto risco
+
+ arquivo : backstretch.js
+  Biblioteca para imagens de fundo responsivas.
+  Risco: Baixo, mas se mal configurado, pode vazar caminhos internos de imagens
+
+
+
+
+
+--- 
 
 conteudo do .doc
 
