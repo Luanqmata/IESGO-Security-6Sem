@@ -4,7 +4,7 @@
 
 - 👨‍🏫 **Professor:** JPGress
 - 🔍 **Tipo:** Sql_Injection / XSS
-
+- OBS: Faltei as aulas de injeção
 ---
 
 ## 🛡 Acessando http://businesscorp.com.br/app/
