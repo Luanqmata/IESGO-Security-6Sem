@@ -111,7 +111,7 @@
     <img width="440" height="251" alt="image" src="https://github.com/user-attachments/assets/0a6ed6fd-938a-4ccb-b9a9-55635903f294" />
 </p>    
     
-    ```txt
+    
         Cliente - conta
 
         Rafael Albertoni - 278834
@@ -120,5 +120,4 @@
         Osmar Bueno Provincio - 265009 
         Franchesco Oligar - 283748
         Jose dos Santos - 275829
-    ```
 
