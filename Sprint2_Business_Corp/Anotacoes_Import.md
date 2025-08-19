@@ -11,6 +11,7 @@
 
 ## CREDENCIAIS:
 - moikano:$apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0 SENHA = fuck
+- ti:2483e14219cce6fe63d8ac91afc92618 = 
 - admin:b3sac992883
 - admin:123
 - dev:desenvolvimento
@@ -20,7 +21,14 @@
 - KEY : Gh4ck1ng9988299311
 - KEY : 1nf0gh4t3r1ng89271882
 - KEY : d81j237sh102k3a88njsnna12
+- KEY : W3bR3nc0nisN3c3ss4ry10
 
 ## possiveis Vulns: 
 - http://rh.businesscorp.com.br/?page=submit -> upar arquivo malicioso após descoberta do banco de dados
+- 
+
+
+## Arquivos encontrados 
+- backup.sh
+- db.sql
 - 
