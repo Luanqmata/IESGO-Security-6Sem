@@ -21,6 +21,20 @@
 <img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
 
 </p>
+
+---
+
+🧭 Utilizando Dirsearch
+
+    dirsearch -u http://businesscorp.com.br -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -r -t 50 -e * -o resultado.txt
+
+<p align="center">
+  <img width="450" height="877" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
+</p>
+
+---
+
+
 📂 Diretórios encontrados
 
 -   🌐 http://businesscorp.com.br/demo → Nada relevante por enquanto
@@ -36,17 +50,6 @@
 
 -   🥚 Easter Egg: https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d
 
----
-
-🧭 Utilizando Dirsearch
-
-    dirsearch -u http://businesscorp.com.br -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -r -t 50 -e * -o resultado.txt
-
-<p align="center">
-  <img width="450" height="877" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
-</p>
-
----
 
 📑 Analisando Arquivos JavaScript Encontrados
 
