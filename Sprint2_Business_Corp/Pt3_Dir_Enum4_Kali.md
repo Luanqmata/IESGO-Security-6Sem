@@ -1,9 +1,9 @@
 # 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
 
-## 📘 Matéria: Segurança Ofensiva
+## 🔗 Materia Segurança Ofensiva 📕
 
--   👨‍🏫 Professor: JPGress
--   🧭 Categoria: Fuzzing
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Osint Superficial
 
 ---
 
