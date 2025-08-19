@@ -3,7 +3,7 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Osint Superficial
+- 🔍 **Tipo:** Quebra de Hash
 
 ---
 # Quebrando hash do ``Moikano``
