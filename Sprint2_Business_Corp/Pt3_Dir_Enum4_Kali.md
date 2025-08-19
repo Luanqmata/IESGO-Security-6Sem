@@ -69,13 +69,13 @@
     - Integração com Google Maps.
     - 🔸 Risco: Médio, se incluir:
 
-    -   Chaves de API expostas (AIza...)
-    -   Coordenadas sensíveis (-23.5505,-46.6333 [São Paulo])
+        - Chaves de API expostas (AIza...)
+        - Coordenadas sensíveis (-23.5505,-46.6333 [São Paulo])
 
 -   init.js
     - Script de inicialização do site.
     - 🔸 Risco: Pode conter configurações de ambiente (ex.:
-    - baseURL = "http://interno.site.com")
+        - baseURL = "http://interno.site.com")
 
 -   jquery-1.10.2.min.js e jquery-migrate-1.2.1.min.js
     - Versões antigas (2013).
@@ -84,11 +84,10 @@
 -   jquery.countdown.js
     - Biblioteca para contadores regressivos.
     - 🔸 Risco: Baixo, mas pode expor prazos internos (ex.:
-    - endDate = "2025-12-31")
+        - endDate = "2025-12-31")
 
 -   modernizr.js
     - Detecta recursos do navegador.
-    - 🔸 Risco: Quase nulo, exceto se modificado para coletar dados
-    - sensíveis.
+    - 🔸 Risco: Quase nulo, exceto se modificado para coletar dados sensíveis.
 
 ---
