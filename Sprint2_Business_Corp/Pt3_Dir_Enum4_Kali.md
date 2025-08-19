@@ -149,15 +149,7 @@
     <img width="373" height="75" alt="image" src="https://github.com/user-attachments/assets/5831d96f-7520-4ce1-a3e8-820206041d2b" />
 </p>
 
-## 🔑 Credenciais com senha criptografada em MD5
-
-<p align="center">
-    <img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" />
-</p>
-
-## 📌 Credenciais encontradas:
-- Usuário: moikano
-- Senha: fuck
+- 🔑 Bingo !! Credenciais com senha criptografada em MD5
 
 ---
 
