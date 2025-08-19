@@ -51,7 +51,7 @@
 
 ### Os arquivos JavaScript encontrados apresentam riscos em diferentes níveis:
 
-## 📌 Arquivos e Possíveis Riscos
+## 📌 Arquivos e Possíveis Riscos:
 
 -   backstretch.js
     - Biblioteca para imagens de fundo responsivas.
@@ -85,9 +85,7 @@
 
 # Arquivos JS Comprometidos:
 
----
-
-## getClient.js
+## Arquivo: getClient.js
 
 - Vazamentos de dados ( LGPD ) = caminho encontrado = http://businesscorp.com.br/apiClients
 - Requisição sem autenticação
@@ -109,4 +107,29 @@
 
 ---
  
+# Acessando : http://businesscorp.com.br/ri/
 
+<p align="center">
+    <img width="443" height="226" alt="image" src="https://github.com/user-attachments/assets/2cf4aef4-6541-4bd7-ba09-7eb02d07c822" />
+</p>
+
+## arquivo encontrado; conteudo do .doc:
+
+```doc
+  FATO RELEVANTE
+  RELACAO COM INVESTIDORES
+  ROGERIO SEVEROVISK
+  2019
+  
+  RELAÇÃO COM INVESTIDORES (RI)
+  
+  GRUPO BUSINESS CORP
+
+  Em observância ao artigo 157, parágrafo 4º, da Lei nº 6.404, de 15 de dezembro de 1976, conforme alterada, 
+  e à Instrução da Comissão de Valores Mobiliários (“CVM”) nº 358, de 3 de janeiro de 2002, conforme alterada,
+  vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firma uma parceria...
+```
+
+# Sobrenome do Rogerio : SEVEROVISK
+ 
+---
