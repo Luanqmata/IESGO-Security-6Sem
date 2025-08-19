@@ -1,4 +1,4 @@
-<img width="906" height="301" alt="image" src="https://github.com/user-attachments/assets/e81865ea-07ef-4588-9aa5-7788c21ea1a6" /># 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
+# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
 
 ## 📘 Matéria: Segurança Ofensiva
 
