@@ -61,9 +61,9 @@
     - Pode lidar com dados do cliente.
     - 🔸 Risco: Alto, se contiver:
 
-    -   Credenciais em hardcode (API_KEY = "12345")
-    -   Lógica de autenticação / tokens de sessão
-    -   Endpoints internos de API (https://api.site.com/internal/users)
+        - Credenciais em hardcode (API_KEY = "12345")
+        - Lógica de autenticação / tokens de sessão
+        - Endpoints internos de API (https://api.site.com/internal/users)
 
 -   gmaps.js
     - Integração com Google Maps.
