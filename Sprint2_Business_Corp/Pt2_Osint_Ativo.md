@@ -1,4 +1,4 @@
-# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
+<img width="906" height="301" alt="image" src="https://github.com/user-attachments/assets/e81865ea-07ef-4588-9aa5-7788c21ea1a6" /># 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
 
 ## 📘 Matéria: Segurança Ofensiva
 
@@ -109,6 +109,35 @@ cp /var/www/db/update.sql /var/bkp/
 - 🚨 Possível vetor de ataque: modificar o script para injetar um **reverse shell**.
 
 ---
+
+## 5️⃣ http://businesscorp.com.br/configuracoes/comunicacao/
+
+<p align="center">
+  <img width="433" height="182" alt="image" src="https://github.com/user-attachments/assets/adeef2f0-ab85-4750-bac1-b81f505e4a8b" />
+</p>
+
+- 📂 Se voltarmos 1 vez é Encontrado um **db** (`.sql`):
+
+<p align="center">
+  <img width="361" height="209" alt="image" src="https://github.com/user-attachments/assets/3486424d-3f63-49a0-91d1-7872643a4e9d" />
+</p>
+
+- Baixando o arquivo e abrindo temos:
+
+```sql
+  CREATE DATABASE intra;
+
+  CREATE TABLE `login` (
+    `id` int(10) NOT NULL AUTO_INCREMENT,
+    `login` varchar(32) NOT NULL,
+    `pass` varchar(50) NOT NULL,
+    PRIMARY KEY (`id`)
+  );
+  
+  INSERT INTO `login` (`id`,`login`, `password`) VALUES (1,`ti`,`2483e14219cce6fe63d8ac91afc92618`);
+```
+
+- 🎯 **Bingo! Denovo** Encontrado um arquivo contendo **credencial intra**:
 
 📌 **Resumo Técnico:**  
 - Diretórios sensíveis foram localizados via `robots.txt`.  
