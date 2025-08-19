@@ -91,13 +91,7 @@
 
 ---
 
-# Analisando Funções JS arquivos:
-
----
-
-### backstretch.js 
-- Nada demais encontrado
-- Gravidade BAIXA:
+# Arquivos JS Comprometidos:
 
 ---
 
@@ -120,4 +114,16 @@
         Osmar Bueno Provincio - 265009 
         Franchesco Oligar - 283748
         Jose dos Santos - 275829
+
+---
+
+## gmaps.js
+- Se options.content vier de input não sanitizado, pode permitir injeção de código.
+- Gravidade baixa 
+
+--- 
+
+## jquery-migrate-1.2.1.min.js
+- Falta de atualização 
+- fraco contra injeção html / parsing json
 
