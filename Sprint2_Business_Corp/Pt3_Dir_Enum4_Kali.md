@@ -5,16 +5,22 @@
 -   👨‍🏫 Professor: JPGress
 -   🧭 Categoria: Fuzzing
 
-------------------------------------------------------------------------
+---
+
 <p align="center">
 
 <img width="984" height="512" alt="image" src="https://github.com/user-attachments/assets/04c4300e-bbf8-4408-b0ff-3835dd3b282f" />
 
 </p>
-------------------------------------------------------------------------
+
+---
 
 🚀 Utilizando Gobuster
+<p align="center">
 
+<img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
+
+</p>
 📂 Diretórios encontrados
 
 -   🌐 /demo → Nada relevante por enquanto
@@ -29,7 +35,7 @@
 -   🗃 /db/update → Download + KEY
 -   🥚 Easter Egg: Mailchimp Link
 
-------------------------------------------------------------------------
+---
 
 🧭 Utilizando Dirsearch
 
@@ -38,7 +44,8 @@
 <p align="center">
   <img width="450" height="877" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
 </p>
-------------------------------------------------------------------------
+
+---
 
 📑 Analisando Arquivos JavaScript Encontrados
 
