@@ -1,79 +1,111 @@
-🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
+# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
 
-📘 Matéria: Segurança Ofensiva
+## 📘 Matéria: Segurança Ofensiva
 
--   👨‍🏫 Professor: JPGress
--   🧭 Categoria: Fuzzing
+- 👨‍🏫 **Professor:** JPGress  
+- 🧭 **Categoria:** Fuzzing
 
-------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------
+<p align="center">
 
-⚡ Utilizando Gobuster:
+<img width="984" height="512" alt="image" src="https://github.com/user-attachments/assets/04c4300e-bbf8-4408-b0ff-3835dd3b282f" />
 
-📂 Diretórios Encontrados:
+</p>
 
--   🌐 http://businesscorp.com.br/demo → Nada relevante até o momento
--   📜 http://businesscorp.com.br/js/ → Arquivos sensíveis
--   🖼️ http://businesscorp.com.br/images/ → Imagens do site
--   📄 http://businesscorp.com.br/ri/ → Arquivos .doc
--   🗺️ http://businesscorp.com.br/sitemap →
-    http://businesscorp.com.br/painelcliente/ → 🔑 Key no código-fonte
--   ℹ️ http://businesscorp.com.br/info → 🔑 Key
--   ⚙️ http://businesscorp.com.br/config → 🔑 Key + Credenciais
--   🔐 http://businesscorp.com.br/pass → Credenciais + Hashes MD5
--   🔑 http://businesscorp.com.br/app/ → Tela de login
--   💾 http://businesscorp.com.br/db/update → Download + Key
--   🥚 https://facebook.us8.list-manage.com/… → Easter Egg
+---
 
-------------------------------------------------------------------------
 
-🕵️ Utilizando Dirsearch:
+# Ultilizando gobuster:
+<p align="center">
 
-    dirsearch -u http://businesscorp.com.br -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -r -t 50 -e * -o resultado.txt
+<img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/6857a9c7-b31f-4450-849a-9cc2721ebece" />
 
-------------------------------------------------------------------------
+</p>
 
-🧩 Analisando Arquivos JS Encontrados
+  ## diretorios encontrados:
+  - http://businesscorp.com.br/demo -> por enquanto nada de mais
+  - http://businesscorp.com.br/js/  -> arquivos sensiveis
+  - http://businesscorp.com.br/images/ -> Imagens do site
+  - http://businesscorp.com.br/ri/ -> .doc
+  - http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ -> KEY NO CDG FONTE
+  - http://businesscorp.com.br/info -> KEY 
+  - http://businesscorp.com.br/config -> KEY + CRED
+  - http://businesscorp.com.br/pass -> CRED + CRIPTO MD5
+  - http://businesscorp.com.br/app/ -> Tela de logon
+  - http://businesscorp.com.br/db/update -> DOWLOAD + KEY 
+  
+  - https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d -> easter egg
 
--   Neste diretório foram encontrados arquivos executáveis .js, uma
-    falha grave, contendo arquivos de baixo a alto risco.
+--- 
+# Ultilizando Dirsearch:
 
-📌 Arquivos e Possíveis Riscos
+```sh
+  dirsearch -u http://businesscorp.com.br -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -r -t 50 -e * -o resultado.txt
+```
+<p align="center">
+  <img width="450" height="877" alt="image" src="https://github.com/user-attachments/assets/8e5491bd-4151-4455-9a26-a8237e249342" />
+</p>
 
-backstretch.js
-🖼️ Biblioteca para imagens de fundo responsivas.
-⚠️ Risco: Baixo — Pode vazar caminhos internos de imagens (ex.:
-/var/www/internal_images/).
+---
 
-getClient.js
-👤 Sugere lidar com dados de clientes.
-⚠️ Risco: Alto — Pode conter:
-- Credenciais hardcoded (ex.: API_KEY = "12345")
-- Lógica de autenticação ou tokens de sessão
-- Endpoints internos de APIs (ex.: https://api.site.com/internal/users)
+## Analizando arquivos js encontrados
 
-gmaps.js
-🗺️ Integração com Google Maps.
-⚠️ Risco: Médio — Pode expor:
-- Chaves de API Google (ex.: key=AIza...)
-- Coordenadas de locais sensíveis (ex.: -23.5505,-46.6333 [São Paulo])
+<p align="center">
+  <img width="500" height="473" alt="image" src="https://github.com/user-attachments/assets/42e93ecb-844b-487a-8d51-ca61468ae280" />
+</p>
 
-init.js
-⚙️ Script de inicialização do site.
-⚠️ Risco: Pode conter configurações de ambiente (ex.:
-baseURL = "http://interno.site.com").
+- Neste diretorios temos arquivos executaveis .js, um falha lastimavel , contendo arquivos de baixo a alto risco
 
-jquery-1.10.2.min.js e jquery-migrate-1.2.1.min.js
-📦 Versões antigas do jQuery (2013).
-⚠️ Risco: Vulnerabilidades conhecidas (ex.: XSS, CVE-2020-11022).
-
-jquery.countdown.js
-⏳ Biblioteca para contadores regressivos.
-⚠️ Risco: Baixo — Pode expor prazos internos (ex.:
-endDate = "2025-12-31").
-
-modernizr.js
-🧪 Detecta recursos do navegador.
-⚠️ Risco: Quase nulo, a menos que seja alterado para coleta de dados
-sensíveis.
+    📌 Arquivos e Possíveis Riscos
+    backstretch.js
+    
+    Biblioteca para imagens de fundo responsivas.
+    
+    Risco: Baixo, mas se mal configurado, pode vazar caminhos internos de imagens (ex.: /var/www/internal_images/).
+    
+    getClient.js
+    
+    Nome sugere que pode lidar com dados do cliente (usuário).
+    
+    Risco: Alto se contiver:
+    
+    Credenciais em hardcode (ex.: API_KEY = "12345").
+    
+    Lógica de autenticação ou tokens de sessão.
+    
+    Endpoints internos de APIs (ex.: https://api.site.com/internal/users).
+    
+    gmaps.js
+    
+    Biblioteca para integração com Google Maps.
+    
+    Risco: Médio se incluir:
+    
+    Chaves de API do Google expostas (ex.: key=AIza...).
+    
+    Coordenadas de locais sensíveis (ex.: -23.5505,-46.6333 [São Paulo]).
+    
+    init.js
+    
+    Script de inicialização do site.
+    
+    Risco: Pode conter configurações de ambiente (ex.: baseURL = "http://interno.site.com").
+    
+    jquery-1.10.2.min.js e jquery-migrate-1.2.1.min.js
+    
+    Versões antigas do jQuery (janeiro de 2013).
+    
+    Risco: Vulnerabilidades conhecidas (ex.: XSS, CVE-2020-11022).
+    
+    jquery.countdown.js
+    
+    Biblioteca para contadores regressivos.
+    
+    Risco: Baixo, mas pode expor prazos internos (ex.: endDate = "2025-12-31").
+    
+    modernizr.js
+    
+    Ferramenta para detectar recursos do navegador.
+    
+    Risco: Quase nulo, a menos que seja modificado para coletar dados sensíveis.
