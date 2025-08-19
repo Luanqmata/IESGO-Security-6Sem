@@ -6,7 +6,7 @@
 - 🔍 **Tipo:** Quebra de Hash
 
 ---
-# Quebrando hash do ``Moikano``
+# ⚙️ Quebrando hash do ``Moikano``
 
 <p align="center">
     <img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" />
@@ -18,7 +18,7 @@
 
 ---
 
-# Quebrando hash do ``ti``
+# ⚙️ Quebrando hash do ``ti``
 
 <p align="center">
     <img width="798" height="218" alt="image" src="https://github.com/user-attachments/assets/f912094c-5f32-4073-89bc-85a4a9e689a9" />
