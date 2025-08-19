@@ -24,9 +24,9 @@
 </p>
 
   ## diretorios encontrados:
-  - http://businesscorp.com.br/demo 
-  - http://businesscorp.com.br/js/ 
-  - http://businesscorp.com.br/images/
+  - http://businesscorp.com.br/demo -> por enquanto nada de mais
+  - http://businesscorp.com.br/js/  -> arquivos sensiveis
+  - http://businesscorp.com.br/images/ -> Imagens do site
   - http://businesscorp.com.br/ri/ -> .doc
   - http://businesscorp.com.br/sitemap => http://businesscorp.com.br/painelcliente/ -> KEY NO CDG FONTE
   - http://businesscorp.com.br/info -> KEY 
