@@ -27,7 +27,8 @@
 
 ## possiveis Vulns: 
 - http://rh.businesscorp.com.br/?page=submit -> upar arquivo malicioso após descoberta do banco de dados
-- 
+- http://businesscorp.com.br/app/ -> Injeção
+- http://mail.businesscorp.com.br -> injeção
 
 
 ## Clientes:
