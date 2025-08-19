@@ -83,11 +83,30 @@
 
 -   jquery.countdown.js
     - Biblioteca para contadores regressivos.
-    - 🔸 Risco: Baixo, mas pode expor prazos internos (ex.:
-        - endDate = "2025-12-31")
+    - 🔸 Risco: Baixo, mas pode expor prazos internos (ex.: endDate = "2025-12-31")
 
 -   modernizr.js
     - Detecta recursos do navegador.
     - 🔸 Risco: Quase nulo, exceto se modificado para coletar dados sensíveis.
 
 ---
+
+# Analisando Funções JS arquivos:
+
+---
+
+### backstretch.js 
+- Nada demais encontrado
+- Gravidade BAIXA:
+
+---
+
+### getClient.js = 
+- Vazamentos de dados ( LGPD ) = caminho encontrado = http://businesscorp.com.br/apiClients
+- Requisição sem autenticação
+- Gravidade Alta
+<p align="center">
+    <img width="440" height="251" alt="image" src="https://github.com/user-attachments/assets/0a6ed6fd-938a-4ccb-b9a9-55635903f294" />
+</p>
+
+
