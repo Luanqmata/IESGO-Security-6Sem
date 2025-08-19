@@ -138,6 +138,8 @@ cp /var/www/db/update.sql /var/bkp/
 ```
 
 - 🎯 **Bingo! Denovo** Encontrado um arquivo contendo **credencial intra**:
+- Aparentemente criptografada 🔒
+
 
 📌 **Resumo Técnico:**  
 - Diretórios sensíveis foram localizados via `robots.txt`.  
