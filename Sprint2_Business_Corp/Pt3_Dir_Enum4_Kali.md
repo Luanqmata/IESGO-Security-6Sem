@@ -65,17 +65,9 @@
         - Lógica de autenticação / tokens de sessão
         - Endpoints internos de API (https://api.site.com/internal/users)
 
--   gmaps.js
-    - Integração com Google Maps.
-    - 🔸 Risco: Médio, se incluir:
-
-        - Chaves de API expostas (AIza...)
-        - Coordenadas sensíveis (-23.5505,-46.6333 [São Paulo])
-
 -   init.js
     - Script de inicialização do site.
-    - 🔸 Risco: Pode conter configurações de ambiente (ex.:
-        - baseURL = "http://interno.site.com")
+    - 🔸 Risco: Pode conter configurações de ambiente (ex.: baseURL = "http://interno.site.com")
 
 -   jquery-1.10.2.min.js e jquery-migrate-1.2.1.min.js
     - Versões antigas (2013).
@@ -116,14 +108,5 @@
         Jose dos Santos - 275829
 
 ---
-
-## gmaps.js
-- Se options.content vier de input não sanitizado, pode permitir injeção de código.
-- Gravidade baixa 
-
---- 
-
-## jquery-migrate-1.2.1.min.js
-- Falta de atualização 
-- fraco contra injeção html / parsing json
+ 
 
