@@ -23,17 +23,18 @@
 </p>
 📂 Diretórios encontrados
 
--   🌐 /demo → Nada relevante por enquanto
--   📜 /js/ → Arquivos sensíveis
--   🖼 /images/ → Imagens do site
--   📄 /ri/ → Arquivos .doc
--   🗺 /sitemap → Redireciona para /painelcliente/ → KEY no código-fonte
--   ℹ️ /info → KEY encontrada
--   ⚙️ /config → KEY + CRED
--   🔑 /pass → Credenciais + Cripto MD5
--   🔐 /app/ → Tela de login
--   🗃 /db/update → Download + KEY
--   🥚 Easter Egg: Mailchimp Link
+-   🌐 http://businesscorp.com.br/demo → Nada relevante por enquanto
+-   📜 http://businesscorp.com.br/js/  → Arquivos sensíveis
+-   🖼 http://businesscorp.com.br/images/  → Imagens do site
+-   📄 http://businesscorp.com.br/ri/ → Arquivos .doc
+-   🗺 http://businesscorp.com.br/sitemap  → Redireciona para http://businesscorp.com.br/painelcliente/ → KEY no código-fonte
+-   ℹ️ http://businesscorp.com.br/info  → KEY encontrada
+-   ⚙️ http://businesscorp.com.br/config → KEY + CRED
+-   🔑 http://businesscorp.com.br/pass → Credenciais + Cripto MD5
+-   🔐 http://businesscorp.com.br/app/ → Tela de login
+-   🗃 http://businesscorp.com.br/db/update  → Download + KEY
+
+-   🥚 Easter Egg: https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d
 
 ---
 
