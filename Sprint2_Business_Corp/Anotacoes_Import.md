@@ -3,10 +3,11 @@
 - SO : Debian 
 - server web : Apache/2.2.22
 - Metodos permitidos pelo servidor: GET,HEAD,POST,OPTIONS   
+- HARDWARE DELL
 
 ## NOMES:
 - José RIcardo Longatto
-- Rogerio
+- Rogerio SEVEROVISK
 - camila
 
 ## CREDENCIAIS:
@@ -22,36 +23,27 @@
 - KEY : 1nf0gh4t3r1ng89271882
 - KEY : d81j237sh102k3a88njsnna12
 - KEY : W3bR3nc0nisN3c3ss4ry10
+- KEY : W3bR3nc0nisN3c3ss4ry1009
 
 ## possiveis Vulns: 
 - http://rh.businesscorp.com.br/?page=submit -> upar arquivo malicioso após descoberta do banco de dados
 - 
 
 
-## Arquivos encontrados 
-- backup.sh
-- db.sql
-- 
+## Clientes:
+Cliente - conta
+
+Rafael Albertoni - 278834
+Julia Carla Stefan - 293884
+Wilson Santos - 298333
+Osmar Bueno Provincio - 265009 
+Franchesco Oligar - 283748
+Jose dos Santos - 275829
 
 
 --- 
 
-conteudo do .doc
 
-```doc
-  FATO RELEVANTE
-  RELACAO COM INVESTIDORES
-  ROGERIO SEVEROVISK
-  2019
-  
-  RELAÇÃO COM INVESTIDORES (RI)
-  
-  GRUPO BUSINESS CORP
-
-  Em observância ao artigo 157, parágrafo 4º, da Lei nº 6.404, de 15 de dezembro de 1976, conforme alterada, 
-  e à Instrução da Comissão de Valores Mobiliários (“CVM”) nº 358, de 3 de janeiro de 2002, conforme alterada,
-  vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firma uma parceria...
-```
 
 ## senha do usuario moikano:$apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
 
