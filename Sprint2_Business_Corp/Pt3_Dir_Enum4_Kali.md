@@ -70,3 +70,8 @@ conteudo do .doc
 ## senha do usuario moikano:$apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
 
 <img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" />
+
+## tecnologia na pag de login .php 
+
+<img width="403" height="150" alt="image" src="https://github.com/user-attachments/assets/7142c4e2-2569-480b-8221-4b11d9009794" />
+
