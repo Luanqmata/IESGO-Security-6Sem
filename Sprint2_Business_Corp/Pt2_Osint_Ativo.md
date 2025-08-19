@@ -53,7 +53,7 @@ Allow: /configuracoes/comunicacao/projeto.txt
 
 ---
 
-# 🌐 Testando os 4 Diretórios Encontrados
+# 🌐 Testando os 5 Diretórios Encontrados
 
 ## 1️⃣ http://businesscorp.com.br/_restrito/
 <p align="center">
