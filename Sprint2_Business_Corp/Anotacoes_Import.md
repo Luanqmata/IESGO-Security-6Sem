@@ -32,14 +32,14 @@
 
 
 ## Clientes:
-Cliente - conta
+- Cliente - conta
 
-Rafael Albertoni - 278834
-Julia Carla Stefan - 293884
-Wilson Santos - 298333
-Osmar Bueno Provincio - 265009 
-Franchesco Oligar - 283748
-Jose dos Santos - 275829
+- Rafael Albertoni - 278834
+- Julia Carla Stefan - 293884
+- Wilson Santos - 298333
+- Osmar Bueno Provincio - 265009 
+- Franchesco Oligar - 283748
+- Jose dos Santos - 275829
 
 
 --- 
