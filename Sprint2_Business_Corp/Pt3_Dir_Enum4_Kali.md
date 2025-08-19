@@ -63,21 +63,20 @@ níveis:
 📌 Arquivos e Possíveis Riscos
 
 -   backstretch.js
-    Biblioteca para imagens de fundo responsivas.
-    🔸 Risco: Baixo, mas pode vazar caminhos internos (ex.:
-    /var/www/internal_images/).
+    - Biblioteca para imagens de fundo responsivas.
+    - 🔸 Risco: Baixo, mas pode vazar caminhos internos (ex.:/var/www/internal_images/).
 
 -   getClient.js
-    Pode lidar com dados do cliente.
-    🔸 Risco: Alto, se contiver:
+    - Pode lidar com dados do cliente.
+    - 🔸 Risco: Alto, se contiver:
 
     -   Credenciais em hardcode (API_KEY = "12345")
     -   Lógica de autenticação / tokens de sessão
     -   Endpoints internos de API (https://api.site.com/internal/users)
 
 -   gmaps.js
-    Integração com Google Maps.
-    🔸 Risco: Médio, se incluir:
+    - Integração com Google Maps.
+    - 🔸 Risco: Médio, se incluir:
 
     -   Chaves de API expostas (AIza...)
     -   Coordenadas sensíveis (-23.5505,-46.6333 [São Paulo])
