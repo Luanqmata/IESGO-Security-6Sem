@@ -17,4 +17,6 @@
 
 - 🖥 Tecnologia detectada ( BUSCAR CVE )
 
+- possivel exploit : https://www.exploit-db.com/exploits/29290
+
 ---
