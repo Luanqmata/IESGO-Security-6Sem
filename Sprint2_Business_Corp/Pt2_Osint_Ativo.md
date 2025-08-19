@@ -138,7 +138,7 @@ cp /var/www/db/update.sql /var/bkp/
 ```
 
 - 🎯 **Bingo! Denovo** Encontrado um arquivo contendo **credencial intra**:
-- Aparentemente criptografada 🔒
+- Aparentemente senha criptografada 🔒
 
 
 📌 **Resumo Técnico:**  
