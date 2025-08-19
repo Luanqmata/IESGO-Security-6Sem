@@ -42,6 +42,7 @@
 
 -   🥚 Easter Egg: https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&id=e65110b38d
 
+---
 
 ## 📑 Analisando Arquivos JavaScript Encontrados
 
@@ -49,7 +50,7 @@
   <img width="500" height="473" alt="image" src="https://github.com/user-attachments/assets/42e93ecb-844b-487a-8d51-ca61468ae280" />
 </p>
 
-### Os arquivos JavaScript encontrados apresentam riscos em diferentes níveis:
+---
 
 ## 📌 Arquivos e Possíveis Riscos:
 
@@ -85,11 +86,10 @@
 
 # Arquivos JS Comprometidos:
 
-## Arquivo: getClient.js
-
-- Vazamentos de dados ( LGPD ) = caminho encontrado = http://businesscorp.com.br/apiClients
-- Requisição sem autenticação
-- Gravidade Alta
+- Arquivo: getClient.js
+    - Vazamentos de dados ( LGPD ) = caminho encontrado = http://businesscorp.com.br/apiClients
+    - Requisição sem autenticação
+    - Gravidade Alta
 
 <p align="center">
     <img width="440" height="251" alt="image" src="https://github.com/user-attachments/assets/0a6ed6fd-938a-4ccb-b9a9-55635903f294" />
