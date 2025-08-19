@@ -113,7 +113,7 @@
     <img width="443" height="226" alt="image" src="https://github.com/user-attachments/assets/2cf4aef4-6541-4bd7-ba09-7eb02d07c822" />
 </p>
 
-## arquivo encontrado; conteudo do .doc:
+## arquivo encontrado; conteudo do RI.doc:
 
 ```doc
   FATO RELEVANTE
@@ -130,6 +130,43 @@
   vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firma uma parceria...
 ```
 
-# Sobrenome do Rogerio : SEVEROVISK
+- Sobrenome do Rogerio : SEVEROVISK
  
 ---
+
+# acessando : http://businesscorp.com.br/sitemap
+
+<p align="center">
+    <img width="765" height="238" alt="image" src="https://github.com/user-attachments/assets/28acd4ff-4c0d-4aa7-a552-1428662a38d1" />
+</p>
+
+- path encontrado = http://businesscorp.com.br/painelcliente/
+
+---
+
+# acessando : http://businesscorp.com.br/pass
+
+<img width="373" height="75" alt="image" src="https://github.com/user-attachments/assets/5831d96f-7520-4ce1-a3e8-820206041d2b" />
+
+- credenciais com senha criptografada em MD5
+
+<img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" /> 
+
+- credenciais = moikano:fuck
+
+---
+
+# acessando : http://businesscorp.com.br/app/
+
+<p align="center">
+    <img width="392" height="120" alt="image" src="https://github.com/user-attachments/assets/60ff52a4-e01b-4b47-bce4-6d791698b9d1" />
+</p>
+
+- Tela de logon com possivel injeção
+
+<p align="center">
+    <img width="403" height="150" alt="image" src="https://github.com/user-attachments/assets/7142c4e2-2569-480b-8221-4b11d9009794" />
+</p>
+
+---
+
