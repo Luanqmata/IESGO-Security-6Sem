@@ -12,7 +12,7 @@
 
 ## CREDENCIAIS:
 - moikano:fuck
-- ti:2483e14219cce6fe63d8ac91afc92618 
+- ti:intranet 
 - admin:b3sac992883
 - admin:123
 - dev:desenvolvimento
