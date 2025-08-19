@@ -1,3 +1,10 @@
+# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
+
+## 🔗 Materia Segurança Ofensiva 📕
+
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Sql_Injection / XSS
+
 ---
 
 ## 🛡 Acessando http://businesscorp.com.br/app/
