@@ -84,89 +84,96 @@
 
 ---
 
-# Arquivos JS Comprometidos:
 
-- Arquivo: getClient.js
-    - Vazamentos de dados ( LGPD ) = caminho encontrado = http://businesscorp.com.br/apiClients
-    - Requisição sem autenticação
-    - Gravidade Alta
+🔎 Arquivos JS Comprometidos
+
+-   Arquivo: getClient.js
+    -   ⚠️ Vazamento de dados (LGPD)
+    -   📌 Caminho encontrado: http://businesscorp.com.br/apiClients
+    -   🚫 Requisição sem autenticação
+    -   🔥 Gravidade: Alta
 
 <p align="center">
     <img width="440" height="251" alt="image" src="https://github.com/user-attachments/assets/0a6ed6fd-938a-4ccb-b9a9-55635903f294" />
 </p>    
-    
-    
-        Cliente - conta
 
-        Rafael Albertoni - 278834
-        Julia Carla Stefan - 293884
-        Wilson Santos - 298333
-        Osmar Bueno Provincio - 265009 
-        Franchesco Oligar - 283748
-        Jose dos Santos - 275829
+👥 Clientes e Contas Identificadas:
+
+-   Rafael Albertoni — 278834
+-   Julia Carla Stefan — 293884
+-   Wilson Santos — 298333
+-   Osmar Bueno Provincio — 265009
+-   Franchesco Oligar — 283748
+-   José dos Santos — 275829
 
 ---
- 
-# Acessando : http://businesscorp.com.br/ri/
+
+📑 Acessando http://businesscorp.com.br/ri/
 
 <p align="center">
     <img width="443" height="226" alt="image" src="https://github.com/user-attachments/assets/2cf4aef4-6541-4bd7-ba09-7eb02d07c822" />
 </p>
 
-## arquivo encontrado; conteudo do RI.doc:
+📄 Arquivo encontrado: RI.doc
 
 ```doc
-  FATO RELEVANTE
-  RELACAO COM INVESTIDORES
-  ROGERIO SEVEROVISK
-  2019
-  
-  RELAÇÃO COM INVESTIDORES (RI)
-  
-  GRUPO BUSINESS CORP
+    FATO RELEVANTE  
+    RELAÇÃO COM INVESTIDORES  
+    ROGERIO SEVEROVISK  
+    2019
 
-  Em observância ao artigo 157, parágrafo 4º, da Lei nº 6.404, de 15 de dezembro de 1976, conforme alterada, 
-  e à Instrução da Comissão de Valores Mobiliários (“CVM”) nº 358, de 3 de janeiro de 2002, conforme alterada,
-  vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firma uma parceria...
+    GRUPO BUSINESS CORP  
+
+    Em observância ao artigo 157, parágrafo 4º, da Lei nº 6.404, de 15 de dezembro de 1976, conforme alterada, 
+    e à Instrução da Comissão de Valores Mobiliários (“CVM”) nº 358, de 3 de janeiro de 2002, conforme alterada, 
+    vem a público informar aos seus acionistas e ao mercado que celebrou um Memorando de Entendimentos com objetivo de firmar uma parceria...
 ```
 
-- Sobrenome do Rogerio : SEVEROVISK
- 
+📌 Sobrenome identificado: SEVEROVISK
+
 ---
 
-# acessando : http://businesscorp.com.br/sitemap
+🌐 Acessando http://businesscorp.com.br/sitemap
 
 <p align="center">
     <img width="765" height="238" alt="image" src="https://github.com/user-attachments/assets/28acd4ff-4c0d-4aa7-a552-1428662a38d1" />
 </p>
 
-- path encontrado = http://businesscorp.com.br/painelcliente/
+📍 Path encontrado: http://businesscorp.com.br/painelcliente/
 
 ---
 
-# acessando : http://businesscorp.com.br/pass
+🔐 Acessando http://businesscorp.com.br/pass
 
-<img width="373" height="75" alt="image" src="https://github.com/user-attachments/assets/5831d96f-7520-4ce1-a3e8-820206041d2b" />
+<p align="center">
+    <img width="373" height="75" alt="image" src="https://github.com/user-attachments/assets/5831d96f-7520-4ce1-a3e8-820206041d2b" />
+</p>
 
-- credenciais com senha criptografada em MD5
+🔑 Credenciais com senha criptografada em MD5
 
-<img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" /> 
+<p align="center">
+    <img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/0142404b-faa5-4b99-9b13-13f3af27a122" />
+</p>
 
-- credenciais = moikano:fuck
+📌 Credenciais encontradas:
+- Usuário: moikano
+- Senha: fuck
 
 ---
 
-# acessando : http://businesscorp.com.br/app/
+🛡 Acessando http://businesscorp.com.br/app/
 
 <p align="center">
     <img width="392" height="120" alt="image" src="https://github.com/user-attachments/assets/60ff52a4-e01b-4b47-bce4-6d791698b9d1" />
 </p>
 
-- Tela de logon com possivel injeção
+🖥 Tela de Logon com possível vulnerabilidade de injeção
 
 <p align="center">
     <img width="403" height="150" alt="image" src="https://github.com/user-attachments/assets/7142c4e2-2569-480b-8221-4b11d9009794" />
 </p>
 
 ---
+
+
 
