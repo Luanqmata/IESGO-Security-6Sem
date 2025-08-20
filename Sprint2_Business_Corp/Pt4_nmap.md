@@ -214,11 +214,11 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 ---
 
 
-Encontrada login do ssh:
+Encontrada login no ftp ssh p22 :
 <img width="853" height="235" alt="image" src="https://github.com/user-attachments/assets/5c7364a0-bba9-466a-ace2-b902774b0c7c" />
 
-Usando Payload de reconhecimento de usuarios:
+Usando Payload de reconhecimento de usuarios do MF6:
 
-<img width="1344" height="684" alt="image" src="https://github.com/user-attachments/assets/04821294-c8d2-48ac-a3c9-6c60947b7faf" />
+<img width="975" height="812" alt="image" src="https://github.com/user-attachments/assets/d150ad96-c994-428b-87d2-db59396d234c" />
 
 Com esse payload fica facil de listar usuarios fazendo brute force no sistema, depois é so usar o hydra pra descobrir a senha com uma rockyou.
