@@ -235,7 +235,62 @@ Com esse payload fica facil de listar usuarios fazendo brute force no sistema,eu
 
 ---
 
-## outros payloads que o chat gpt indicou
+- Arquivo de usuarios e senhas criado graças a essa falha:
 
-    auxiliary/scanner/ssh/ssh_login → brute-force com sua userlist.
-    auxiliary/scanner/ssh/ssh_version
+```sh
+  root
+  ftp
+  longatto
+  backup
+  www-data
+  nobody
+  daemon
+  bin
+  sys
+  sync
+  games
+  man
+  lp
+  mail
+  news
+  uucp
+  proxy
+  list
+  irc
+  gnats
+  Debian_exim
+  sshd
+  proftpd
+  bind
+  
+
+
+  fuck
+  intranet
+  b3sac992883
+  123
+  desenvolvimento
+  root
+  ftp
+  longatto
+  backup
+  www-data
+  nobody
+  daemon
+  bin
+  sys
+  sync
+  games
+  man
+  lp
+  mail
+  news
+  uucp
+  proxy
+  list
+  irc
+  gnats
+  Debian_exim
+  sshd
+  proftpd
+```
