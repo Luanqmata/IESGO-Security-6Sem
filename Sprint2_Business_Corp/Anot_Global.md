@@ -1,6 +1,6 @@
 ## sobre server
 - ip business : 37.59.174.255  / xxx.xxx.xxx.256
-- SO : Debian 
+- SO : Debian 4+deb7u2
 - server web : Apache/2.2.22
 - Metodos permitidos pelo servidor: GET,HEAD,POST,OPTIONS   
 - HARDWARE DELL
