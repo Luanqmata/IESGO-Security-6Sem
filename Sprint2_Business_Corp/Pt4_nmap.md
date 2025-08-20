@@ -132,7 +132,22 @@ msf6 > db_nmap -p 22 --script ssh2-enum-algos 37.59.174.225
 
 🔎 Auditoria SSH:  
 ```sh
-ssh-audit 37.59.174.225
+ssh-audit 37.59.174.225:22
+
+  👉 Aqui sim: serviço SSH rodando, versão OpenSSH 6.0p1 (bem antiga, ~2012).
+  O ssh-audit apontou várias falhas:
+  Algoritmos fracos (diffie-hellman-group1-sha1, 3des-cbc, blowfish-cbc, arcfour/RC4, etc).
+  Chaves pequenas (1024 bits).
+  Uso de SHA-1 e MD5, considerados quebrados.
+  Vulnerável a ataques como Logjam.
+  
+  Ou seja, essa versão está cheia de fraquezas criptográficas.
+
+  📌 Isso não significa exploit direto = shell, mas mostra que:
+  Pode ser possível downgrade de criptografia.
+  Pode rolar ataque de brute force ou user enumeration explorando essas configs.
+  Como é Debian antigo, também pode existir exploit para OpenSSH 6.0p1 + kernel (dependendo do alvo).
+  
 ```
 
 ---
@@ -187,6 +202,84 @@ db_nmap -sS -sV -sC -A -T4 --script=dns-* -p 53 37.59.174.225
 ```bash
 db_nmap -sS -sV -sC -A -T4 --script=http-* -p 80 37.59.174.225
 
+  [*] Nmap: |_        <!-- About Section End-->
+  [*] Nmap: |_http-apache-negotiation: mod_negotiation enabled.
+  [*] Nmap: |_http-title: Business Corp
+  [*] Nmap: |_http-userdir-enum: Potential Users: administrator
+  [*] Nmap: | http-robots.txt: 4 disallowed entries
+  [*] Nmap: |_/_restrito /_docs /admin /bkp
+  [*] Nmap: | http-referer-checker:
+  [*] Nmap: | Spidering limited to: maxpagecount=30
+  [*] Nmap: |_  http://ajax.googleapis.com:80/ajax/libs/jquery/1.10.2/jquery.min.js
+  [*] Nmap: |_http-xssed: No previously reported XSS vuln.
+  [*] Nmap: | http-vhosts:
+  [*] Nmap: |_128 names had status 200
+  [*] Nmap: |_http-csrf: Couldn't find any CSRF vulnerabilities.
+  [*] Nmap: |_http-fetch: Please enter the complete path of the directory to save data in.
+  [*] Nmap: |_http-internal-ip-disclosure: ERROR: Script execution failed (use -d to debug)
+  [*] Nmap: | http-methods:
+  [*] Nmap: |_  Supported Methods: GET HEAD POST OPTIONS
+  [*] Nmap: | http-brute:
+  [*] Nmap: |_  Path "/" does not require authentication
+  [*] Nmap: | http-grep:
+  [*] Nmap: |   (4) http://ip225.ip-37-59-174.eu:80/:
+  [*] Nmap: |     (1) ip:
+  [*] Nmap: |       + 37.59.174.233
+  [*] Nmap: |     (3) email:
+  [*] Nmap: |       + rogerio@businesscorp.com.br
+  [*] Nmap: |       + camila@businesscorp.com.br
+  [*] Nmap: |_      + ti@businesscorp.com.br
+  [*] Nmap: |_http-slowloris: false
+  [*] Nmap: |_http-dombased-xss: Couldn't find any DOM based XSS.
+  [*] Nmap: | http-sitemap-generator:
+  [*] Nmap: |   Directory structure:
+  [*] Nmap: |     /
+  [*] Nmap: |       Other: 1; png: 1
+  [*] Nmap: |     /css/
+  [*] Nmap: |       css: 3
+  [*] Nmap: |     /images/
+  [*] Nmap: |       gif: 1; png: 1
+  [*] Nmap: |     /js/
+  [*] Nmap: |       Other: 1; js: 8
+  [*] Nmap: |   Longest directory structure:
+  [*] Nmap: |     Depth: 1
+  [*] Nmap: |     Dir: /js/
+  [*] Nmap: |   Total files found (by extension):
+  [*] Nmap: |_    Other: 2; css: 3; gif: 1; js: 8; png: 2
+  [*] Nmap: |_http-chrono: Request times for /; avg: 1573.15ms; min: 1253.32ms; max: 1745.01ms
+  [*] Nmap: |_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+  [*] Nmap: |_http-backup-finder: ERROR: Script execution failed (use -d to debug)
+  [*] Nmap: |_http-server-header: Apache/2.2.22 (Debian)
+  [*] Nmap: |_http-favicon: Unknown favicon MD5: 3A56D63B1535E6264C3722C08D6F4D48
+  [*] Nmap: | http-headers:
+  [*] Nmap: |   Date: Sat, 28 Sep 2019 14:53:26 GMT
+  [*] Nmap: |   Server: Apache/2.2.22 (Debian)
+  [*] Nmap: |   Last-Modified: Wed, 25 Sep 2019 17:05:45 GMT
+  [*] Nmap: |   ETag: "20463-1bb6-59363a9ea0957"
+  [*] Nmap: |   Accept-Ranges: bytes
+  [*] Nmap: |   Content-Length: 7094
+  [*] Nmap: |   Vary: Accept-Encoding
+  [*] Nmap: |   Connection: close
+  [*] Nmap: |   Content-Type: text/html
+  [*] Nmap: |
+  [*] Nmap: |_  (Request type: HEAD)
+  [*] Nmap: | http-traceroute:
+  [*] Nmap: |_  Possible reverse proxy detected.
+  [*] Nmap: |_http-feed: Couldn't find any feeds.
+  [*] Nmap: | http-enum:
+  [*] Nmap: |   /admin/: Possible admin folder
+  [*] Nmap: |   /robots.txt: Robots file
+  [*] Nmap: |   /info.php: Possible information file
+  [*] Nmap: |   /db/: BlogWorx Database
+  [*] Nmap: |   /app/: Potentially interesting folder
+  [*] Nmap: |   /css/: Potentially interesting directory w/ listing on 'apache/2.2.22 (debian)'
+  [*] Nmap: |   /db/: Potentially interesting folder
+  [*] Nmap: |   /images/: Potentially interesting directory w/ listing on 'apache/2.2.22 (debian)'
+  [*] Nmap: |   /intranet/: Potentially interesting folder
+  [*] Nmap: |   /js/: Potentially interesting directory w/ listing on 'apache/2.2.22 (debian)'
+  [*] Nmap: |   /site/: Potentially interesting folder
+  [*] Nmap: |_  /_docs/: Potentially interesting directory w/ listing on 'apache/2.2.22 (debian)'
+  [*] Nmap: |_http-mobileversion-checker: No mobile version detected.
 ```
 
 ---
@@ -243,3 +336,9 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 ## 📁 Lista de Usuários Extraída  
 <img width="949" height="519" alt="image" src="https://github.com/user-attachments/assets/0cd7787d-f883-4975-ac5d-3e059f781307" />
 
+
+# ✅ Resumo do que você encontrou:
+
+ - FTP → ProFTPD 1.3.4a (versão com histórico de exploits, incluindo mod_copy).
+ - SSH → OpenSSH 6.0p1 (fraco, vários algos quebrados).
+ - HTTP → Apache 2.2.22 (antigo e vulnerável a exploits como mod_ssl, slowloris, etc).
