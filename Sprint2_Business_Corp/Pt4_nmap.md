@@ -265,6 +265,14 @@ Com esse payload fica facil de listar usuarios fazendo brute force no sistema,eu
   
 
 
+  admin
+  987654321
+  1245678
+  123456789
+  123456
+  12345
+  1234
+  123456
   fuck
   intranet
   b3sac992883
