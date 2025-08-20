@@ -130,26 +130,6 @@ db_nmap -sS -sV -sC -A -T4 --script=ssh-* -p 22 37.59.174.225
 msf6 > db_nmap -p 22 --script ssh2-enum-algos 37.59.174.225
 ```
 
-🔎 Auditoria SSH:  
-```sh
-ssh-audit 37.59.174.225:22
-
-  👉 Aqui sim: serviço SSH rodando, versão OpenSSH 6.0p1 (bem antiga, ~2012).
-  O ssh-audit apontou várias falhas:
-  Algoritmos fracos (diffie-hellman-group1-sha1, 3des-cbc, blowfish-cbc, arcfour/RC4, etc).
-  Chaves pequenas (1024 bits).
-  Uso de SHA-1 e MD5, considerados quebrados.
-  Vulnerável a ataques como Logjam.
-  
-  Ou seja, essa versão está cheia de fraquezas criptográficas.
-
-  📌 Isso não significa exploit direto = shell, mas mostra que:
-  Pode ser possível downgrade de criptografia.
-  Pode rolar ataque de brute force ou user enumeration explorando essas configs.
-  Como é Debian antigo, também pode existir exploit para OpenSSH 6.0p1 + kernel (dependendo do alvo).
-  
-```
-
 ---
 
 ### 🌍 DNS (Porta 53 - TCP)  
@@ -336,6 +316,26 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 ## 📁 Lista de Usuários Extraída  
 <img width="949" height="519" alt="image" src="https://github.com/user-attachments/assets/0cd7787d-f883-4975-ac5d-3e059f781307" />
 
+
+🔎 Auditoria SSH:  
+```sh
+ssh-audit 37.59.174.225:22
+
+  👉 Aqui sim: serviço SSH rodando, versão OpenSSH 6.0p1 (bem antiga, ~2012).
+  O ssh-audit apontou várias falhas:
+  Algoritmos fracos (diffie-hellman-group1-sha1, 3des-cbc, blowfish-cbc, arcfour/RC4, etc).
+  Chaves pequenas (1024 bits).
+  Uso de SHA-1 e MD5, considerados quebrados.
+  Vulnerável a ataques como Logjam.
+  
+  Ou seja, essa versão está cheia de fraquezas criptográficas.
+
+  📌 Isso não significa exploit direto = shell, mas mostra que:
+  Pode ser possível downgrade de criptografia.
+  Pode rolar ataque de brute force ou user enumeration explorando essas configs.
+  Como é Debian antigo, também pode existir exploit para OpenSSH 6.0p1 + kernel (dependendo do alvo).
+  
+```
 
 # ✅ Resumo do que você encontrou:
 
