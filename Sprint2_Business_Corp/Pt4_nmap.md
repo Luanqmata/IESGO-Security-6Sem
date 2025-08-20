@@ -1,5 +1,7 @@
 # 🔎 Usando `db_nmap` no MF6  
 
+<img width="697" height="517" alt="image" src="https://github.com/user-attachments/assets/55ce8e9a-141f-423a-bf45-fb260005f2a1" />
+
 ## 🌐 Scan de Todas as Portas TCP  
 ```txt
 db_nmap -sV -sS -O -A -p- -v 37.59.174.225
@@ -239,29 +241,5 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 ---
 
 ## 📁 Lista de Usuários Extraída  
-```sh
-root
-ftp
-longatto
-backup
-www-data
-nobody
-daemon
-bin
-sys
-sync
-games
-man
-lp
-mail
-news
-uucp
-proxy
-list
-irc
-gnats
-Debian_exim
-sshd
-proftpd
-bind
-```
+<img width="949" height="519" alt="image" src="https://github.com/user-attachments/assets/0cd7787d-f883-4975-ac5d-3e059f781307" />
+
