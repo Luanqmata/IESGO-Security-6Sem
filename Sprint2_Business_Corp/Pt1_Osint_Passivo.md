@@ -1,4 +1,4 @@
-# 🔍 Exploração do Site — ☢️ Penetratium ☢️ - Team 📡
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
 
 ## 🔗 Materia Segurança Ofensiva 📕
 
