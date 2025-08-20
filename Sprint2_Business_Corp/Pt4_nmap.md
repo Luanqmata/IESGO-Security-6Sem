@@ -24,7 +24,16 @@
 
 FTP (Porta 21)
 
-db_nmap -sS -sV -sC -A -T4 --script=ftp-* -p 21 37.59.174.225
+```sh
+msf6 > db_nmap -p 21 -sV -sC 37.59.174.225
+[*] Nmap: Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-20 01:50 -03
+[*] Nmap: Nmap scan report for ip225.ip-37-59-174.eu (37.59.174.225)
+[*] Nmap: Host is up (0.22s latency).
+[*] Nmap: PORT   STATE SERVICE VERSION
+[*] Nmap: 21/tcp open  ftp     ProFTPD 1.3.4a
+[*] Nmap: Service Info: OS: Unix
+
+```
 
 SSH (Porta 22)
 ```sh
