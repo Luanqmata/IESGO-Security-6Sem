@@ -3,7 +3,7 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Fuzzing
+- 🔍 **Tipo:** Nmaping
 
 ---
 
