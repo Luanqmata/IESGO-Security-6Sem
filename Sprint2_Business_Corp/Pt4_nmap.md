@@ -1,16 +1,20 @@
 # 🔎 Usando `db_nmap` no MF6  
-
-<img width="697" height="517" alt="image" src="https://github.com/user-attachments/assets/55ce8e9a-141f-423a-bf45-fb260005f2a1" />
+<p align="center">
+  <img width="697" height="517" alt="image" src="https://github.com/user-attachments/assets/55ce8e9a-141f-423a-bf45-fb260005f2a1" />
+</p>
 
 ## 🌐 Scan de Todas as Portas TCP  
 ```txt
 db_nmap -sV -sS -O -A -p- -v 37.59.174.225
 ```
+<p align="center">
+  <img width="727" height="430" alt="image" src="https://github.com/user-attachments/assets/5aa624c2-217b-4ab2-829b-59d801321886" />  
+</p>
 
-<img width="727" height="430" alt="image" src="https://github.com/user-attachments/assets/5aa624c2-217b-4ab2-829b-59d801321886" />  
 ---  
-<img width="817" height="413" alt="image" src="https://github.com/user-attachments/assets/84fedb75-c887-4f82-9f33-d2e2fd127135" />
-
+<p align="center">
+  <img width="817" height="413" alt="image" src="https://github.com/user-attachments/assets/84fedb75-c887-4f82-9f33-d2e2fd127135" />
+</p>
 ---
 
 ## 📡 Scaneando Portas UDP  
@@ -301,21 +305,24 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 # 💣 Payloads no MF6  
 
 ### 🔓 Login Encontrado no FTP e SSH (Porta 22)  
-<img width="853" height="235" alt="image" src="https://github.com/user-attachments/assets/5c7364a0-bba9-466a-ace2-b902774b0c7c" />  
-
+<p align="center">
+  <img width="853" height="235" alt="image" src="https://github.com/user-attachments/assets/5c7364a0-bba9-466a-ace2-b902774b0c7c" />  
+</p>
 ---
 
 ### 👤 Reconhecimento de Usuários com Payload do MF6  
-<img width="975" height="812" alt="image" src="https://github.com/user-attachments/assets/d150ad96-c994-428b-87d2-db59396d234c" />  
-
+<p align="center">
+  <img width="975" height="812" alt="image" src="https://github.com/user-attachments/assets/d150ad96-c994-428b-87d2-db59396d234c" />  
+</p>
 📌 Resultado:  
 - Diversos usuários encontrados via brute force.  
 
 ---
 
 ## 📁 Lista de Usuários Extraída  
-<img width="949" height="519" alt="image" src="https://github.com/user-attachments/assets/0cd7787d-f883-4975-ac5d-3e059f781307" />
-
+<p align="center">
+  <img width="949" height="519" alt="image" src="https://github.com/user-attachments/assets/0cd7787d-f883-4975-ac5d-3e059f781307" />
+</p>
 
 🔎 Auditoria SSH:  
 ```sh
