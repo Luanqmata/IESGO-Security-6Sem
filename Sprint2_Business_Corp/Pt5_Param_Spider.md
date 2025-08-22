@@ -1,3 +1,11 @@
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+
+## 🔗 Materia Segurança Ofensiva 📕
+
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Injection
+
+---
 
 <p align="center">
   <img width="625" height="607" alt="image" src="https://github.com/user-attachments/assets/aa82316a-be84-4c1d-9b43-1603a418197c" />
