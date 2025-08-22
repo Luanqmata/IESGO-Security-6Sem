@@ -31,8 +31,11 @@
 ---
 
 <img width="1004" height="486" alt="image" src="https://github.com/user-attachments/assets/61e78faf-fe33-4644-a8fb-1e0af8220c7e" />
+
 -- 2 novos diretorios:
+
 <img width="399" height="271" alt="image" src="https://github.com/user-attachments/assets/d38f5f24-c97f-4c9b-8e92-ae6bea24f3fd" />
+
 -- tela de login Entrada testar possiveis credenciais!
 
 
