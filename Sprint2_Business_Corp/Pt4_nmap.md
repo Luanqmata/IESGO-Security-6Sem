@@ -1,3 +1,12 @@
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+
+## 🔗 Materia Segurança Ofensiva 📕
+
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Fuzzing
+
+---
+
 # 🔎 Usando `db_nmap` no MF6  
 <p align="center">
   <img width="697" height="517" alt="image" src="https://github.com/user-attachments/assets/55ce8e9a-141f-423a-bf45-fb260005f2a1" />
