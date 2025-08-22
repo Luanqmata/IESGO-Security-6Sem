@@ -1,0 +1,6 @@
+http://businesscorp.com.br/_restrito/?C=FUZZ
+http://www.businesscorp.com.br/~administrator/?C=FUZZ
+http://businesscorp.com.br/_docs/?C=FUZZ
+http://businesscorp.com.br/js/?C=FUZZ
+http://www.businesscorp.com.br/configuracoes/comunicacao/?C=FUZZ
+http://businesscorp.com.br/info.php?=FUZZ

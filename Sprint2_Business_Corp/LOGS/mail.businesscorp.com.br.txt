@@ -1,0 +1,2 @@
+http://mail.businesscorp.com.br/squirrelmail/src/printer_friendly_main.php?passed_ent_id=FUZZ&mailbox=FUZZ&passed_id=FUZZ
+http://mail.businesscorp.com.br/squirrelmail/src/webmail.php?right_frame=FUZZ

