@@ -1,14 +1,18 @@
 
-
-<img width="625" height="607" alt="image" src="https://github.com/user-attachments/assets/aa82316a-be84-4c1d-9b43-1603a418197c" />
-
+<p align="center">
+  <img width="625" height="607" alt="image" src="https://github.com/user-attachments/assets/aa82316a-be84-4c1d-9b43-1603a418197c" />
+</p>
 2 novos diretorios encontrados:
 
 - http://www.businesscorp.com.br/~administrator/?C=FUZZ
-<img width="459" height="249" alt="image" src="https://github.com/user-attachments/assets/4b3d6f37-86f6-4f1e-a7dc-91dda80643cc" />
+<p align="center">
+  <img width="459" height="249" alt="image" src="https://github.com/user-attachments/assets/4b3d6f37-86f6-4f1e-a7dc-91dda80643cc" />
+</p>
 
 - http://businesscorp.com.br/info.php?=FUZZ
-<img width="622" height="813" alt="image" src="https://github.com/user-attachments/assets/17fc035f-4b25-47be-9353-b348abc59cae" />
+<p align="center">
+  <img width="622" height="813" alt="image" src="https://github.com/user-attachments/assets/17fc035f-4b25-47be-9353-b348abc59cae" />
+</p>
 
 ## 🔒 Análise do Arquivo PHP (info.php)
 
@@ -40,8 +44,9 @@
   <img width="399" height="271" alt="image" src="https://github.com/user-attachments/assets/d38f5f24-c97f-4c9b-8e92-ae6bea24f3fd" />
 </p>
 
--- tela de login Entrada testar possiveis credenciais!
+-- tela de login Entrada testar possiveis credenciais ou procurar exploit
 
+exploit : https://legalhackers.com/advisories/SquirrelMail-Exploit-Remote-Code-Exec-CVE-2017-7692-Vuln.html
 
 
 
