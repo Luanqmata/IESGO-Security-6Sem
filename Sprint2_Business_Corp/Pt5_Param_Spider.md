@@ -48,5 +48,5 @@
 
 exploit : https://legalhackers.com/advisories/SquirrelMail-Exploit-Remote-Code-Exec-CVE-2017-7692-Vuln.html
 
-
+<img width="1211" height="785" alt="image" src="https://github.com/user-attachments/assets/7d539959-2f68-49e3-a0cd-c9b55c6e40d5" />
 
