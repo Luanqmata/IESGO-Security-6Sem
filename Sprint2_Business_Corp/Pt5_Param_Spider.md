@@ -48,14 +48,16 @@
 
 -- 2 novos diretorios:
 
+- link: http://mail.businesscorp.com.br/squirrelmail/src/login.php
+
 <p align="center">
   <img width="399" height="271" alt="image" src="https://github.com/user-attachments/assets/d38f5f24-c97f-4c9b-8e92-ae6bea24f3fd" />
 </p>
 
 -- tela de login Entrada testar possiveis credenciais ou procurar exploit
 
-exploit : https://legalhackers.com/advisories/SquirrelMail-Exploit-Remote-Code-Exec-CVE-2017-7692-Vuln.html
-Video do exploit: https://www.youtube.com/watch?v=ceoUkWDG7tc
+- Exploit : https://legalhackers.com/advisories/SquirrelMail-Exploit-Remote-Code-Exec-CVE-2017-7692-Vuln.html
+- Video do exploit: https://www.youtube.com/watch?v=ceoUkWDG7tc
 
 <img width="1211" height="785" alt="image" src="https://github.com/user-attachments/assets/7d539959-2f68-49e3-a0cd-c9b55c6e40d5" />
 
