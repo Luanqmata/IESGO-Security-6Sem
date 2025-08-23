@@ -1,3 +1,12 @@
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+
+## 🔗 Materia Segurança Ofensiva 📕
+
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Injection
+
+---
+
 # 💉 No **OSINT** do site identificamos a possibilidade de existência de uma página com fraquezas de **injeção PHP**.  
 
 - Vamos detalhar a análise realizada: 💉💉💉
@@ -6,7 +15,7 @@
 
 ## 📌 Página em questão
 
-<img width="1174" height="850" alt="image" src="https://github.com/user-attachments/assets/8e4eab61-e50f-4932-a89c-153d68a347c5" />
+<img width="1867" height="855" alt="image" src="https://github.com/user-attachments/assets/2dadae8a-5c5e-46da-9e00-4c2886e45547" />
 
 - A página pode conter outros tipos de injeções, mas a vulnerabilidade encontrada foi no **parâmetro da URL**:
 
