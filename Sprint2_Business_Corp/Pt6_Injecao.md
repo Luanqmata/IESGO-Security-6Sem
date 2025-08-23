@@ -92,6 +92,3 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
 - ✔️ Apesar de não exibir diretamente no navegador, os comandos executados podem ser verificados no **código-fonte via DevTools**.
 
 - ⚡ Essa análise confirma o risco de exposição crítica do sistema.
-
----
-✍️ Relatório finalizado com base em testes realizados manualmente.
