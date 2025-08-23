@@ -1,5 +1,5 @@
-No **OSINT** do site identificamos a possibilidade de existência de uma página com fraquezas de **injeção PHP**.  
-Vamos detalhar a análise realizada:
+# 💉 No **OSINT** do site identificamos a possibilidade de existência de uma página com fraquezas de **injeção PHP**.  
+Vamos detalhar a análise realizada: 💉💉💉
 
 ---
 
