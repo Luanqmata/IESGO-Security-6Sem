@@ -308,6 +308,11 @@ Executando todos os módulos de uma vez:
 ```bash
 db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53,80,111 37.59.174.225
 ```
+## 🌐 Scan de Todas as Portas UDP:  
+
+<p align="center">
+  <img width="666" height="264" alt="image" src="https://github.com/user-attachments/assets/818b37a1-0ccf-444b-9ef3-fc896d7e29ba" />
+</p>
 
 ---
 
