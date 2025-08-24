@@ -9,30 +9,8 @@
 
 ## Comando : cat /etc/passwd
 ```ruby
+Todos os outros são contas de sistema ou de serviço e não possuem login interativo.
   root:x:0:0:root:/root:/bin/bash
-  daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-  bin:x:2:2:bin:/bin:/usr/sbin/nologin
-  sys:x:3:3:sys:/dev:/usr/sbin/nologin
-  sync:x:4:65534:sync:/bin:/bin/sync
-  games:x:5:60:games:/usr/games:/usr/sbin/nologin
-  man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
-  lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-  mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-  news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-  uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-  proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
-  www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
-  backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
-  list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-  irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-  gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
-  nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-  libuuid:x:100:101::/var/lib/libuuid:
-  syslog:x:101:104::/home/syslog:/bin/false
-  mysql:x:102:106:MySQL Server,,,:/nonexistent:/bin/false
-  messagebus:x:103:107::/var/run/dbus:/bin/false
-  landscape:x:104:110::/var/lib/landscape:/bin/false
-  sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
   business:x:1000:1000:business,,,:/home/business:/bin/bash
 ```
 
@@ -264,3 +242,81 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
   user
 
 ```
+comando : ls -la /home/business
+```ruby
+    total 44
+    drwxr-xr-x 3 business business 4096 Sep 18 23:10 .
+    drwxr-xr-x 3 root     root     4096 Sep 16 18:37 ..
+    -rw------- 1 business business  280 Sep 18 15:26 .bash_history
+    -rw-r--r-- 1 business business  220 Sep 16 18:37 .bash_logout
+    -rw-r--r-- 1 business business 3637 Sep 16 18:37 .bashrc
+    drwx------ 2 business business 4096 Sep 16 18:39 .cache
+    -rw-r--r-- 1 root     root       76 Sep 18 23:10 .dados
+    -rw------- 1 business business   97 Sep 18 11:32 .mysql_history
+    -rw-r--r-- 1 business business  675 Sep 16 18:37 .profile
+    -rw------- 1 business business 5099 Sep 18 14:27 .viminfo
+```
+
+PAREI AQUI ----
+comando : cat /etc/crontab
+```ruby
+  # /etc/crontab: system-wide crontab
+  # Unlike any other crontab you don't have to run the `crontab'
+  # command to install the new version when you edit this file
+  # and files in /etc/cron.d. These files also have username fields,
+  # that none of the other crontabs do.
+  
+  SHELL=/bin/sh
+  PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+  
+  # m h dom mon dow user	command
+  17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+  25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+  47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+  52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+```
+comando : ls -la /etc/cron.d/
+```
+  total 16
+  drwxr-xr-x  2 root root 4096 Sep 16 19:11 .
+  drwxr-xr-x 93 root root 4096 Sep 19 06:28 ..
+  -rw-r--r--  1 root root  102 Feb  9  2013 .placeholder
+  -rw-r--r--  1 root root  510 Jul 28  2016 php5
+```
+comando : ls -la /etc/cron.daily/
+```
+  drwxr-xr-x  2 root root  4096 Sep 16 18:36 .
+  drwxr-xr-x 93 root root  4096 Sep 19 06:28 ..
+  -rw-r--r--  1 root root   102 Feb  9  2013 .placeholder
+  -rwxr-xr-x  1 root root   625 Jul 15  2016 apache2
+  -rwxr-xr-x  1 root root   376 Apr  4  2014 apport
+  -rwxr-xr-x  1 root root 15481 Apr 10  2014 apt
+  -rwxr-xr-x  1 root root   314 Feb 17  2014 aptitude
+  -rwxr-xr-x  1 root root   355 Jun  4  2013 bsdmainutils
+  -rwxr-xr-x  1 root root   256 Mar  7  2014 dpkg
+  -rwxr-xr-x  1 root root   372 Jan 22  2014 logrotate
+  -rwxr-xr-x  1 root root  1261 Sep 23  2014 man-db
+  -rwxr-xr-x  1 root root   435 Jun 20  2013 mlocate
+  -rwxr-xr-x  1 root root   249 Feb 16  2014 passwd
+  -rwxr-xr-x  1 root root  2417 May 13  2013 popularity-contest
+  -rwxr-xr-x  1 root root   214 Oct  6  2014 update-notifier-common
+  -rwxr-xr-x  1 root root   328 Jul 18  2014 upstart
+```
+ls -la /etc/cron.weekly/
+```
+total 28
+  drwxr-xr-x  2 root root 4096 Sep 16 18:35 .
+  drwxr-xr-x 93 root root 4096 Sep 19 06:28 ..
+  -rw-r--r--  1 root root  102 Feb  9  2013 .placeholder
+  -rwxr-xr-x  1 root root  730 Feb 23  2014 apt-xapian-index
+  -rwxr-xr-x  1 root root  427 Apr 16  2014 fstrim
+  -rwxr-xr-x  1 root root  771 Sep 23  2014 man-db
+  -rwxr-xr-x  1 root root  211 Oct  6  2014 update-notifier-common
+```
+ps aux | grep cron
+```
+  root       989  0.0  0.4  23656  2320 ?        Ss   06:28   0:00 cron
+  www-data  4399  0.0  0.1   4448   796 ?        S    13:02   0:00 sh -c ps aux | grep cron
+  www-data  4401  0.0  0.1   8872   804 ?        S    13:02   0:00 grep cron
+```
+
