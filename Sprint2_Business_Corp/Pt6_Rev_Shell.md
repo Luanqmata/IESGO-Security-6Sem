@@ -1,4 +1,4 @@
-# 🔍 Exploração de Vulnerabilidade — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+# 🔍 Exploração de Vuln — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
 
 ## 📘 Matéria: Segurança Ofensiva  
 
