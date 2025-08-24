@@ -3,13 +3,12 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Injection
+- 🔍 **Tipo:** Aprimorando Injeção
 
 ---
 
 ## 📜 Roteiro da Atividade  
 
-- Identificar o IP da máquina alvo.  
 - Desativar o antivírus da máquina.  
 - Baixar o Netcat (NC) para Windows (no meu caso, devido a instabilidade da máquina).  
 - Configurar o listener em um lado e enviar o sinal do outro.  
