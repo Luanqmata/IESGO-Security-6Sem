@@ -242,7 +242,7 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
   user
 
 ```
-comando : ls -la /home/business
+## comando : ls -la /home/business
 ```ruby
     total 44
     drwxr-xr-x 3 business business 4096 Sep 18 23:10 .
@@ -258,7 +258,7 @@ comando : ls -la /home/business
 ```
 
 PAREI AQUI ----
-comando : cat /etc/crontab
+## comando : cat /etc/crontab
 ```ruby
   # /etc/crontab: system-wide crontab
   # Unlike any other crontab you don't have to run the `crontab'
@@ -275,16 +275,16 @@ comando : cat /etc/crontab
   47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
   52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 ```
-comando : ls -la /etc/cron.d/
-```
+## comando : ls -la /etc/cron.d/
+```ruby
   total 16
   drwxr-xr-x  2 root root 4096 Sep 16 19:11 .
   drwxr-xr-x 93 root root 4096 Sep 19 06:28 ..
   -rw-r--r--  1 root root  102 Feb  9  2013 .placeholder
   -rw-r--r--  1 root root  510 Jul 28  2016 php5
 ```
-comando : ls -la /etc/cron.daily/
-```
+## comando : ls -la /etc/cron.daily/
+```ruby
   drwxr-xr-x  2 root root  4096 Sep 16 18:36 .
   drwxr-xr-x 93 root root  4096 Sep 19 06:28 ..
   -rw-r--r--  1 root root   102 Feb  9  2013 .placeholder
@@ -302,8 +302,8 @@ comando : ls -la /etc/cron.daily/
   -rwxr-xr-x  1 root root   214 Oct  6  2014 update-notifier-common
   -rwxr-xr-x  1 root root   328 Jul 18  2014 upstart
 ```
-ls -la /etc/cron.weekly/
-```
+## ls -la /etc/cron.weekly/
+```ruby
 total 28
   drwxr-xr-x  2 root root 4096 Sep 16 18:35 .
   drwxr-xr-x 93 root root 4096 Sep 19 06:28 ..
@@ -313,8 +313,8 @@ total 28
   -rwxr-xr-x  1 root root  771 Sep 23  2014 man-db
   -rwxr-xr-x  1 root root  211 Oct  6  2014 update-notifier-common
 ```
-ps aux | grep cron
-```
+## ps aux | grep cron
+```ruby
   root       989  0.0  0.4  23656  2320 ?        Ss   06:28   0:00 cron
   www-data  4399  0.0  0.1   4448   796 ?        S    13:02   0:00 sh -c ps aux | grep cron
   www-data  4401  0.0  0.1   8872   804 ?        S    13:02   0:00 grep cron
