@@ -69,7 +69,7 @@ Todos os outros são contas de sistema ou de serviço e não possuem login inter
 
 ## comando : grep -r "password\|user\|mysql" /var/www/html --include="*.php"
 
-```
+```ruby
   /var/www/html/prog/submission.php:  public $id, $title, $email, $password, $description, $bio, $filename, $admin;
   /var/www/html/prog/submission.php:  function __construct($id, $title, $email, $password, $description, $bio, $filename ){
   /var/www/html/prog/submission.php:    $this->password = $password;
