@@ -177,6 +177,13 @@ Caminho do prompt antigo : /var/www/html/uploads
   rm /var/www/html/uploads/.htaccess
 
 ```
+- Depois de apagar o cmd.pdf e o .htaccess ficou assim o banco de dados de upload:
+
+<p align="center">
+  <img width="550" height="183" alt="image" src="https://github.com/user-attachments/assets/5c38d227-a733-4e5c-95b8-0d680ef641e7" />
+</p>
+
+- Obs : esse l.pdf ( Não fui eu que criei! ) .
 
 ---
 
