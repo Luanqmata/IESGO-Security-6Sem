@@ -3,41 +3,7 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Aprimorando Injeção
-
----
-
-## 📜 Roteiro da Atividade  
-
-- Desativar o antivírus da máquina.  
-- Baixar o Netcat (NC) para Windows (no meu caso, devido a instabilidade da máquina).  
-- Configurar o listener em um lado e enviar o sinal do outro.  
-- Enviar o sinal pela URL ou realizar upload de um arquivo malicioso.  
-- Executar o arquivo e receber a conexão reversa.  
-
----
-
-# 🛡️ Desativando o Antivírus  
-<p align="center">
-  <img width="319" height="265" alt="image" src="https://github.com/user-attachments/assets/3f997066-36e2-418d-a67a-3317880f0224" />
-</p>
-
-<p align="center">
-  <img width="589" height="982" alt="image" src="https://github.com/user-attachments/assets/ab971d68-deb8-46b2-b6e8-5791407107f9" />
-</p>
-
----
-
-# 💾 Baixando o Netcat (Windows)
-<p align="center">
-  <img width="383" height="332" alt="image" src="https://github.com/user-attachments/assets/b313b975-e39f-4e95-96be-c41b3380d39b" />
-</p>
-
-## 🔗 Link para download: [Netcat - GitHub](https://github.com/diegocr/netcat/blob/master/nc.exe)  
-
-<p align="center">
-  <img width="522" height="512" alt="image" src="https://github.com/user-attachments/assets/e76a7de6-f0a2-494e-ac38-2a156713142f" />
-</p>
+- 🔍 **Tipo:** Comand Injection
 
 ---
 
