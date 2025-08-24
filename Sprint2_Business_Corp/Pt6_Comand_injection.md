@@ -180,12 +180,13 @@ Caminho do prompt antigo : /var/www/html/uploads
 
 ---
 
-## ⚠️ Conclusão
+## ⚠️ Conclusão 
 
-O servidor apresenta vulnerabilidades críticas:
+- O servidor analisado apresenta vulnerabilidades críticas e de alto risco:
+  - Permite upload e execução de arquivos maliciosos, mesmo com extensão .pdf.
+  - Permite alteração de permissões, criação e exclusão de arquivos pelo usuário da aplicação.
+  - Apresenta uma falha grave de Remote Code Execution (RCE), permitindo execução arbitrária de comandos no servidor.
+  - Possibilita acesso a arquivos sensíveis, como /etc/passwd, após escalada de privilégios no web_shell.sh.
 
-* Permite **upload e execução de arquivos maliciosos**.
-* Permite alteração de **permissões de arquivos, criação e exclusão de arquivos**.
-* Apresenta uma falha grave de **Remote Code Execution (RCE)**.
-
-🚨 Esta vulnerabilidade é extremamente crítica e possibilita **comprometimento total do sistema**.
+🚨 Risco: Comprometimento total do sistema, podendo levar à exposição de dados críticos e controle completo do servidor.
+💡 Recomendação: Remover imediatamente shells e arquivos maliciosos, revisar políticas de upload e permissões, e corrigir a vulnerabilidade de RCE.
