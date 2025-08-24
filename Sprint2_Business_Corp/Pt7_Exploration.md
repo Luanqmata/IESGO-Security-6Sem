@@ -35,6 +35,18 @@
   sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
   business:x:1000:1000:business,,,:/home/business:/bin/bash
 ```
+## comando : cat /var/www/html/prog/db.php
+```ruby
+  <!--?php
+  
+      $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
+      $db = mysql_select_db('deseclfi', $lnk);
+  
+  ?--> 
+
+
+```
+# CREDENCIAIS DO BANCO DE DADOS encontradas ( ROOT ) do mysql
 
 ## comando : ps aux
 
@@ -319,22 +331,6 @@
 ```ruby
 mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.3
 ```
-
-
-## comando : cat /var/www/html/prog/db.php
-```ruby
-  <!--?php
-  
-      $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
-      $db = mysql_select_db('deseclfi', $lnk);
-  
-  ?--> 
-
-
-```
-# CREDENCIAIS DO BANCO DE DADOS encontradas ( ROOT )
-
----
 
 ## comando : mysql -u root -pdbhacklfi -e "show databases;"
 
