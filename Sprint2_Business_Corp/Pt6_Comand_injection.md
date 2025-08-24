@@ -168,6 +168,9 @@ Apesar do arquivo estar pronto, a shell não conseguiu estabelecer a conexão re
 ## 🔒 Observações
 
 * O shell reverso não funcionou, mas é possível acessar arquivos sensíveis como `/etc/passwd` após a escalada de privilégios no `web_shell.sh`.
+
+---
+
 * Recomenda-se apagar o shell `.pdf` e utilizar apenas o `web_shell.sh` para exploração segura de arquivos sensíveis.
 
 ```
