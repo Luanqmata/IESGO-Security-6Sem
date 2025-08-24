@@ -20,7 +20,9 @@
 # Desligando Antivirus:
 <p align="center">
   <img width="319" height="265" alt="image" src="https://github.com/user-attachments/assets/3f997066-36e2-418d-a67a-3317880f0224" />
+</p>
 
+<p align="center">
   <img width="589" height="982" alt="image" src="https://github.com/user-attachments/assets/ab971d68-deb8-46b2-b6e8-5791407107f9" />
 </p>
 
