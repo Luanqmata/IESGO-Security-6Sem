@@ -151,11 +151,20 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 
 ---
 
+- Agora vamos descobrir o caminho do /bash comando : which bash
+
+```
+  /bin/bash
+```
+
+
+---
+
 ## ⚠️ Conclusão
 
 Foi identificado que o servidor:  
 - Permite **upload e execução de arquivos maliciosos**.  
-- Permite alteração de **permissões de arquivos**.  
+- Permite alteração de **permissões de arquivos,criar arquivos , apagar arquivos**.  
 - Apresenta uma falha crítica de **Remote Code Execution (RCE)**.  
 
 🚨 Esta vulnerabilidade é extremamente grave e possibilita **comprometimento total do sistema**.  
