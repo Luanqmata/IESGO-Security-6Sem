@@ -1,0 +1,82 @@
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+
+## 🔗 Materia Segurança Ofensiva 📕
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Dir Explor
+
+---
+
+## 🐚 Comandos Básicos do Sistema
+**Verificando caminho raiz:**
+```ruby
+    total 84
+    drwxr-xr-x  22 root root  4096 Sep 18 13:12 .
+    drwxr-xr-x  22 root root  4096 Sep 18 13:12 ..
+    drwxr-xr-x   2 root root  4096 Sep 16 18:35 bin
+    drwxr-xr-x   3 root root  4096 Sep 16 18:36 boot
+    drwxr-xr-x  17 root root  4140 Sep 19 06:28 dev
+    drwxr-xr-x  93 root root  4096 Sep 19 06:28 etc
+    drwxr-xr-x   3 root root  4096 Sep 16 18:37 home
+    lrwxrwxrwx   1 root root    32 Sep 16 18:32 initrd.img -> boot/initrd.img-4.4.0-31-generic
+    drwxr-xr-x  21 root root  4096 Sep 16 18:35 lib
+    drwxr-xr-x   2 root root  4096 Sep 16 18:31 lib64
+    drwx------   2 root root 16384 Sep 16 18:31 lost+found
+    drwxr-xr-x   3 root root  4096 Sep 16 18:31 media
+    drwxr-xr-x   2 root root  4096 Apr 10  2014 mnt
+    drwxr-xr-x   2 root root  4096 Aug  3  2016 opt
+    dr-xr-xr-x 177 root root     0 Sep 19 06:28 proc
+    drwx------   3 root root  4096 Sep 19 06:33 root
+    drwxr-xr-x  19 root root   640 Sep 19 06:33 run
+    drwxr-xr-x   2 root root  4096 Sep 16 18:38 sbin
+    drwxr-xr-x   2 root root  4096 Aug  3  2016 srv
+    dr-xr-xr-x  13 root root     0 Sep 19 21:08 sys
+    drwxrwxrwt   2 root root  4096 Sep 19 20:39 tmp
+    drwxr-xr-x  10 root root  4096 Sep 16 18:31 usr
+    drwxr-xr-x  13 root root  4096 Sep 16 18:36 var
+    lrwxrwxrwx   1 root root    29 Sep 16 18:32 vmlinuz -> boot/vmlinuz-4.4.0-31-generic
+```
+
+**Explorando diretório do usuário business:**
+```ruby
+    total 44
+  drwxr-xr-x 3 business business 4096 Sep 18 23:10 .
+  drwxr-xr-x 3 root     root     4096 Sep 16 18:37 ..
+  -rw------- 1 business business  280 Sep 18 15:26 .bash_history
+  -rw-r--r-- 1 business business  220 Sep 16 18:37 .bash_logout
+  -rw-r--r-- 1 business business 3637 Sep 16 18:37 .bashrc
+  drwx------ 2 business business 4096 Sep 16 18:39 .cache
+  -rw-r--r-- 1 root     root       76 Sep 18 23:10 .dados   < -- KEY AQUI
+  -rw------- 1 business business   97 Sep 18 11:32 .mysql_history
+  -rw-r--r-- 1 business business  675 Sep 16 18:37 .profile
+  -rw------- 1 business business 5099 Sep 18 14:27 .viminfo
+```
+
+**Verificando usuários do sistema:**
+```ruby
+  Todos os outros são contas de sistema ou de serviço e não possuem login interativo.
+    root:x:0:0:root:/root:/bin/bash
+    daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+    bin:x:2:2:bin:/bin:/usr/sbin/nologin
+    sys:x:3:3:sys:/dev:/usr/sbin/nologin
+    sync:x:4:65534:sync:/bin:/bin/sync
+    games:x:5:60:games:/usr/games:/usr/sbin/nologin
+    man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+    lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+    mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+    news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+    uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+    proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+    www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+    backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+    list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+    irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+    gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+    nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+    libuuid:x:100:101::/var/lib/libuuid:
+    syslog:x:101:104::/home/syslog:/bin/false
+    mysql:x:102:106:MySQL Server,,,:/nonexistent:/bin/false
+    messagebus:x:103:107::/var/run/dbus:/bin/false
+    landscape:x:104:110::/var/lib/landscape:/bin/false
+    sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
+    business:x:1000:1000:business,,,:/home/business:/bin/bash
+```
