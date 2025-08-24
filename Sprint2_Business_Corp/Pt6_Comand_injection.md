@@ -187,6 +187,16 @@ Caminho do prompt antigo : /var/www/html/uploads
 
 ---
 
+## Camuflando o arquivo malicioso!!
+- Usando o mesmos parametros que usei antes para a criação do web_shell.sh
+- porém com o nome de " gatinho_fofinho.php "
+
+<p align="center">
+  <img width="530" height="438" alt="image" src="https://github.com/user-attachments/assets/415122a1-7366-4441-8241-57881a137d71" />
+</p>
+
+---
+
 ## ⚠️ Conclusão 
 
 - O servidor analisado apresenta vulnerabilidades críticas e de alto risco:
