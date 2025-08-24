@@ -154,7 +154,9 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 - Agora vamos descobrir o caminho do /bash comando : which bash
 
 ```
+  comando para apagar arquivos criados : rm /var/www/html/nome_arquivo.php ( cuidado )
   /bin/bash
+
 ```
 
 
