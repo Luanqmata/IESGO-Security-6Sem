@@ -45,6 +45,8 @@ Warning: include(): Failed opening 'ls.php' for inclusion (include_path='.:/usr/
 in /var/www/html/index.php on line 54
 ```
 
+- e agora? erro na linha 54 de um codigo que eu não tenho acesso,muitos ja desistiriam aqui!
+
 ---
 
 ## 🧪 Testes Realizados
