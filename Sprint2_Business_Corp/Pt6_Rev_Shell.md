@@ -144,11 +144,6 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 </p>
 
 ---
-<p align="center">
-  <img width="284" height="135" alt="image" src="https://github.com/user-attachments/assets/7bc73941-7650-47a3-a4b0-c9cc03927e7e" />
-</p>
-
----
 
 ## 🖥️ Descobrindo o Caminho do Bash
 
@@ -158,13 +153,13 @@ Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
 which bash
 ```
 
+- Caminho identificado: `/bin/bash`
+
 - Comando para apagar arquivos criados (use com cautela):
 
 ```
 rm /var/www/html/nome_arquivo.php
 ```
-
-- Caminho identificado: `/bin/bash`
 
 ---
 
@@ -208,6 +203,14 @@ Apesar do arquivo estar pronto, a shell não conseguiu estabelecer a conexão re
 
 * O shell reverso não funcionou, mas é possível acessar arquivos sensíveis como `/etc/passwd` após a escalada de privilégios no `web_shell.sh`.
 * Recomenda-se apagar o shell `.pdf` e utilizar apenas o `web_shell.sh` para exploração segura de arquivos sensíveis.
+
+```
+Caminho do prompt antigo : /var/www/html/uploads
+
+  rm /var/www/html/uploads/cmd.pdf
+  rm /var/www/html/uploads/.htaccess
+
+```
 
 ---
 
