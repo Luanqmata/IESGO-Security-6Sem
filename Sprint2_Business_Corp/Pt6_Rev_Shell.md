@@ -1,9 +1,9 @@
-# 🔍 Exploração de Vuln — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
+# 🔍 Exploração do Site — 👨‍🔬 Penetratium ☢️ - 🧬 Team 📡
 
-## 📘 Matéria: Segurança Ofensiva  
+## 🔗 Materia Segurança Ofensiva 📕
 
-- 👨‍🏫 **Professor:** JPGress  
-- 🕳️ **Tema:** Shell Reversa  
+- 👨‍🏫 **Professor:** JPGress
+- 🔍 **Tipo:** Injection
 
 ---
 
