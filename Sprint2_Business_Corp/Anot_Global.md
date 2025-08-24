@@ -24,7 +24,7 @@
 - KEY : d81j237sh102k3a88njsnna12
 - KEY : W3bR3nc0nisN3c3ss4ry10
 - KEY : W3bR3nc0nisN3c3ss4ry1009
-
+- KEY : ed05a6d4d2fb2c6a35fe40c0e53386f2
 ## possiveis Vulns: 
 - http://rh.businesscorp.com.br/?page=submit -> upar arquivo malicioso após descoberta do banco de dados
 - http://businesscorp.com.br/app/ -> Injeção
