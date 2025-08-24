@@ -187,7 +187,8 @@ Caminho do prompt antigo : /var/www/html/uploads
 
 ---
 
-## Camuflando o arquivo malicioso!!
+## ☠️ Camuflando o arquivo malicioso!! 🐈
+
 - Usando o mesmos parametros que usei antes para a criação do web_shell.sh
 - porém com o nome de " gatinho_fofinho.php "
 
