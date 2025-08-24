@@ -3,7 +3,7 @@
 ## 🔗 Materia Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress
-- 🔍 **Tipo:** Injection
+- 🔍 **Tipo:** Shell Reversa 🕳️
 
 ---
 
