@@ -92,17 +92,6 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
 
 ---
 
-## ✍️ Mensagem Ética
-
-Para assegurar que a atividade foi apenas acadêmica, foi deixada a seguinte mensagem no servidor:  
-
-```
-echo "Olá, meu nome é Luan. Não sou um hacker mal-intencionado, sou apenas um estudante da Faculdade IESGO.  
-Meu GitHub é https://github.com/Luanqmata. Caso alguém encontre este arquivo, saiba que não tenho más intenções.  
-Trata-se apenas de uma atividade acadêmica.  
-Contato: calazanscybersec@gmail.com" > hacked_by_luan.txt
-```
-
 <p align="center">
   <img width="284" height="135" alt="image" src="https://github.com/user-attachments/assets/7bc73941-7650-47a3-a4b0-c9cc03927e7e" />
 </p>
