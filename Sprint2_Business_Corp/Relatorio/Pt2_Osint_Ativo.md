@@ -49,7 +49,7 @@ Disallow: /bkp
 Allow: /configuracoes/comunicacao/projeto.txt
 ```
 
-➡️ Foram encontrados **4 diretórios sem proteção**. Vamos testá-los diretamente no navegador.
+➡️ Foram encontrados **5 diretórios sem proteção**. Vamos testá-los diretamente no navegador.
 
 ---
 
