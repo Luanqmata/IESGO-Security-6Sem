@@ -18,8 +18,8 @@
 
 # 🔑 Credenciais Encontradas
 
--   moikano : fuck               HASH : $apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
--   ti : intranet                HASH : 2483e14219cce6fe63d8ac91afc92618
+-   moikano : fuck           --->     HASH : $apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
+-   ti : intranet             --->   HASH : 2483e14219cce6fe63d8ac91afc92618
 -   admin : b3sac992883        
 -   admin : 123
 -   dev : desenvolvimento
