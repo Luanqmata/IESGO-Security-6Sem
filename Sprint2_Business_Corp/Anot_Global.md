@@ -1,6 +1,4 @@
-🛡️ Relatório de Tentativa de Pentest
-
-🌐 Informações do Servidor
+# 🌐 Informações do Servidor
 
 -   IP Business: 37.59.174.255 / xxx.xxx.xxx.256
 -   X-Powered-By: PHP/5.4.45-0+deb7u2
@@ -10,7 +8,7 @@
 
 ------------------------------------------------------------------------
 
-👤 Possíveis Usuários Identificados
+# 👤 Possíveis Usuários Identificados
 
 -   José Ricardo Longatto
 -   Rogério Severovisk
@@ -18,7 +16,7 @@
 
 ------------------------------------------------------------------------
 
-🔑 Credenciais Encontradas
+# 🔑 Credenciais Encontradas
 
 -   moikano : fuck               HASH : $apr1$V00rWFKx$wjJgy.fDsede3BPTRkeAe0
 -   ti : intranet                HASH : 2483e14219cce6fe63d8ac91afc92618
@@ -28,7 +26,7 @@
 
 ------------------------------------------------------------------------
 
-🔐 Chaves Localizadas
+# 🔐 Chaves Localizadas
 
 -   65784920123nvw0f4
 -   Gh4ck1ng9988299311
@@ -40,7 +38,7 @@
 
 ------------------------------------------------------------------------
 
-⚠️ Possíveis Vulnerabilidades
+# ⚠️ Possíveis Vulnerabilidades
 
 -   http://rh.businesscorp.com.br/?page=submit → upload de arquivo
     malicioso (reverseshell).
@@ -49,7 +47,7 @@
 
 ------------------------------------------------------------------------
 
-👥 Clientes Identificados
+# 👥 Clientes Identificados
 
 -   Rafael Albertoni — Conta: 278834
 -   Julia Carla Stefan — Conta: 293884
@@ -60,11 +58,11 @@
 
 ------------------------------------------------------------------------
 
-💉 Pós-Injection / Hashes
+# 💉 Pós-Injection / Hashes
 
 <img width="301" height="149" alt="image" src="https://github.com/user-attachments/assets/c939202d-d309-40ba-8fd5-e936360ceefa" />
 
-🔑 Credenciais Encontradas
+## 🔑 Credenciais Encontradas
 
 -   19CFDF5B8F5E1CA15B1222BA0C4363437F641E11 → identificado como
     dbhacklfi
@@ -73,7 +71,7 @@
 
 ------------------------------------------------------------------------
 
-📌 Resumo Final: Foram encontrados usuários, credenciais, chaves e
+# 📌 Resumo Final: Foram encontrados usuários, credenciais, chaves e
 hashes relacionados ao ambiente. Além disso, foram identificados pontos
 de possível exploração em formulários e logins falsos, além de métodos
 de request habilitados que podem ser explorados.
