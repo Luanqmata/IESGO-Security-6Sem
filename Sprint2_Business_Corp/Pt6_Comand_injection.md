@@ -90,11 +90,6 @@ http://rh.businesscorp.com.br/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCR
   <img width="430" height="163" alt="image" src="https://github.com/user-attachments/assets/f9528674-fdc2-40a8-a4e3-e33de04431b5" />
 </p>
 
----
-
-<p align="center">
-  <img width="284" height="135" alt="image" src="https://github.com/user-attachments/assets/7bc73941-7650-47a3-a4b0-c9cc03927e7e" />
-</p>
 
 ---
 
