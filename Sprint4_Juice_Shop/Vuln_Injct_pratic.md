@@ -108,5 +108,3 @@ o `OR 1=1` faz com que a cláusula WHERE seja satisfeita independentemente da se
 
 ### ⚖️ Nota ética e legal
 Este relatório descreve testes realizados em um ambiente **controlado e intencionalmente vulnerável** (OWASP Juice Shop). **Nunca execute** testes de intrusão em sistemas sem autorização explícita. Práticas de segurança ofensiva devem sempre respeitar a legalidade e a ética profissional (responsible disclosure).
-
----
