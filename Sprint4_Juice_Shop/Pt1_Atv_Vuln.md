@@ -26,5 +26,3 @@
   - Foram roulados mais de 130 milhões de números de cartões de crédito e débito.
   - O caso é considerado um dos maiores vazamentos de dados financeiros da história.
   - A empresa sofreu perdas milionárias, incluindo multas, processos judiciais e danos à reputação.
-
-## 👉 Esse caso mostra como uma simples falha de injeção pode derrubar empresas gigantes, afetando não só a parte técnica mas também a confiança do mercado e clientes.
