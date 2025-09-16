@@ -3,7 +3,7 @@
 ## 🔗 Matéria: Segurança Ofensiva 📕
 
 - 👨‍🏫 **Professor:** JPGress  
-- 🔍 **Tipo de atividade:** OSINT (OWASP TOP 1 2017)  
+- 🔍 **Tipo de atividade:** Vulnerabilidade prática de injection (OWASP TOP 1 2017)  
 - 🧾 **Ferramenta:** OWASP Juice Shop (ambiente intencionalmente vulnerável)
 
 ---
