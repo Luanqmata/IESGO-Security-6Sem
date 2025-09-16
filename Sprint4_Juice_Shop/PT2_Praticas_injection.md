@@ -115,8 +115,3 @@ Depois de identificar que a senha é **MD5**, podemos quebrá-la e obter acesso 
 <p align="center">
   <img width="1366" height="507" alt="Senha MD5 quebrada" src="https://github.com/user-attachments/assets/0e3aa279-5b10-4c85-878f-b177070465a1" />
 </p>
-
----
-
-### ⚖️ Considerações éticas
-Todos os testes foram realizados em ambiente **controlado e intencionalmente vulnerável** (OWASP Juice Shop). **Nunca realize testes em sistemas de terceiros sem autorização explícita.** Utilize laboratórios, CTFs e ambientes simulados para aprendizado seguro.
