@@ -38,6 +38,7 @@ Token capturado, indo ao site token decode:
 Conseguimos uma senha batendo o olho ja da pra ver que é MD5 mas vamos jogar no hash identify para ter certeza:
 
 <img width="979" height="515" alt="image" src="https://github.com/user-attachments/assets/ceefd394-4b3b-4a9f-bd11-15963b9bcfe8" />
+
 ```ruby
   Possible Hashs:
   [+] MD5
