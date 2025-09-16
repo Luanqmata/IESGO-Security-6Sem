@@ -84,6 +84,7 @@ Resultado: conseguimos acesso com privilégios de administrador.
 <p align="center">
   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/f53213b7-b3e4-467e-8390-973416cb9d7f" />
 </p>
+
 ---
 
 ### 💡 Explicação técnica (por que funciona)
