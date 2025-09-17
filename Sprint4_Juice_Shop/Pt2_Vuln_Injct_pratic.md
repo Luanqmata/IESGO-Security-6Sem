@@ -94,7 +94,9 @@ SELECT * FROM users WHERE email = 'admin@juice-sh.op' OR 1=1 --' AND password = 
 ```
 o `OR 1=1` faz com que a cláusula WHERE seja satisfeita independentemente da senha. O `--` comenta o restante da query, ignorando a verificação de senha.
 
-<img width="638" height="479" alt="image" src="https://github.com/user-attachments/assets/c563dcc3-d605-4a01-8fef-0b29e2235a26" />
+<p align="center">
+  <img width="638" height="479" alt="image" src="https://github.com/user-attachments/assets/c563dcc3-d605-4a01-8fef-0b29e2235a26" />
+</p>
 
 ---
 
