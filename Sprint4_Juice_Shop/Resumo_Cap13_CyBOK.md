@@ -27,6 +27,7 @@ Para harmonizar essas políticas, é necessário definir um modelo unificado de 
 A autenticação em ambientes distribuídos de nuvem é especialmente crítica, pois o acesso remoto expande a superfície de ataque. O CyBOK (13.5) enfatiza que mecanismos simples de senha não são suficientes. Nesse cenário, métodos mais robustos devem ser aplicados.
 
 A adoção de autenticação multifator (MFA), combinando algo que o usuário sabe (senha), algo que possui (token ou app de autenticação) e algo que é (biometria), oferece maior resistência contra ataques de phishing e comprometimento de credenciais. Além disso, protocolos federados permitem que múltiplos sites compartilhem confiança entre si, facilitando o acesso em um sistema distribuído sem sacrificar a segurança.
+Mesmo que as mensagens trocadas com tokens sejam criptografadas, ataques na internet podem capturá-las e obter informações valiosas se a criptografia não for forte. Por isso, é importante usar criptografia segura, tokens temporários e renovação frequente de credenciais para proteger os dados.
 
 Tecnicamente, esses mecanismos reduzem a dependência de uma única credencial e permitem centralizar a verificação de identidade, o que ajuda a unificar o processo de autenticação em ambientes multi-site.
 
