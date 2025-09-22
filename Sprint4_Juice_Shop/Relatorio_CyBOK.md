@@ -1,6 +1,7 @@
 # ATIVIDADE PARA CASA – INTEGRAÇÃO AAA EM SISTEMAS DISTRIBUÍDOS
 
 **Disciplina:** Segurança em Informática
+
 **Professor:** PEDRO GRESS
 **Aluno:** Luan Brito Sousa Calazans
 **6º Semestre, Faculdades IESGO**
