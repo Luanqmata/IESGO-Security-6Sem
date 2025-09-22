@@ -8,17 +8,9 @@
 
 **6º Semestre, Faculdades IESGO**
 
----
-
-# Relatório Crítico – Integração AAA em Sistemas Distribuídos
-
-**Disciplina:** Segurança em Informática
-
-**Professor:** Pedro Gress
-
-**Entrega:** 22/SET/2025
-
 **Referência:** CyBOK – Capítulo 13 (Authentication, Authorisation & Accountability)
+
+---
 
 ## Introdução
 
