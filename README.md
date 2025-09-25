@@ -1,4 +1,4 @@
-# 🕶️ Offensive Security Portfolio – Luan Calazans
+# 🕶️ Offensive Security – Luan Calazans
 
 > "Hack the Planet 🌍 – Offensive Security Student @ IESGO"
 
