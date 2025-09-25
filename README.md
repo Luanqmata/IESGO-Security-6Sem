@@ -2,6 +2,7 @@
 
 > "Hack the Planet 🌍 – Offensive Security Student @ IESGO"
 
+> 🎓 6º Semestre – Segurança Ofensiva @ IESGO  
 ---
 
 ## 🔥 Projetos em Destaque
@@ -24,15 +25,6 @@
 - Atividades avaliativas individuais (**ENAD**)  
 
 ---
-
-## ⚡ Mindset
-
-> “Atacar para defender melhor.”  
-Todos os trabalhos foram realizados em **ambientes controlados** e **autorizados**, sempre com foco em **aprendizado ético**.  
-
-👨‍💻 **Autor:** Luan Calazans  
-🎓 6º Semestre – Segurança Ofensiva @ IESGO  
-
 
 <p align="center">
   <img width="750" height="991" alt="image" src="https://github.com/user-attachments/assets/ccfd6954-be4c-413f-afd6-5509ca1c9f23" />
