@@ -5,25 +5,31 @@
 > 🎓 6º Semestre – Segurança Ofensiva @ IESGO  
 ---
 
-## 🔥 Projetos em Destaque
+  ## 🔥 Projetos em Destaque
 
-[![📑 Relatório Business Corp](https://img.shields.io/badge/Relatório-Business%20Corp-critical?style=for-the-badge&logo=github)](https://github.com/Luanqmata/IESGO-Security-6Sem/tree/main/Sprint2_Business_Corp/Relatorio)
+<p align="center">
 
-[![🔐 Decodificação de Tokens](https://img.shields.io/badge/Decodificação-Tokens-blueviolet?style=for-the-badge&logo=python&logoColor=white)](#)  
-
-[![🎮 Quiz Simulado OffSec](https://img.shields.io/badge/Quiz-Simulado%20OffSec-success?style=for-the-badge&logo=python&logoColor=white)](#)  
-
+  [![📑 Relatório Business Corp](https://img.shields.io/badge/Relatório-Business%20Corp-critical?style=for-the-badge&logo=github)](https://github.com/Luanqmata/IESGO-Security-6Sem/tree/main/Sprint2_Business_Corp/Relatorio)
+  
+  [![🔐 Decodificação de Tokens](https://img.shields.io/badge/Decodificação-Tokens-blueviolet?style=for-the-badge&logo=python&logoColor=white)](#)  
+  
+  [![🎮 Quiz Simulado OffSec](https://img.shields.io/badge/Quiz-Simulado%20OffSec-success?style=for-the-badge&logo=python&logoColor=white)](#)  
+  
+</p>
 ---
 
 ## 🧾 O que foi feito até agora
 
-- Pentests e relatórios profissionais (**Business Corp**)  
-- Exploração de vulnerabilidades (**Juice Shop**)  
-- Programação ofensiva em Python (**Simulado OffSec.py**)  
-- Contratos e simulações de NDA (**Aurora Bank**)  
-- Shell reverso e ataques wireless (**Deauth Attack**)  
-- Atividades avaliativas individuais (**ENAD**)  
+<p align="center">
 
+  - Pentests e relatórios profissionais (**Business Corp**)  
+  - Exploração de vulnerabilidades (**Juice Shop**)  
+  - Programação ofensiva em Python (**Simulado OffSec.py**)  
+  - Contratos e simulações de NDA (**Aurora Bank**)  
+  - Shell reverso e ataques wireless (**Deauth Attack**)  
+  - Atividades avaliativas individuais (**ENAD**)  
+
+</p>
 ---
 
 <p align="center">
