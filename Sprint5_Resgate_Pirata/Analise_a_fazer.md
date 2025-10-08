@@ -12,7 +12,7 @@
 
 - Identificar idioma/localização de letreiros ou nomes (ex: “Pútrido”)
 
-##📍 2. Encontrar localização exata (próximo ao prédio "Pútrido")
+## 📍 2. Encontrar localização exata (próximo ao prédio "Pútrido")
 
 - Usar nome do prédio identificado na imagem (“Pútrido”)
 
@@ -22,7 +22,7 @@
 
 - Registrar sequência exata das 3 palavras em PT-BR (Ex: ///exemplo.palavra.chave)
 
-##📁 3. Decifrar o log de Anne (acesso ao bot)
+## 📁 3. Decifrar o log de Anne (acesso ao bot)
 
 - Enviar as 3 palavras via e-mail para: xqq4fh9n@proton.me
 
