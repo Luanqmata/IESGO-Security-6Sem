@@ -4,7 +4,7 @@
 
 - as 3 palavras são : ///trêmula.chassi.incerta
 
--onde se reside o local com o nome de "putrido"
+- onde se reside o local com o nome de "putrido"
 
 <img width="395" height="233" alt="image" src="https://github.com/user-attachments/assets/edfdc933-246a-44a2-b903-e0b1c8c17b36" />
 
