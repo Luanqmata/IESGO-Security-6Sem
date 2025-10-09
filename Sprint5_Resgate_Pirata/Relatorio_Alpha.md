@@ -4,7 +4,9 @@
 
 ## Analisando Imagem:
 
-<img width="412" height="415" alt="image" src="https://github.com/user-attachments/assets/dadd04a3-9950-4c05-9a45-3e0e147b1fde" />
+<p align="center">
+  <img width="412" height="415" alt="image" src="https://github.com/user-attachments/assets/dadd04a3-9950-4c05-9a45-3e0e147b1fde" />
+</p>
 
 - Analisando metadados:
   - traduzido de arabic google
@@ -12,7 +14,9 @@
   - feb 20. 2023
   - é uma cidade da mauritania que nao possue street view
 
+<p align="center">
 <img width="1023" height="631" alt="image" src="https://github.com/user-attachments/assets/0ad8d529-5198-4869-859c-2d4d6720ee1d" />
+</p>
 
 ---
 
