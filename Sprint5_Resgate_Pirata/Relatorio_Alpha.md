@@ -1,6 +1,7 @@
 # Relatorio Resgate ao Pirata
 
 ---
+
 ##Analisando Imagem:
 
 <img width="412" height="415" alt="image" src="https://github.com/user-attachments/assets/dadd04a3-9950-4c05-9a45-3e0e147b1fde" />
