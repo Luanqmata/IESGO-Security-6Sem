@@ -68,7 +68,9 @@ Confirmem recebimento; não acionem a tática até validação dupla.
 ```
 
 ## Anexo do email: 
-<img width="828" height="640" alt="image" src="https://github.com/user-attachments/assets/d769d0bf-b080-46b9-8224-7b3e1d67f1eb" />
+<p align="center">
+  <img width="828" height="640" alt="image" src="https://github.com/user-attachments/assets/d769d0bf-b080-46b9-8224-7b3e1d67f1eb" />
+</p>
 
 - Analisando imagem :
  - Flinders Street
@@ -82,14 +84,29 @@ Confirmem recebimento; não acionem a tática até validação dupla.
   <img width="331" height="456" alt="image" src="https://github.com/user-attachments/assets/33526a1c-0b72-4d6a-a9d6-11bd00e1d143" />
 </p>
 
-- Predio IBM
-
 <p align="center">
 <img width="848" height="769" alt="image" src="https://github.com/user-attachments/assets/fcc18a58-9a99-4976-9398-852d67a62977" />
 </p>
 
 - IBM australia 
 
+## 1.4 Arca do Gosto ou "Ark Of Taste":
 
+- Fazedno uma pesquisa na web achei um site **swissinfo** que faz um comentario :
+
+> “Na Bon Appetit, estávamos curiosos para ver o que o Watson poderia descobrir de novidade, ajudando a criatividade dos chefes de cozinha”
+
+<p align="center">
+  <img width="666" height="1000" alt="image" src="https://github.com/user-attachments/assets/64705982-ed57-48e1-91eb-0cebf0f559a4" />
+</p>
+
+Identificando Possivel Contato
+- Gisele kenedy Lord ou David S. Shields
+<p align="center">
+  <img width="400" height="514" alt="image" src="https://github.com/user-attachments/assets/fdcbffac-cf2f-4b4d-96a2-cb46b97b3fff" />
+  <img width="741" height="786" alt="image" src="https://github.com/user-attachments/assets/b244d248-65ba-405e-a51c-950112452379" />
+  <img width="748" height="943" alt="image" src="https://github.com/user-attachments/assets/eac170f8-b402-452f-998b-71f601657286" />
+
+</p>
 --- 
 https://www.linkedin.com/in/fereshtehzamani
