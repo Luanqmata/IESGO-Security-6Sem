@@ -12,7 +12,6 @@
   - traduzido de arabic google
   - City : kiffa
   - feb 20. 2023
-  - é uma cidade da mauritania que nao possue street view
 
 <p align="center">
   <img width="500" height="631" alt="image" src="https://github.com/user-attachments/assets/0ad8d529-5198-4869-859c-2d4d6720ee1d" />
@@ -23,17 +22,17 @@
 ## 1.2 - Procurando o Pútrido (predio)
 
 - Complexe justice commerciale - ( Alvo identificado )
+- Província de Assaba região no sul da Mauritânia
 
 <p align="center">
   <img width="310" height="184" alt="image" src="https://github.com/user-attachments/assets/b207d72a-a882-4363-8e6b-928dded0a527" />
 </p>
 
-> https://maps.app.goo.gl/LaPJip3GJfsUrJb49
-
 <p align="center">
-  <img width="409" height="505" alt="image" src="https://github.com/user-attachments/assets/fa360527-3376-4bae-a48c-8c17c9ba6dee" />
+  <img width="408" height="287" alt="image" src="https://github.com/user-attachments/assets/e6c91558-95a5-4dc9-97ad-fe8814431faf" />
 </p>
 
+> https://maps.app.goo.gl/LaPJip3GJfsUrJb49
 ---
 
 ```ruby 
