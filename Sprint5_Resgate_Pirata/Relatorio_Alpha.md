@@ -22,9 +22,12 @@
 
 ## 1.2 - Procurando o Pútrido (predio)
 
+
 <p align="center">
-  <img width="295" height="240" alt="image" src="https://github.com/user-attachments/assets/a23f0842-9cbc-4521-b6ad-70c87f7770ef" />
+  <img width="350" height="240" alt="image" src="https://github.com/user-attachments/assets/a23f0842-9cbc-4521-b6ad-70c87f7770ef" />
 </p>
+
+
 <p align="center">
   <img width="409" height="505" alt="image" src="https://github.com/user-attachments/assets/fa360527-3376-4bae-a48c-8c17c9ba6dee" />
 </p>
