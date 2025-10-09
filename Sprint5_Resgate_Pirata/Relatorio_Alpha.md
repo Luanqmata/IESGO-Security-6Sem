@@ -12,7 +12,7 @@
 - Analisando metadados:
   - Traduzido de Arabic Google
   - City : Kiffa
-  - Feb 20, 2023
+  - Feb 20, 2013
 
 <p align="center">
   <img width="500" height="631" alt="image" src="https://github.com/user-attachments/assets/0ad8d529-5198-4869-859c-2d4d6720ee1d" />
