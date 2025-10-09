@@ -40,6 +40,7 @@
 </p>
 
 > ///trêmula.chassi.incerta
+
 > https://what3words.com/trêmula.chassi.incerta
 
 ---
@@ -48,11 +49,6 @@
 <p align="center">
   <img width="759" height="620" alt="image" src="https://github.com/user-attachments/assets/5c7f459a-77e2-4eea-abd6-3f251101898f" />
 </p>
-
-
-
----
-
 
 ```ruby 
 
@@ -71,14 +67,24 @@ Confirmem recebimento; não acionem a tática até validação dupla.
 
 ```
 
-E junto depois do recibo da log veio uma imagem que :
+## Anexo do email: 
 <img width="828" height="640" alt="image" src="https://github.com/user-attachments/assets/d769d0bf-b080-46b9-8224-7b3e1d67f1eb" />
 
-o objetivo era encontrar o predio mais alto , é no mais alto taria a resposta IBM :
-
+- Analisando imagem :
+ - Flinders Street
+ - cidade : Melbourne Sydney
+ - Australia 
+ - estação de trem
+ 
+- Predio mais alto na Imagem:
 <img width="331" height="456" alt="image" src="https://github.com/user-attachments/assets/33526a1c-0b72-4d6a-a9d6-11bd00e1d143" />
 
-- cidade : Melbourne
-- Australia 
+- Predio IBM
 
+<img width="848" height="769" alt="image" src="https://github.com/user-attachments/assets/fcc18a58-9a99-4976-9398-852d67a62977" />
+
+- IBM australia 
+
+
+--- 
 https://www.linkedin.com/in/fereshtehzamani
