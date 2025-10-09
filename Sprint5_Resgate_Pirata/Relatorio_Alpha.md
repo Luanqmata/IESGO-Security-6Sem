@@ -2,7 +2,7 @@
 
 ---
 
-## Analisando Imagem:
+## 1.1 - Analisando Imagem:
 
 <p align="center">
   <img width="412" height="415" alt="image" src="https://github.com/user-attachments/assets/dadd04a3-9950-4c05-9a45-3e0e147b1fde" />
@@ -15,20 +15,19 @@
   - é uma cidade da mauritania que nao possue street view
 
 <p align="center">
-<img width="1023" height="631" alt="image" src="https://github.com/user-attachments/assets/0ad8d529-5198-4869-859c-2d4d6720ee1d" />
+  <img width="500" height="631" alt="image" src="https://github.com/user-attachments/assets/0ad8d529-5198-4869-859c-2d4d6720ee1d" />
 </p>
 
 ---
 
-- O contato reside em kiffa 
+## 1.2 - Procurando o Pútrido (predio)
 
-<img width="499" height="337" alt="image" src="https://github.com/user-attachments/assets/53163116-c025-4539-b367-6704e8444a90" />
-
-- as 3 palavras são : ///trêmula.chassi.incerta
-
-- onde se reside o local com o nome de "putrido"
-
-<img width="395" height="233" alt="image" src="https://github.com/user-attachments/assets/edfdc933-246a-44a2-b903-e0b1c8c17b36" />
+<p align="center">
+  <img width="295" height="240" alt="image" src="https://github.com/user-attachments/assets/a23f0842-9cbc-4521-b6ad-70c87f7770ef" />
+</p>
+<p align="center">
+  <img width="409" height="505" alt="image" src="https://github.com/user-attachments/assets/fa360527-3376-4bae-a48c-8c17c9ba6dee" />
+</p>
 
 ---
 
