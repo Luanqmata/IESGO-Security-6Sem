@@ -106,7 +106,6 @@ Identificando Possivel Contato
   <img width="400" height="514" alt="image" src="https://github.com/user-attachments/assets/fdcbffac-cf2f-4b4d-96a2-cb46b97b3fff" />
   <img width="741" height="786" alt="image" src="https://github.com/user-attachments/assets/b244d248-65ba-405e-a51c-950112452379" />
   <img width="748" height="943" alt="image" src="https://github.com/user-attachments/assets/eac170f8-b402-452f-998b-71f601657286" />
-
 </p>
 --- 
 https://www.linkedin.com/in/fereshtehzamani
