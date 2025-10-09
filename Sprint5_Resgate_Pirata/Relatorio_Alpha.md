@@ -22,11 +22,13 @@
 
 ## 1.2 - Procurando o Pútrido (predio)
 
+- Complexe justice commerciale - ( Alvo identificado )
 
 <p align="center">
-  <img width="350" height="240" alt="image" src="https://github.com/user-attachments/assets/a23f0842-9cbc-4521-b6ad-70c87f7770ef" />
+  <img width="310" height="184" alt="image" src="https://github.com/user-attachments/assets/b207d72a-a882-4363-8e6b-928dded0a527" />
 </p>
 
+> https://maps.app.goo.gl/LaPJip3GJfsUrJb49
 
 <p align="center">
   <img width="409" height="505" alt="image" src="https://github.com/user-attachments/assets/fa360527-3376-4bae-a48c-8c17c9ba6dee" />
