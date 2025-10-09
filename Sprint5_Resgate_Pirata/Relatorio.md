@@ -1,10 +1,11 @@
-O contato reside em kiffa 
+## O contato reside em kiffa 
 
 <img width="499" height="337" alt="image" src="https://github.com/user-attachments/assets/53163116-c025-4539-b367-6704e8444a90" />
 
-as 3 palavras são : ///trêmula.chassi.incerta
+- as 3 palavras são : ///trêmula.chassi.incerta
 
-onde se reside o local com o nome de "putrido"
+-onde se reside o local com o nome de "putrido"
+
 <img width="395" height="233" alt="image" src="https://github.com/user-attachments/assets/edfdc933-246a-44a2-b903-e0b1c8c17b36" />
 
 ---
