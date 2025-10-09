@@ -77,11 +77,16 @@ Confirmem recebimento; não acionem a tática até validação dupla.
  - estação de trem
  
 - Predio mais alto na Imagem:
-<img width="331" height="456" alt="image" src="https://github.com/user-attachments/assets/33526a1c-0b72-4d6a-a9d6-11bd00e1d143" />
+
+<p align="center">
+  <img width="331" height="456" alt="image" src="https://github.com/user-attachments/assets/33526a1c-0b72-4d6a-a9d6-11bd00e1d143" />
+</p>
 
 - Predio IBM
 
+<p align="center">
 <img width="848" height="769" alt="image" src="https://github.com/user-attachments/assets/fcc18a58-9a99-4976-9398-852d67a62977" />
+</p>
 
 - IBM australia 
 
