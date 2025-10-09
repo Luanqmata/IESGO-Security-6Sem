@@ -32,8 +32,27 @@
   <img width="408" height="287" alt="image" src="https://github.com/user-attachments/assets/e6c91558-95a5-4dc9-97ad-fe8814431faf" />
 </p>
 
-> https://maps.app.goo.gl/LaPJip3GJfsUrJb49
+ - O local no 3 words é bem em cima do marcador do google 
+ - e nos da as palavras
+ 
+<p align="center">
+  <img width="230" height="215" alt="image" src="https://github.com/user-attachments/assets/955f7565-e1d6-4e39-8765-9e1efc6e415f" />
+</p>
+
+> ///trêmula.chassi.incerta
+> https://what3words.com/trêmula.chassi.incerta
+
 ---
+## 1.3 Resgatando Palavras com o bot do email xqq4fh9n@proton.me
+
+<p align="center">
+  <img width="759" height="620" alt="image" src="https://github.com/user-attachments/assets/5c7f459a-77e2-4eea-abd6-3f251101898f" />
+</p>
+
+
+
+---
+
 
 ```ruby 
 
