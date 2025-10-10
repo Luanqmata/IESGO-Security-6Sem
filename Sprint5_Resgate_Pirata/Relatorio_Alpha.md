@@ -104,7 +104,7 @@ Confirmem recebimento; não acionem a tática até validação dupla.
 
 ### Identificando Possível Contato
 
-- Gisele Kenedy Lord
+- Gisele Kenedy Lord : Portland, Óregon, Estados Unidos 
 - David S. Shields (alvo)
 
 <p align="center">
