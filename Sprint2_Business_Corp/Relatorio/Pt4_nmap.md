@@ -323,6 +323,7 @@ db_nmap -sS -sV -sC -A -T4 --script="ftp-*,ssh-*,dns-*,http-*,rpc-*" -p 21,22,53
 <p align="center">
   <img width="853" height="235" alt="image" src="https://github.com/user-attachments/assets/5c7364a0-bba9-466a-ace2-b902774b0c7c" />  
 </p>
+
 ---
 
 ### 👤 Reconhecimento de Usuários com Payload do MF6  
