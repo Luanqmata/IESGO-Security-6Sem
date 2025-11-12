@@ -8,7 +8,7 @@ Titulo Relatoio passivo
 
 <img width="276" height="565" alt="image" src="https://github.com/user-attachments/assets/ae05c9fa-3280-47e6-8e36-3145f9b36aa7" />
 
-- E tambem na pagina inicial podemos ver que possue varios produtos clicando neles e analisando podemos ver que tem uma area de comentario
+- E tambem na pagina inicial podemos ver que possue varios produtos clicando neles e analisando podemos ver que tem uma area de comentario mostra tambem uma versão
 
 <img width="496" height="423" alt="image" src="https://github.com/user-attachments/assets/6cb5cd3e-c830-42a9-ac6a-39fab8d8f7f4" />
 
