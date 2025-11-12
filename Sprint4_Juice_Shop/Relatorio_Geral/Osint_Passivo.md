@@ -24,6 +24,18 @@ Coletando todos os login disponiveis:
 - jim@juice-sh.op
 - mc.safesearch@juice-sh.op
 - accountant@juice-sh.op
+- bjoern@owasp.org
+- morty@juice-sh.op
 
 ---
 
+Em um comentario é possivel identificar um caminho:
+
+```
+/#/photo-wall
+```
+
+---
+
+na barra lateral no comentario do cliente (podemos ver) : 
+<img width="385" height="514" alt="image" src="https://github.com/user-attachments/assets/36c15092-4e8f-45f9-a13f-89cee69e4c5f" />
