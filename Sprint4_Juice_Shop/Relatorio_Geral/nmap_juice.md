@@ -66,4 +66,14 @@ nmap --script http-vuln* -p 80,443 54.73.53.134
 
 # 3. Verificar diferenças entre os nós
 nmap -O --min-rate 500 54.73.53.134 54.220.192.176 46.137.15.86
+```
 
+## 🎓 APRENDIZADO CHAVE
+
+  Infraestrutura cloud usa múltiplos IPs para o mesmo serviço
+
+  Port filtering é comum em plataformas como Heroku/AWS
+
+  Foco em aplicação web - outras portas deliberadamente bloqueadas
+
+Resultado Final: Todos os IPs são funcionalmente equivalentes - escolha qualquer um para testes web! 🚀
