@@ -18,5 +18,24 @@ Analisando a foto do local:
 
 ![Sem título](https://github.com/user-attachments/assets/81cdf7e3-cc22-49b4-b77b-74a59002275f)
 
-identificação dos semafaros
+identificação dos semafaros -4.215430, -69.941689
 
+local descoberto, infelizmente nao possui street view unico ponto observavel é da esquina.
+
+proximo a coordenada podemos ver que possui uma farmacia com o mesmo nome:
+
+<img width="315" height="189" alt="image" src="https://github.com/user-attachments/assets/cc180f60-53b9-419b-9a47-46aba4a58336" />
+
+ali deve conter infomações adicionais :
+
+<img width="500" height="760" alt="image" src="https://github.com/user-attachments/assets/8f8d1bbb-8bc6-4078-9e39-adec13561e0c" />
+
+CLicando em cima conseguimos link de um site ,só executar o OSINT
+
+<img width="367" height="424" alt="image" src="https://github.com/user-attachments/assets/2e6f969c-a1ee-4618-8f05-32859165af90" />
+
+email e numeros de telefones coletados 
+
+instagram : www.instagram.com/drogueriagloria_leticia/
+Whatsapp : +57 314 4618719
+facebook : https://www.facebook.com/people/Drogueria-Gloria/100039176604153/
