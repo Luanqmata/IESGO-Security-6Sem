@@ -379,3 +379,64 @@ Total words: 1001
 
         === CHECKING AUTO FUZZING MODE ===
 ```
+
+📋 Resumo do Reconhecimento - OWASP Juice Shop
+🌐 Informações Básicas
+
+    Status: 200 OK (Site funcionando)
+
+    Título: "OWASP Juice Shop"
+
+    Hosting: Heroku
+
+    IPs: 3 endereços IPv4 (EC2 AWS Europa)
+
+🛡️ Segurança (Pontos Críticos)
+
+    Score Headers: 25% ⚠️
+
+    FALTANDO:
+
+        Strict-Transport-Security ❌
+
+        Content-Security-Policy ❌
+
+        X-XSS-Protection ❌
+
+    PRESENTES:
+
+        X-Frame-Options: SAMEORIGIN ✅
+
+        X-Content-Type-Options: nosniff ✅
+
+🔧 Tecnologias
+
+    JavaScript: jQuery detectado
+
+    Portas Abertas: 80, 443 (HTTP/HTTPS)
+
+    Outras portas: Fechadas (21, 22, 3306, 5432, 8080)
+
+📁 Estrutura do Site
+
+    robots.txt: Encontrado (73KB, sem restrições)
+
+    sitemap.xml: Formato desconhecido (retorna HTML)
+
+    Links HTTP: Nenhum encontrado
+
+⚡ Métodos HTTP Permitidos
+
+    GET, HEAD, PUT, PATCH, POST, DELETE
+
+    CORS: Access-Control-Allow-Origin: * 🌍
+
+🎯 Para Pentest
+
+    Wordlist gerada: 1001 palavras para fuzzing
+
+    Vulnerabilidades potenciais: XSS (falta CSP), MITM (falta HSTS)
+
+    Ambiente educativo: Ideal para práticas de segurança
+
+Conclusão: Site vulnerável por design (como esperado no Juice Shop) - perfeito para treinar técnicas de hacking ético! 🔓
