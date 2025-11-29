@@ -36,6 +36,6 @@ CLicando em cima conseguimos link de um site ,só executar o OSINT
 
 email e numeros de telefones coletados 
 
-instagram : www.instagram.com/drogueriagloria_leticia/
-Whatsapp : +57 314 4618719
-facebook : https://www.facebook.com/people/Drogueria-Gloria/100039176604153/
+- instagram : www.instagram.com/drogueriagloria_leticia/
+- Whatsapp : +57 314 4618719
+- facebook : https://www.facebook.com/people/Drogueria-Gloria/100039176604153/
